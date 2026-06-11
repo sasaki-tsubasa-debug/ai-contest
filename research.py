@@ -143,7 +143,7 @@ def main():
         return (0, str(dl)) if dl else (1, "")
     merged.sort(key=sort_key)
 
-    out = {"generatedAt": today, "contests": merged}
+    out = {"generatedAt": datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=9))).strftime("%Y-%m-%d %H:%M"), "contests": merged}
     with open("data.json","w",encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
     print(f"wrote data.json: {len(merged)} contests (new from search: {len(contests)})")
