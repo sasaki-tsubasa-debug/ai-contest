@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI映像コンテスト一覧</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#F4F6F9; --surface:#FFFFFF; --line:#E4E8EE; --line2:#EEF1F5;
+    --txt:#1B1F27; --muted:#5F6878; --dim:#9AA3B2;
+    --accent:#0E7490;
+    --red:#DC2626; --redbg:#FEF2F2; --amber:#C2700A; --amberbg:#FFF7ED;
+    --green:#15803D; --greenbg:#F0FDF4; --blue:#2563EB; --bluebg:#EFF6FF;
+    --teal:#0E7490; --tealbg:#ECFEFF; --gray:#6B7280; --graybg:#F3F4F6;
+    --disp:'Rajdhani',sans-serif; --body:'Noto Sans JP',sans-serif;
+  }
+  *{box-sizing:border-box} html,body{margin:0}
+  body{background:var(--bg); color:var(--txt); font-family:var(--body); line-height:1.6; -webkit-font-smoothing:antialiased}
+  .wrap{max-width:1080px; margin:0 auto; padding:0 20px 72px}
+
+  header{padding:34px 0 18px}
+  .eyebrow{font-family:var(--disp); letter-spacing:.26em; font-size:12px; color:var(--accent); font-weight:700; text-transform:uppercase}
+  h1{font-family:var(--disp); font-weight:700; font-size:clamp(26px,4.5vw,38px); letter-spacing:.01em; margin:4px 0 2px}
+  .sub{color:var(--muted); font-size:13px}
+  .stats{display:flex; gap:14px; margin-top:18px; flex-wrap:wrap}
+  .stat{background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:12px 18px; min-width:120px}
+  .stat .n{font-family:var(--disp); font-weight:700; font-size:26px; line-height:1.1; font-variant-numeric:tabular-nums}
+  .stat .n.hot{color:var(--red)}
+  .stat .l{font-size:11px; color:var(--dim); letter-spacing:.04em}
+
+  /* legend */
+  .legend{display:flex; gap:16px 20px; flex-wrap:wrap; margin:18px 0 4px; font-size:12px; color:var(--muted)}
+  .legend span{display:inline-flex; align-items:center; gap:7px}
+  .dot{width:11px; height:11px; border-radius:3px; display:inline-block}
+  .u-urgent{background:var(--red)} .u-soon30{background:var(--amber)} .u-ok{background:var(--green)}
+  .u-soon{background:var(--blue)} .u-ever{background:var(--teal)} .u-tbd,.u-past{background:var(--gray)}
+
+  /* tabs + controls */
+  .tabs{display:inline-flex; gap:4px; background:#E9EDF2; border-radius:11px; padding:4px; margin:20px 0 8px}
+  .tab{font-family:var(--disp); font-weight:700; letter-spacing:.04em; font-size:14px; color:var(--muted); background:transparent; border:0; padding:8px 22px; border-radius:8px; cursor:pointer; transition:.15s}
+  .tab:hover{color:var(--txt)}
+  .tab[aria-pressed="true"]{color:#fff; background:var(--accent); box-shadow:0 2px 8px #0e749033}
+  .tab .tc{font-size:12px; opacity:.85; margin-left:4px; font-variant-numeric:tabular-nums}
+  .controls{display:flex; gap:10px; align-items:center; flex-wrap:wrap; margin:8px 0 16px}
+  .chips{display:flex; gap:7px; flex-wrap:wrap}
+  .chip{font-size:13px; color:var(--muted); background:var(--surface); border:1px solid var(--line); padding:6px 13px; border-radius:999px; cursor:pointer; transition:.15s}
+  .chip:hover{border-color:#cfd6df; color:var(--txt)}
+  .chip[aria-pressed="true"]{color:#fff; background:var(--txt); border-color:var(--txt)}
+  .search{margin-left:auto; flex:1; min-width:160px; max-width:260px}
+  .search input{width:100%; background:var(--surface); border:1px solid var(--line); color:var(--txt); padding:8px 13px; border-radius:9px; font-family:var(--body); font-size:13px; outline:none}
+  .search input:focus{border-color:var(--accent); box-shadow:0 0 0 3px #0e749022}
+
+  .secthead{display:flex; align-items:baseline; gap:10px; margin:26px 0 12px}
+  .secthead h2{font-size:15px; font-weight:700; margin:0; letter-spacing:.02em}
+  .secthead .count{color:var(--dim); font-size:12px; font-variant-numeric:tabular-nums}
+  .secthead .rule{flex:1; height:1px; background:var(--line)}
+
+  /* list rows */
+  .list{display:flex; flex-direction:column; gap:8px}
+  .row{display:flex; align-items:stretch; gap:16px; background:var(--surface); border:1px solid var(--line);
+    border-left-width:4px; border-radius:11px; padding:13px 16px 13px 14px; transition:.15s}
+  .row:hover{box-shadow:0 4px 14px #1b1f2710; transform:translateY(-1px)}
+  .dl{flex:0 0 92px; display:flex; flex-direction:column; justify-content:center; text-align:center; border-right:1px solid var(--line2); padding-right:14px}
+  .dl .num{font-family:var(--disp); font-weight:700; font-size:30px; line-height:.95; font-variant-numeric:tabular-nums}
+  .dl .num .d{font-size:14px; margin-left:1px}
+  .dl .lab{font-size:10px; color:var(--dim); letter-spacing:.08em; margin-top:1px}
+  .dl .date{font-size:11px; color:var(--muted); margin-top:5px; white-space:nowrap}
+  .body{flex:1 1 240px; min-width:200px; display:flex; flex-direction:column; justify-content:center; gap:3px}
+  .name{font-weight:700; font-size:15px; line-height:1.35}
+  .meta{color:var(--muted); font-size:12px}
+  .meta b{color:var(--txt); font-weight:500}
+  .req{color:var(--dim); font-size:11.5px; margin-top:2px}
+  .aside{flex:0 0 auto; display:flex; align-items:center; gap:14px; margin-left:auto; padding-left:6px}
+  .prize{text-align:right; max-width:170px}
+  .prize .pl{display:block; font-size:10px; color:var(--dim); letter-spacing:.04em}
+  .prize .pv{font-size:13px; font-weight:500; color:var(--txt); line-height:1.3}
+  .pill{font-size:11px; font-weight:700; padding:4px 11px; border-radius:999px; white-space:nowrap}
+  .go{font-weight:700; font-size:13px; color:var(--accent); text-decoration:none; white-space:nowrap}
+  .go:hover{text-decoration:underline}
+
+  details{margin-top:6px}
+  summary{cursor:pointer; color:var(--muted); font-size:13px; list-style:none; padding:4px 0}
+  summary::-webkit-details-marker{display:none}
+  .past .row{opacity:.82}
+  .sources{margin-top:34px; border-top:1px solid var(--line); padding-top:20px}
+  .sources h3{font-size:12px; color:var(--dim); letter-spacing:.06em; text-transform:uppercase; margin:0 0 10px}
+  .srcgrid{display:grid; grid-template-columns:repeat(auto-fill,minmax(240px,1fr)); gap:9px}
+  .srcitem{background:var(--surface); border:1px solid var(--line); border-radius:10px; padding:10px 13px}
+  .srcitem a{color:var(--accent); text-decoration:none; font-weight:500; font-size:13px}
+  .srcitem .m{color:var(--dim); font-size:11px}
+  .note{color:var(--dim); font-size:11.5px; margin-top:22px; line-height:1.7}
+  .empty{color:var(--dim); font-size:13px; padding:22px; text-align:center; background:var(--surface); border:1px dashed var(--line); border-radius:11px}
+
+  /* view toggle */
+  .viewtg{display:inline-flex; gap:4px; background:#E9EDF2; border-radius:10px; padding:3px; margin-left:2px}
+  .vbtn{font-size:12.5px; font-weight:700; color:var(--muted); background:transparent; border:0; padding:6px 14px; border-radius:7px; cursor:pointer}
+  .vbtn[aria-pressed="true"]{color:#fff; background:var(--txt)}
+
+  /* application status select */
+  .app{display:flex; flex-direction:column; gap:2px; align-items:flex-end}
+  .app .al{font-size:10px; color:var(--dim)}
+  .app select{font-family:var(--body); font-size:12px; font-weight:700; border:1px solid var(--line); border-radius:8px; padding:5px 8px; background:#fff; color:var(--muted); cursor:pointer; outline:none}
+  .app select:focus{border-color:var(--accent)}
+  .app select.st-want{color:var(--blue); border-color:var(--blue); background:var(--bluebg)}
+  .app select.st-wip{color:var(--amber); border-color:var(--amber); background:var(--amberbg)}
+  .app select.st-done{color:var(--green); border-color:var(--green); background:var(--greenbg)}
+  .app select.st-skip{color:var(--gray); background:var(--graybg)}
+  .row.applied{border-color:#BBE7C8; background:#FBFEFC}
+  .row.applied .name::after{content:'✓ 応募済み'; color:var(--green); font-size:11px; font-weight:700; margin-left:8px}
+  .newbadge{display:inline-block; font-size:10px; font-weight:700; color:#fff; background:var(--red); border-radius:5px; padding:1px 7px; margin-right:7px; vertical-align:2px; letter-spacing:.05em}
+
+  /* gantt */
+  .gantt{background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:14px 16px 18px; overflow-x:auto}
+  .g-inner{min-width:680px}
+  .g-axis{position:relative; height:34px; margin-left:240px; border-bottom:1px solid var(--line)}
+  .g-tick{position:absolute; top:auto; bottom:0; height:18px; border-left:1px solid var(--line2); font-size:10.5px; color:var(--dim); padding-left:5px; white-space:nowrap}
+  .g-now{position:absolute; top:0; bottom:0; border-left:2px solid var(--red); z-index:3}
+  .g-now .gl{position:absolute; top:0; left:4px; font-size:10px; color:#fff; background:var(--red); border-radius:4px; padding:1px 6px; font-weight:700; white-space:nowrap}
+  .g-row{display:flex; align-items:center; min-height:34px; border-bottom:1px solid var(--line2)}
+  .g-name{flex:0 0 240px; font-size:12px; font-weight:500; padding-right:12px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+  .g-name a{color:var(--txt); text-decoration:none}
+  .g-name a:hover{color:var(--accent)}
+  .g-name .gapp{color:var(--green); font-weight:700; margin-right:4px}
+  .g-track{position:relative; flex:1; height:100%}
+  .g-today{position:absolute; top:0; bottom:0; border-left:2px solid var(--red); z-index:2}
+  .g-bar{position:absolute; top:50%; transform:translateY(-50%); height:14px; border-radius:7px; opacity:.92; min-width:8px}
+  .g-bar .gd{position:absolute; right:-4px; top:50%; transform:translate(100%,-50%); font-size:10.5px; color:var(--muted); white-space:nowrap; padding-left:7px; font-variant-numeric:tabular-nums}
+  .g-tbd{position:absolute; left:8px; top:50%; transform:translateY(-50%); font-size:11px; color:var(--dim)}
+  .g-tbd .pillmini{display:inline-block; font-size:10px; font-weight:700; border-radius:5px; padding:1px 7px; margin-right:6px}
+  .g-note{font-size:11px; color:var(--dim); margin-top:10px}
+
+  /* manual add */
+  .addbtn{font-size:13px; font-weight:700; color:var(--accent); background:#fff; border:1px dashed var(--accent); padding:6px 14px; border-radius:999px; cursor:pointer}
+  .addbtn:hover{background:var(--tealbg)}
+  .addpanel{display:none; background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:16px; margin:4px 0 14px}
+  .addpanel.open{display:block}
+  .addgrid{display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:10px}
+  .fld label{display:block; font-size:11px; color:var(--muted); margin-bottom:3px}
+  .fld input,.fld select{width:100%; font-family:var(--body); font-size:13px; border:1px solid var(--line); border-radius:8px; padding:7px 10px; background:#fff; color:var(--txt); outline:none}
+  .fld input:focus,.fld select:focus{border-color:var(--accent)}
+  .addactions{display:flex; gap:10px; align-items:center; margin-top:12px}
+  .btn-pri{font-size:13px; font-weight:700; color:#fff; background:var(--accent); border:0; padding:8px 18px; border-radius:9px; cursor:pointer}
+  .btn-sec{font-size:12.5px; color:var(--muted); background:#fff; border:1px solid var(--line); padding:7px 14px; border-radius:9px; cursor:pointer}
+  .addmsg{font-size:12px; color:var(--green); font-weight:700}
+  .delbtn{font-size:11px; color:var(--red); background:none; border:0; cursor:pointer; padding:2px 4px}
+  .manualtag{display:inline-block; font-size:10px; font-weight:700; color:var(--accent); background:var(--tealbg); border-radius:5px; padding:1px 7px; margin-right:7px; vertical-align:2px}
+  @media (max-width:600px){
+    .wrap{padding:0 14px 56px}
+    .row{flex-wrap:wrap; gap:10px}
+    .dl{flex-direction:row; align-items:baseline; gap:8px; border-right:0; border-bottom:1px solid var(--line2); padding:0 0 8px; width:100%; flex-basis:100%; text-align:left; justify-content:flex-start}
+    .dl .date{margin-top:0; margin-left:auto}
+    .aside{margin-left:0; width:100%; justify-content:space-between}
+    .prize{text-align:left}
+  }
+  @media (prefers-reduced-motion:reduce){.row:hover{transform:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Generative AI · Film &amp; Video</div>
+    <h1>AI映像コンテスト一覧</h1>
+    <div class="sub" id="updated">読み込み中…</div>
+    <div class="stats">
+      <div class="stat"><div class="n" id="s-open">–</div><div class="l">募集中のコンテスト</div></div>
+      <div class="stat"><div class="n hot" id="s-new">–</div><div class="l">新着（2日以内）</div></div>
+    </div>
+    <div class="legend">
+      <span><i class="dot u-urgent"></i>締切間近（14日以内）</span>
+      <span><i class="dot u-soon30"></i>30日以内</span>
+      <span><i class="dot u-ok"></i>余裕あり</span>
+      <span><i class="dot u-soon"></i>近日開始</span>
+      <span><i class="dot u-ever"></i>通年</span>
+    </div>
+  </header>
+
+  <div class="tabs" id="tabs">
+    <button class="tab" data-r="jp" aria-pressed="true">国内<span class="tc" id="t-jp"></span></button>
+    <button class="tab" data-r="ov" aria-pressed="false">海外<span class="tc" id="t-ov"></span></button>
+  </div>
+  <div class="controls">
+    <div class="chips" id="chips">
+      <button class="chip" data-f="all" aria-pressed="true">すべて</button>
+      <button class="chip" data-f="募集中" aria-pressed="false">募集中</button>
+      <button class="chip" data-f="近日開始" aria-pressed="false">近日開始</button>
+      <button class="chip" data-f="通年募集" aria-pressed="false">通年</button>
+    </div>
+    <div class="chips" id="appchips">
+      <button class="chip" data-a="all" aria-pressed="true">応募状況: 全部</button>
+      <button class="chip" data-a="want" aria-pressed="false">検討中</button>
+      <button class="chip" data-a="wip" aria-pressed="false">制作中</button>
+      <button class="chip" data-a="done" aria-pressed="false">応募済み</button>
+    </div>
+    <div class="viewtg" id="viewtg">
+      <button class="vbtn" data-v="list" aria-pressed="true">リスト</button>
+      <button class="vbtn" data-v="gantt" aria-pressed="false">ガント</button>
+    </div>
+    <div class="search"><input id="q" type="search" placeholder="名称・地域・主催で検索"></div>
+  </div>
+
+  <div style="margin:2px 0 12px"><button class="addbtn" id="addtoggle">＋ コンテストを手動追加</button></div>
+  <div class="addpanel" id="addpanel">
+    <div class="addgrid">
+      <div class="fld" style="grid-column:1/-1"><label>コンテスト名 *</label><input id="f-name" placeholder="例: ○○AI動画アワード 2026"></div>
+      <div class="fld"><label>地域 *（国内は「日本」を含める）</label><input id="f-region" placeholder="日本（仙台市） / 国際 など"></div>
+      <div class="fld"><label>カテゴリ</label><input id="f-cat" placeholder="AI短編 / 縦型 / CM など"></div>
+      <div class="fld"><label>主催</label><input id="f-org" placeholder="主催者名"></div>
+      <div class="fld"><label>応募開始</label><input id="f-start" type="date"></div>
+      <div class="fld"><label>締切</label><input id="f-dl" type="date"></div>
+      <div class="fld"><label>ステータス</label><select id="f-status"><option>募集中</option><option>近日開始</option><option>通年募集</option></select></div>
+      <div class="fld"><label>賞金 / 賞</label><input id="f-prize" placeholder="例: グランプリ10万円"></div>
+      <div class="fld" style="grid-column:span 2"><label>公式URL</label><input id="f-url" type="url" placeholder="https://…"></div>
+      <div class="fld" style="grid-column:1/-1"><label>応募要件メモ</label><input id="f-req" placeholder="テーマ・尺・条件など1行で"></div>
+    </div>
+    <div class="addactions">
+      <button class="btn-pri" id="addsave">追加する</button>
+      <button class="btn-sec" id="addcancel">閉じる</button>
+      <span class="addmsg" id="addmsg"></span>
+    </div>
+  </div>
+
+  <div id="new-sect" style="display:none">
+    <div class="secthead"><h2>🆕 新着（2日以内に追加）</h2><span class="count" id="new-count"></span><span class="rule"></span></div>
+    <div class="list" id="new-list" style="margin-bottom:6px"></div>
+  </div>
+
+  <div class="secthead"><h2 id="open-title">募集中・近日（締切が近い順）</h2><span class="count" id="open-count"></span><span class="rule"></span></div>
+  <div class="list" id="open-list"></div>
+  <div class="gantt" id="gantt" style="display:none"><div class="g-inner" id="g-inner"></div><div class="g-note">バーは「今日（または応募開始）→締切」。日程未定・通年・近日開始のコンテストは下段に表示。行名クリックで公式へ。</div></div>
+
+  <div class="secthead"><h2>終了・来期注目</h2><span class="count">年次の主要大会</span><span class="rule"></span></div>
+  <details><summary>▸ 過去開催ぶんを表示（来期のウォッチ用）</summary><div class="list past" id="past-list" style="margin-top:10px"></div></details>
+
+  <div class="sources"><h3>監視ソース</h3><div class="srcgrid" id="sources"></div></div>
+  <p class="note">締切・賞金は各公式サイトで最終確認してください（「要確認」は公式に明記がなかったもの）。応募資格に地域制限がある大会もあります。残り日数は閲覧時の日付から自動計算。一覧は毎日 GitHub Actions が自動更新します（国内は小規模も含めて網羅的に収集）。「応募状況」はこのブラウザに保存されます（端末やブラウザを変えるとリセットされます）。</p>
+</div>
+
+<script>
+const TODAY=new Date();TODAY.setHours(0,0,0,0);
+const PILL={'締切間近':['var(--red)','var(--redbg)'],'募集中':['var(--green)','var(--greenbg)'],'近日開始':['var(--blue)','var(--bluebg)'],'通年募集':['var(--teal)','var(--tealbg)'],'終了':['var(--gray)','var(--graybg)']};
+const UCOL={urgent:'var(--red)',soon30:'var(--amber)',ok:'var(--green)',soon:'var(--blue)',ever:'var(--teal)',tbd:'var(--gray)',past:'var(--gray)'};
+
+const FALLBACK={generatedAt:'2026-06-12（内蔵フォールバック）',contests:[
+ {name:'2026 ムービンピック AI動画コンテスト',organizer:'ムービンピック実行委員会',region:'日本（武蔵野市）',category:'AI映像 3分以内',start:null,deadline:null,prize:'グランプリ 5万円＋各賞',requirement:'テーマ「未来の武蔵野」。YouTube限定公開で応募。上映会2026/7/25。',status:'募集中',source:'登竜門',url:'https://compe.japandesign.ne.jp/movinpic-ai-2026/',firstSeen:'2026-06-09'},
+ {name:'BAIFF（Burano AI Film Festival）',organizer:'BAIFF実行委員会',region:'欧州（イタリア）',category:'AI短編（AI25%以上）',start:null,deadline:'2026-07-01',prize:'公式要確認',requirement:'AI使用25%以上。FilmFreeway経由。',status:'締切間近',source:'FilmFreeway',url:'https://filmfreeway.com/baiff'},
+ {name:'Inspiring Asia Micro Film Festival 2026',organizer:'Inspiring Asia',region:'アジア（フィリピン）',category:'短編3〜6分（Best AI Film賞）',start:null,deadline:'2026-07-06',prize:'Best Project 最大 $100,000',requirement:'※フィリピンの制作者等が対象。テーマ Community Empowerment。',status:'締切間近',source:'まとめ(fundsforNGOs)',url:'https://www2.fundsforngos.org/innovation/call-for-submissions-inspiring-asia-micro-film-festival-2026-philippines/'},
+ {name:'AAIFF（Astana AI Film Festival）2026',organizer:'AAIFF',region:'国際（カザフスタン）',category:'AI映画（生成AIが核）',start:'2026-05-25',deadline:'2026-08-15',prize:'2026は応募無料',requirement:'YouTube1本で応募。#SpecialForAAIFF必須。英語字幕。',status:'募集中',source:'公式サイト',url:'https://www.aaiff.ai/'},
+ {name:'AI Global Film Festival（Lifeart）',organizer:'Lifeart',region:'国際（米国・LA）',category:'AI短編/長編・AI音楽',start:null,deadline:'2026-09-01',prize:'公式要確認',requirement:'応募料あり。延長締切9/1。Festhome経由。',status:'募集中',source:'Festhome',url:'https://filmmakers.festhome.com/en/festival/ai-global-film-festival-lifeart'},
+ {name:'Red Rocks AI Film Festival',organizer:'Red Rocks AIFF',region:'米国',category:'AI映画',start:null,deadline:null,prize:'賞状・露出',requirement:'応募受付中。開催2026/9/24。FilmFreeway経由。',status:'募集中',source:'FilmFreeway',url:'https://filmfreeway.com/RedRocksAIFilmFestival'},
+ {name:'AI International Film Festival',organizer:'AI International FF（非営利）',region:'国際（米国）',category:'AI映画（毎月開催）',start:null,deadline:null,prize:'部門により異なる',requirement:'世界初のAI映画祭(2021〜)。毎月締切・毎月開催。',status:'通年募集',source:'FilmFreeway/公式',url:'https://filmfreeway.com/AIinternationalFilmFestival'},
+ {name:'Project Odyssey Season 3',organizer:'Project Odyssey',region:'国際',category:'AI映画・MV・ゲーム',start:null,deadline:null,prize:'過去：現金$70,000＋',requirement:'近日開始(Coming Soon)。要事前登録。世界最大級。',status:'近日開始',source:'公式サイト',url:'https://www.projectodyssey.ai/'},
+]};
+const WATCHLIST=[
+ {name:'WORLD AI FILM FESTIVAL KYOTO / WAIFF',organizer:'TOKYO EPIC 他',region:'日本→カンヌ',category:'AI映像（複数部門）',start:'2025-10-15',deadline:'2026-02-15',prize:'最大100万円',requirement:'3種以上の生成AIツール使用。例年10月頃開始。',status:'終了',source:'公式/PR TIMES',url:'https://prtimes.jp/main/html/rd/p/000000014.000120274.html'},
+ {name:'SSFF & ASIA 縦型アワード',organizer:'SSFF & ASIA',region:'日本',category:'縦型映像',start:null,deadline:'2026-03-31',prize:'50万円',requirement:'AI作品も対象。例年春締切。',status:'終了',source:'まとめ/公式',url:'https://note.com/tkool_camp/n/nd3363ce94f22'},
+ {name:'Reply AI Film Festival',organizer:'Reply',region:'国際（イタリア）',category:'AI短編',start:null,deadline:'2026-06-02',prize:'公式参照',requirement:'Première 2026/9 ヴェネツィア。',status:'終了',source:'公式サイト',url:'https://challenges.reply.com/challenges/creative/aifilmfestival/home/'},
+ {name:'AI for Good Film Festival',organizer:'ITU',region:'国際',category:'AI短編1〜10分',start:null,deadline:'2026-05-15',prize:'上映・登壇機会',requirement:'上映2026/7 ジュネーブ。',status:'終了',source:'公式サイト',url:'https://aiforgood.itu.int/ai-for-good-film-festival/'},
+ {name:'Chroma Awards（ElevenLabs）',organizer:'ElevenLabs 他',region:'国際',category:'AI映画・MV・ゲーム',start:null,deadline:'2025-11-03',prize:'高額賞金',requirement:'次回開催は要チェック。',status:'終了',source:'公式/BusinessWire',url:'https://www.businesswire.com/news/home/20250915566720/en'},
+];
+const SOURCES=[
+ {name:'note「AIコンテストまとめ」(ツクール)',type:'集約（日本）',url:'https://note.com/tkool_camp/n/nd3363ce94f22'},
+ {name:'登竜門 映像・動画カテゴリ',type:'集約（日本）',url:'https://compe.japandesign.ne.jp/category/movie/'},
+ {name:'melies.co AI Film Festivals',type:'集約（国際）',url:'https://www.melies.co/ai-film-festivals'},
+ {name:'FilmFreeway（AI festivals）',type:'プラットフォーム',url:'https://filmfreeway.com/'},
+];
+
+const esc=s=>String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+const daysLeft=iso=>{if(!iso)return null;const d=new Date(iso);d.setHours(0,0,0,0);return Math.round((d-TODAY)/864e5);};
+const isJP=c=>String(c.region||'').includes('日本');
+const isNew=c=>{if(!c.firstSeen)return false;const f=new Date(c.firstSeen);f.setHours(0,0,0,0);const d=Math.round((TODAY-f)/864e5);return d>=0&&d<=2;};
+const byDeadlineAsc=(a,b)=>{const x=daysLeft(a.deadline),y=daysLeft(b.deadline);if(x==null)return 1;if(y==null)return -1;return x-y;};
+
+/* ── 応募状況（この端末のブラウザに保存） ── */
+const APP_KEY='aiContestAppStatus';
+const APP_LABEL={none:'未着手',want:'検討中',wip:'制作中',done:'応募済み',skip:'見送り'};
+let APP={};
+try{APP=JSON.parse(localStorage.getItem(APP_KEY)||'{}');}catch(e){APP={};}
+const appOf=c=>APP[c.name]||'none';
+function setApp(name,val){ if(val==='none')delete APP[name]; else APP[name]=val;
+  try{localStorage.setItem(APP_KEY,JSON.stringify(APP));}catch(e){} apply(); }
+function appSelect(c){
+  const cur=appOf(c);
+  const opts=Object.keys(APP_LABEL).map(k=>`<option value="${k}"${k===cur?' selected':''}>${APP_LABEL[k]}</option>`).join('');
+  return `<div class="app"><span class="al">応募状況</span><select class="st-${cur}" data-name="${esc(c.name)}">${opts}</select></div>`;
+}
+
+/* ── 手動追加（この端末のブラウザに保存。リポジトリの manual.json でチーム共有も可） ── */
+const MAN_KEY='aiContestManual';
+let MANUAL=[];
+try{MANUAL=JSON.parse(localStorage.getItem(MAN_KEY)||'[]');}catch(e){MANUAL=[];}
+function saveManual(){try{localStorage.setItem(MAN_KEY,JSON.stringify(MANUAL));}catch(e){}}
+function addManual(c){MANUAL.push(c);saveManual();}
+function removeManual(name){MANUAL=MANUAL.filter(c=>c.name!==name);saveManual();rebuild();}
+
+function dlBlock(c){
+  const dl=daysLeft(c.deadline); let key,numHtml,lab,date='';
+  if(c.status==='通年募集'){key='ever'; numHtml='通年'; lab='随時募集';}
+  else if(c.status==='近日開始'){key='soon'; numHtml='近日'; lab='開始前';}
+  else if(dl===null){key='tbd'; numHtml='未定'; lab='日程未定';}
+  else if(dl<0){key='past'; numHtml='終了'; lab='';}
+  else{key=dl<=14?'urgent':(dl<=30?'soon30':'ok'); numHtml=dl+'<span class="d">日</span>'; lab='残り';}
+  if(c.deadline) date='締切 '+String(c.deadline).replace(/-/g,'/');
+  const col=UCOL[key];
+  return {key,col,html:`<div class="dl"><div class="num" style="color:${col}">${numHtml}</div><div class="lab">${lab}</div>${date?`<div class="date">${date}</div>`:''}</div>`};
+}
+function rowHtml(c){
+  const b=dlBlock(c); const st=c.status||'募集中'; const pc=PILL[st]||['var(--gray)','var(--graybg)'];
+  const ap=appOf(c);
+  return `<div class="row${ap==='done'?' applied':''}" style="border-left-color:${b.col}">
+    ${b.html}
+    <div class="body">
+      <div class="name">${isNew(c)?'<span class="newbadge">NEW</span>':''}${c._manual?'<span class="manualtag">手動</span>':''}${esc(c.name)}</div>
+      <div class="meta"><b>${esc(c.region)}</b> ・ ${esc(c.category)} ・ ${esc(c.organizer)}</div>
+      ${c.requirement?`<div class="req">${esc(c.requirement)}</div>`:''}
+    </div>
+    <div class="aside">
+      <div class="prize"><span class="pl">賞金 / 賞</span><span class="pv">${esc(c.prize)}</span></div>
+      <span class="pill" style="color:${pc[0]};background:${pc[1]}">${esc(st)}</span>
+      ${appSelect(c)}
+      <a class="go" href="${esc(c.url)}" target="_blank" rel="noopener">公式へ →</a>
+      ${c._manual==='local'?`<button class="delbtn" data-del="${esc(c.name)}" title="この手動追加を削除">削除</button>`:''}
+    </div>
+  </div>`;
+}
+
+let CONTESTS=[],region='jp',filter='all',appFilter='all',view='list',query='';
+function updateStats(rows){
+  document.getElementById('s-open').textContent=rows.length;
+  document.getElementById('s-new').textContent=rows.filter(isNew).length;
+}
+function bindAppSelects(el){
+  el.querySelectorAll('.app select').forEach(s=>s.addEventListener('change',e=>setApp(e.target.dataset.name,e.target.value)));
+  el.querySelectorAll('.delbtn').forEach(b=>b.addEventListener('click',e=>{if(confirm('この手動追加を削除しますか？'))removeManual(e.target.dataset.del);}));
+}
+function apply(){
+  const inReg=CONTESTS.filter(c=>region==='jp'?isJP(c):!isJP(c));
+  updateStats(inReg);
+  const list=inReg.filter(c=>filter==='all'||c.status===filter||(filter==='募集中'&&c.status==='締切間近'))
+    .filter(c=>appFilter==='all'||appOf(c)===appFilter)
+    .filter(c=>!query||(c.name+c.region+c.organizer+c.category).toLowerCase().includes(query))
+    .sort(byDeadlineAsc);
+  // 新着セクション（2日以内に追加されたもの。下の一覧にも重複表示）
+  const news=inReg.filter(isNew).sort(byDeadlineAsc);
+  const ns=document.getElementById('new-sect');
+  if(news.length){ns.style.display='';document.getElementById('new-list').innerHTML=news.map(rowHtml).join('');document.getElementById('new-count').textContent=news.length+' 件';bindAppSelects(document.getElementById('new-list'));}
+  else ns.style.display='none';
+  const lEl=document.getElementById('open-list'),gEl=document.getElementById('gantt');
+  document.getElementById('open-count').textContent=list.length+' 件';
+  if(view==='list'){
+    gEl.style.display='none'; lEl.style.display='';
+    document.getElementById('open-title').textContent='募集中・近日（締切が近い順）';
+    lEl.innerHTML=list.length?list.map(rowHtml).join(''):'<div class="empty">この条件に該当するコンテストはありません。</div>';
+    bindAppSelects(lEl);
+  }else{
+    lEl.style.display='none'; gEl.style.display='';
+    document.getElementById('open-title').textContent='締切タイムライン（ガント）';
+    document.getElementById('g-inner').innerHTML=ganttHtml(list);
+  }
+  const past=WATCHLIST.filter(c=>region==='jp'?isJP(c):!isJP(c)).sort((a,b)=>String(b.deadline||'').localeCompare(String(a.deadline||'')));
+  document.getElementById('past-list').innerHTML=past.length?past.map(rowHtml).join(''):'<div class="empty">この地域の過去開催はありません。</div>';
+  bindAppSelects(document.getElementById('past-list'));
+}
+function ganttHtml(list){
+  const dated=list.filter(c=>daysLeft(c.deadline)!=null&&daysLeft(c.deadline)>=0).sort(byDeadlineAsc);
+  const undated=list.filter(c=>daysLeft(c.deadline)==null);
+  if(!dated.length&&!undated.length)return '<div class="empty" style="border:0">表示できるコンテストがありません。</div>';
+  const maxD=dated.length?Math.max(...dated.map(c=>daysLeft(c.deadline))):60;
+  const SPAN=Math.max(60,Math.min(180,maxD+14));
+  const pct=d=>Math.max(0,Math.min(100,d/SPAN*100));
+  let ticks=`<div class="g-now" style="left:0"><span class="gl">今日 ${(TODAY.getMonth()+1)}/${TODAY.getDate()}</span></div>`;
+  for(let i=1;i<=SPAN;i++){
+    const d=new Date(TODAY);d.setDate(d.getDate()+i);
+    if(d.getDate()===1)ticks+=`<div class="g-tick" style="left:${pct(i)}%">${d.getMonth()+1}月</div>`;
+  }
+  const datedRows=dated.map(c=>{
+    const end=daysLeft(c.deadline);
+    let beg=0;
+    if(c.start){const s=daysLeft(c.start); if(s!=null&&s>0)beg=s;}
+    const col=end<=14?'var(--red)':(end<=30?'var(--amber)':'var(--green)');
+    const ap=appOf(c);
+    return `<div class="g-row"><div class="g-name">${ap==='done'?'<span class="gapp">✓</span>':''}<a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.name)}</a></div>
+      <div class="g-track"><div class="g-today" style="left:0"></div>
+      <div class="g-bar" style="left:${pct(beg)}%;width:${Math.max(1.5,pct(end)-pct(beg))}%;background:${col}"><span class="gd">${end}日 ・ ${String(c.deadline).slice(5).replace('-','/')}</span></div></div></div>`;
+  }).join('');
+  const undatedRows=undated.map(c=>{
+    const st=c.status||'';
+    const lab=st==='通年募集'?'通年（随時応募可）':(st==='近日開始'?'近日開始（日程未発表）':'日程未定');
+    const pc=PILL[st]||['var(--gray)','var(--graybg)'];
+    const ap=appOf(c);
+    return `<div class="g-row"><div class="g-name">${ap==='done'?'<span class="gapp">✓</span>':''}<a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.name)}</a></div>
+      <div class="g-track"><div class="g-today" style="left:0"></div>
+      <div class="g-tbd"><span class="pillmini" style="color:${pc[0]};background:${pc[1]}">${esc(st||'未定')}</span>${lab}</div></div></div>`;
+  }).join('');
+  return `<div class="g-axis">${ticks}</div>${datedRows}${undatedRows}`;
+}
+let BASE=[],SHARED=[];
+function rebuild(){
+  const names=new Set();
+  const all=[];
+  for(const c of BASE){names.add(c.name);all.push(c);}
+  for(const c of SHARED){if(!names.has(c.name)){names.add(c.name);all.push({...c,_manual:'shared'});}}
+  for(const c of MANUAL){if(!names.has(c.name)){names.add(c.name);all.push({...c,_manual:'local'});}}
+  CONTESTS=all.filter(c=>{const d=daysLeft(c.deadline);return !(d!=null&&d<0);});
+  document.getElementById('t-jp').textContent=CONTESTS.filter(isJP).length;
+  document.getElementById('t-ov').textContent=CONTESTS.filter(c=>!isJP(c)).length;
+  apply();
+}
+function render(p){
+  BASE=(p.contests||[]);
+  document.getElementById('updated').textContent='最終更新 '+(p.generatedAt||'?')+' ・ 生成AI映像・映画コンテスト';
+  document.getElementById('sources').innerHTML=SOURCES.map(s=>`<div class="srcitem"><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)} ↗</a><div class="m">${esc(s.type)}</div></div>`).join('');
+  document.querySelectorAll('#tabs .tab').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('#tabs .tab').forEach(x=>x.setAttribute('aria-pressed','false'));b.setAttribute('aria-pressed','true');region=b.dataset.r;apply();}));
+  document.querySelectorAll('#chips .chip').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('#chips .chip').forEach(x=>x.setAttribute('aria-pressed','false'));b.setAttribute('aria-pressed','true');filter=b.dataset.f;apply();}));
+  document.querySelectorAll('#appchips .chip').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('#appchips .chip').forEach(x=>x.setAttribute('aria-pressed','false'));b.setAttribute('aria-pressed','true');appFilter=b.dataset.a;apply();}));
+  document.querySelectorAll('#viewtg .vbtn').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('#viewtg .vbtn').forEach(x=>x.setAttribute('aria-pressed','false'));b.setAttribute('aria-pressed','true');view=b.dataset.v;apply();}));
+  document.getElementById('q').addEventListener('input',e=>{query=e.target.value.trim().toLowerCase();apply();});
+  // 手動追加フォーム
+  const panel=document.getElementById('addpanel');
+  document.getElementById('addtoggle').addEventListener('click',()=>panel.classList.toggle('open'));
+  document.getElementById('addcancel').addEventListener('click',()=>panel.classList.remove('open'));
+  document.getElementById('addsave').addEventListener('click',()=>{
+    const v=id=>document.getElementById(id).value.trim();
+    const name=v('f-name'),regionV=v('f-region');
+    const msg=document.getElementById('addmsg');
+    if(!name||!regionV){msg.style.color='var(--red)';msg.textContent='コンテスト名と地域は必須です';return;}
+    const c={name,organizer:v('f-org')||'—',region:regionV,category:v('f-cat')||'—',
+      start:v('f-start')||null,deadline:v('f-dl')||null,prize:v('f-prize')||'—',
+      requirement:v('f-req')||'',url:v('f-url')||'#',source:'手動',
+      status:v('f-status')||'募集中',firstSeen:new Date().toISOString().slice(0,10)};
+    addManual(c);
+    msg.style.color='var(--green)';msg.textContent='追加しました（このブラウザに保存）';
+    ['f-name','f-region','f-org','f-cat','f-start','f-dl','f-prize','f-url','f-req'].forEach(id=>document.getElementById(id).value='');
+    rebuild();
+  });
+  rebuild();
+}
+(async()=>{
+  let p; try{const r=await fetch('data.json?'+Date.now());if(!r.ok)throw 0;p=await r.json();}catch(e){p=FALLBACK;}
+  try{const r2=await fetch('manual.json?'+Date.now());if(r2.ok){const m=await r2.json();SHARED=m.contests||[];}}catch(e){SHARED=[];}
+  render(p);
+})();
+</script>
+</body>
+</html>
