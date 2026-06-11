@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """毎日のリサーチ: Gemini(Google検索grounding)でAI映像コンテストを収集し data.json を生成。
-   環境変数 GEMINI_API_KEY（必ず "AIza" で始まる個人キー）を使用。"""
-import os, re, json, datetime, urllib.request, sys
+   環境変数 GEMINI_API_KEY を使用（新形式 AQ. / 旧形式 AIza のどちらでも可）。"""
+import os, re, json, time, datetime, urllib.request, urllib.error, sys
 
 KEY = os.environ.get("GEMINI_API_KEY", "")
 MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
@@ -10,8 +10,6 @@ today = datetime.date.today().isoformat()
 
 if not KEY:
     sys.exit("GEMINI_API_KEY が未設定です。")
-if not KEY.startswith("AIza"):
-    print("WARNING: キーが 'AIza' で始まっていません。'AQ.' キーはこのAPIで動きません。", file=sys.stderr)
 
 PROMPT = f"""本日は {today} です。あなたはAI映像・生成AIクリエイティブ系のコンテスト/映画祭を追う専門リサーチャーです。
 Google検索を使い、いま応募可能、または近日応募開始予定の「AIを用いた映像・映画・画像・クリエイティブ作品」を対象としたコンテスト/映画祭/アワードを、世界と日本の両方から探してください。
@@ -44,15 +42,33 @@ Google検索を使い、いま応募可能、または近日応募開始予定�
 "url":"公式URL or null","source":"公式/X/PR TIMES/登竜門/Koubo など","status":"募集中/まもなく開始/締切間近"}}]"""
 
 def call_gemini():
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent?key={KEY}"
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
     payload = {"contents":[{"role":"user","parts":[{"text":PROMPT}]}],
                "tools":[{"google_search":{}}], "generationConfig":{"temperature":0.4}}
-    req = urllib.request.Request(url, data=json.dumps(payload).encode("utf-8"),
-                                headers={"Content-Type":"application/json"})
-    with urllib.request.urlopen(req, timeout=180) as r:
-        data = json.loads(r.read().decode("utf-8"))
-    parts = data.get("candidates",[{}])[0].get("content",{}).get("parts",[])
-    return "".join(p.get("text","") for p in parts)
+    body = json.dumps(payload).encode("utf-8")
+    last_err = None
+    for attempt in range(5):  # 503/429(一時的な混雑)に備えて最大5回リトライ
+        try:
+            req = urllib.request.Request(url, data=body,
+                headers={"Content-Type":"application/json",
+                         "x-goog-api-key": KEY})  # 公式推奨のヘッダー認証(新AQ.キー/旧AIzaキー両対応)
+            with urllib.request.urlopen(req, timeout=180) as r:
+                data = json.loads(r.read().decode("utf-8"))
+            parts = data.get("candidates",[{}])[0].get("content",{}).get("parts",[])
+            return "".join(p.get("text","") for p in parts)
+        except urllib.error.HTTPError as e:
+            last_err = e
+            if e.code in (429, 500, 503) and attempt < 4:
+                wait = 20 * (attempt + 1)
+                print(f"HTTP {e.code} (一時的エラーの可能性) → {wait}秒待って再試行 ({attempt+1}/5)", file=sys.stderr)
+                time.sleep(wait)
+                continue
+            try:
+                detail = e.read().decode("utf-8")[:500]
+            except Exception:
+                detail = ""
+            raise SystemExit(f"Gemini API エラー HTTP {e.code}: {detail or e.reason}")
+    raise SystemExit(f"Gemini API エラー(リトライ上限): {last_err}")
 
 def parse(text):
     m = re.search(r"```(?:json)?\s*([\s\S]*?)```", text)
