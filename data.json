@@ -1,20 +1,6 @@
 {
-  "generatedAt": "2026-06-16 02:38",
+  "generatedAt": "2026-06-17 01:12",
   "contests": [
-    {
-      "name": "New World AI Film Festival (NWAIFF)",
-      "organizer": "New World AI Film Festival",
-      "region": "国際",
-      "category": "AI駆動型映像作品 (短編映画、長編映画、アニメーション、CM、実験作品)",
-      "start": "2026-04-01",
-      "deadline": "2026-06-15",
-      "prize": "デジタルローレル、デジタルアワード証明書、受賞作品のプラットフォームでの紹介。初回クリエイター向け特別賞。",
-      "requirement": "AI生成またはAI支援の映像作品、オリジナル作品、応募料。",
-      "url": "https://filmfreeway.com/NewWorldAIFilmFestival",
-      "source": "FilmFreeway",
-      "status": "締切間近",
-      "firstSeen": "2026-06-14"
-    },
     {
       "name": "Artiver AI Art Awards 2026",
       "organizer": "Artiver",
@@ -42,6 +28,20 @@
       "source": "FilmFreeway",
       "status": "締切間近",
       "firstSeen": "2026-06-14"
+    },
+    {
+      "name": "第2回「U18 AIチャンピオンシップ」",
+      "organizer": "一般社団法人教育AI活用協会",
+      "region": "日本",
+      "category": "AIを活用したアイデアのプレゼンテーション",
+      "start": null,
+      "deadline": "2026-06-22",
+      "prize": "参加賞状 (PDF), その他の賞は後日発表",
+      "requirement": "2027年4月1日時点で18歳以下、AIを活用したアイデアを発表、発表スライド（PDF）提出",
+      "url": "https://ai-ueo.org/2026/04/01/u18-ai-championship-2026/",
+      "source": "PR TIMES, Koubo, 公式サイト",
+      "status": "締切間近",
+      "firstSeen": "2026-06-16"
     },
     {
       "name": "第2回 U18 AIチャンピオンシップ (AIプレゼンテーション全国大会)",
@@ -100,6 +100,20 @@
       "firstSeen": "2026-06-12"
     },
     {
+      "name": "COLOTEK（コロテック）",
+      "organizer": "日本コロムビアグループ株式会社",
+      "region": "日本",
+      "category": "AIアニメ作品",
+      "start": "2026-04-13",
+      "deadline": "2026-06-30",
+      "prize": "賞金総額1000万円",
+      "requirement": "AIを活用したオリジナルアニメ作品、1分以上15分以内、16:9横型、日本語音声または字幕、未発表作品歓迎、続編を想定",
+      "url": "https://colo-tek.com/",
+      "source": "ITmedia, PR TIMES, Koubo, 公募ガイド",
+      "status": "締切間近",
+      "firstSeen": "2026-06-16"
+    },
+    {
       "name": "COLOTEK（コロテック）- AIクリエイティブコンテスト",
       "organizer": "日本コロムビアグループ株式会社 (NCG)",
       "region": "日本 - 国際",
@@ -156,6 +170,34 @@
       "firstSeen": "2026-06-09"
     },
     {
+      "name": "AIフェスティバル×note 投稿コンテスト「#AIで遊ぼう」",
+      "organizer": "AIフェスティバル 2026 Powered by THIRDWAVE, note",
+      "region": "日本",
+      "category": "投稿記事 (マンガ、エッセイ、イラストなど)",
+      "start": "2026-06-15",
+      "deadline": "2026-07-15",
+      "prize": "ギフトカード 7万円分 (グランプリ), ギフトカード 3万円分 (AIフェスティバル賞), AIクリエイターズマーケット出展ブース1コマ",
+      "requirement": "ハッシュタグ「#AIで遊ぼう」をつけてnoteに投稿、AIを自分なりに楽しんだ体験",
+      "url": "https://note.com/info/n/ncfaf79c67407",
+      "source": "窓の杜, ドスパラ, Koubo, エキサイトニュース, AIフェスティバル公式サイト",
+      "status": "締切間近",
+      "firstSeen": "2026-06-16"
+    },
+    {
+      "name": "PARKOUR TOP OF JAPAN YOKOSUKA 2026 AIクリエイティブ・アワード",
+      "organizer": "東京都体操協会パルクール委員会, 株式会社ユークリッド・ソリューションズ, 横須賀市",
+      "region": "日本（横須賀市）",
+      "category": "PR動画 (生成AI技術を活用)",
+      "start": null,
+      "deadline": "2026-07-21",
+      "prize": "賞金10万円、VIP席ペア、クリエイター登録、オリジナルスカジャンなど",
+      "requirement": "主催者提供素材を基に生成AI技術を駆使して制作、45秒以内、16:9横型",
+      "url": "https://euclidsolutions.co.jp/contents/menu/170136",
+      "source": "PR TIMES, 公募ガイド",
+      "status": "募集中",
+      "firstSeen": "2026-06-14"
+    },
+    {
       "name": "PARKOUR TOP OF JAPAN YOKOSUKA 2026 生成AI技術を活用した大会PR動画コンテスト",
       "organizer": "東京都体操協会パルクール委員会、株式会社ユークリッド・ソリューションズ、横須賀市",
       "region": "日本（横須賀市）",
@@ -168,20 +210,6 @@
       "source": "公募ガイド",
       "status": "募集中",
       "firstSeen": "2026-06-15"
-    },
-    {
-      "name": "PARKOUR TOP OF JAPAN YOKOSUKA 2026 AIクリエイティブ・アワード",
-      "organizer": "東京都体操協会パルクール委員会, 株式会社ユークリッド・ソリューションズ, 横須賀市",
-      "region": "日本（横須賀市）",
-      "category": "PR動画",
-      "start": null,
-      "deadline": "2026-07-21",
-      "prize": "ユークリッド・ソリューションズ賞 (賞金10万円), パルクール賞 (VIP席ペア, 開会式出演), AIクリエイティブ賞 (クリエイター登録), 横須賀市賞 (オリジナルスカジャン)",
-      "requirement": "主催者提供素材（選手映像・音楽・風景）を基に生成AI技術を駆使して制作、テーマ「日本のトップ選手がパルクールで横須賀のご当地を駆け抜ける」、45秒以内、横型16:9、Youtubeに限定公開でアップロードしたURLを提出。",
-      "url": "https://euclidsolutions.co.jp/contents/menu/170136",
-      "source": "公募ガイド, PR TIMES",
-      "status": "募集中",
-      "firstSeen": "2026-06-14"
     },
     {
       "name": "「PARKOUR TOP OF JAPAN YOKOSUKA 2026 」 AIクリエイティブ・アワード",
@@ -283,15 +311,15 @@
     },
     {
       "name": "第五回AIアートグランプリ",
-      "organizer": null,
+      "organizer": "AIアートグランプリ実行委員会",
       "region": "日本",
-      "category": "AIアート作品",
+      "category": "AIアート作品 (静止画)",
       "start": "2026-08-01",
       "deadline": "2026-09-15",
-      "prize": null,
-      "requirement": "AIを活用したアート作品、テーマ『調和』。",
-      "url": "https://aiartgrandprix.com/",
-      "source": "公式",
+      "prize": "表彰",
+      "requirement": "AIを活用したアート作品、テーマ「調和」",
+      "url": "https://www.aiartgrandprix.com/",
+      "source": "公式サイト, PR TIMES, 窓の杜",
       "status": "まもなく開始",
       "firstSeen": "2026-06-13"
     },
@@ -338,20 +366,6 @@
       "firstSeen": "2026-06-15"
     },
     {
-      "name": "2026 AI Creativity Awards",
-      "organizer": null,
-      "region": "国際",
-      "category": "画像/イラスト/映像/映画/デザイン/ブランドシステム/音楽/オーディオ/執筆/物語/インタラクティブ/体験/ファッション/プロダクト/空間",
-      "start": "2026-06-01",
-      "deadline": "2026-11-01",
-      "prize": "2026 AI Creativity Awardsタイトル、デジタルローレル、公開結果掲載、デジタル証明書",
-      "requirement": "AIを用いたクリエイティブ作品全般。AIツールの説明と人間による指示を明記。",
-      "url": "https://graphiccompetitions.com/awards/2026-ai-creativity-awards/",
-      "source": "Graphic Competitions",
-      "status": "募集中",
-      "firstSeen": "2026-06-11"
-    },
-    {
       "name": "Ai Film Festival (FilmFreeway)",
       "organizer": null,
       "region": "国際",
@@ -392,6 +406,34 @@
       "source": "melies.co",
       "status": "募集中",
       "firstSeen": "2026-06-12"
+    },
+    {
+      "name": "GENIAC-PRIZE 2026",
+      "organizer": "経済産業省, NEDO (国立研究開発法人新エネルギー・産業技術総合開発機構)",
+      "region": "日本",
+      "category": "AIの研究開発及び社会実装",
+      "start": "2026-06-11",
+      "deadline": null,
+      "prize": "総額約10億円の懸賞金、計算リソース",
+      "requirement": "AIの更なる開発が必要なエッセンシャルワーカーの業務プロセス改革、または学生を対象とした基盤モデル開発における人材育成",
+      "url": "https://geniac-prize.nedo.go.jp/",
+      "source": "経済産業省, J-Net21, NEDO, 大分県",
+      "status": "募集中",
+      "firstSeen": "2026-06-16"
+    },
+    {
+      "name": "2026 AI Creativity Awards",
+      "organizer": null,
+      "region": "国際",
+      "category": "AI Image & Illustration, Motion & Film, Design & Brand Systems, Music & Audio, Writing & Narrative, Interactive & Experience, Fashion & Product & Space, Responsible AI Creativity",
+      "start": "2026-06-01",
+      "deadline": null,
+      "prize": "公式タイトル、デジタルローレル、結果掲載、証明書、カテゴリー受賞者$200ギフトカード",
+      "requirement": "AIで形づくられたクリエイティブ作品、AI利用を開示",
+      "url": "https://aicreativityawards.com/",
+      "source": "Graphic Competitions, AI Creativity Awards公式サイト",
+      "status": "募集中",
+      "firstSeen": "2026-06-11"
     },
     {
       "name": "AI Shortest Film Competition 2026",
