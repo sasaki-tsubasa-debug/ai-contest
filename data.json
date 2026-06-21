@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20 17:36",
+  "generatedAt": "2026-06-21 19:56",
   "contests": [
     {
       "name": "第2回 AIプレゼンテーション全国大会 | U-18 AIチャンピオンシップ 2026",
@@ -60,8 +60,8 @@
     {
       "name": "MetaMorph AI Award 2026",
       "organizer": null,
-      "region": "国際（Online / United Kingdom）",
-      "category": "AIアート",
+      "region": "国際 (オンライン/英国)",
+      "category": "クリエイティブ作品",
       "start": "2026-05-31",
       "deadline": "2026-06-29",
       "prize": null,
@@ -70,6 +70,20 @@
       "source": "Melies",
       "status": "締切間近",
       "firstSeen": "2026-06-12"
+    },
+    {
+      "name": "COLOTEK（コロテック）2026 AIクリエイティブコンテスト",
+      "organizer": "日本コロムビアグループ株式会社",
+      "region": "日本",
+      "category": "AIアニメ作品 (映像)",
+      "start": "2026-04-13",
+      "deadline": "2026-06-30",
+      "prize": "賞金総額1000万円",
+      "requirement": "AIを活用したオリジナルのアニメ作品、16:9横型、1分以上15分以内、日本語音声か字幕、続編を想定",
+      "url": "https://colo-tek.com/",
+      "source": "PR TIMES/ITmedia/公募ガイド",
+      "status": "締切間近",
+      "firstSeen": "2026-06-21"
     },
     {
       "name": "2026ムービンピック AI動画コンテスト",
@@ -184,6 +198,20 @@
       "firstSeen": "2026-06-16"
     },
     {
+      "name": "「PARKOUR TOP OF JAPAN YOKOSUKA 2026」AI クリエイティブ・アワード",
+      "organizer": "東京都体操協会パルクール委員会/株式会社ユークリッド・ソリューションズ/横須賀市",
+      "region": "日本（横須賀市）",
+      "category": "PR動画 (映像)",
+      "start": "2026-06-21",
+      "deadline": "2026-07-21",
+      "prize": "横須賀市賞（オリジナルスカジャン）/ユークリッド・ソリューションズ賞（賞金10万円）/パルクール賞（大会VIP席ペア＋大会開会式出演）",
+      "requirement": "提供素材を基に生成AI技術を駆使して制作された大会PR動画、45秒以内、16:9横型、YouTube限定公開で提出",
+      "url": null,
+      "source": "横須賀市/Koubo",
+      "status": "締切間近",
+      "firstSeen": "2026-06-11"
+    },
+    {
       "name": "PARKOUR TOP OF JAPAN YOKOSUKA 2026 AIクリエイティブ・アワード",
       "organizer": "東京都体操協会パルクール委員会、株式会社ユークリッド・ソリューションズ、横須賀市",
       "region": "日本（横須賀市）",
@@ -196,20 +224,6 @@
       "source": "YouTube, PR TIMES",
       "status": "募集中",
       "firstSeen": "2026-06-14"
-    },
-    {
-      "name": "「PARKOUR TOP OF JAPAN YOKOSUKA 2026 」AIクリエイティブ・アワード",
-      "organizer": "東京都体操協会パルクール委員会, 株式会社ユークリッド・ソリューションズ, 横須賀市",
-      "region": "日本（横須賀市）",
-      "category": "大会PR動画（生成AI技術を活用）",
-      "start": null,
-      "deadline": "2026-07-21",
-      "prize": null,
-      "requirement": "主催者が提供する素材（選手映像・音楽・風景）を基に生成AI技術を駆使して制作された大会PR動画, 45秒以内, アスペクト比16：9（横型）",
-      "url": "https://euclidsolutions.co.jp/contents/menu/170136",
-      "source": "横須賀市のプレスリリース",
-      "status": "募集中",
-      "firstSeen": "2026-06-11"
     },
     {
       "name": "PARKOUR TOP OF JAPAN YOKOSUKA 2026 生成AI技術を活用した大会PR動画コンテスト",
@@ -254,16 +268,30 @@
       "firstSeen": "2026-06-17"
     },
     {
+      "name": "AI International Film Festival",
+      "organizer": "AI International Film Festival",
+      "region": "国際 (米国ハリウッド/ニューヨーク/ロサンゼルス)",
+      "category": "AI映画/ハイブリッドAI映画/実写/ドキュメンタリー/アニメーション",
+      "start": "2026-05-31",
+      "deadline": "2026-08-08",
+      "prize": "審査員賞/観客賞",
+      "requirement": "AIツールを使用してストーリーテリングと映画制作の未来を示す、またはAIが社会に与える影響を探求する作品",
+      "url": "https://aifilmfest.org/",
+      "source": "FilmFreeway/公式ウェブサイト",
+      "status": "募集中",
+      "firstSeen": "2026-06-09"
+    },
+    {
       "name": "Astana AI Film Festival (AAIFF) 2026",
       "organizer": null,
-      "region": "国際（カザフスタン・アスタナ）",
-      "category": "AIで作成された短編映画",
-      "start": null,
+      "region": "国際 (カザフスタン、アスタナ)",
+      "category": "AIで制作された短編映画",
+      "start": "2026-05-25",
       "deadline": "2026-08-15",
-      "prize": "総額100万ドルの賞金",
-      "requirement": "AIが映画制作の主要な技術であること（Full AI production）。10分以内のAI生成フィルム。",
-      "url": "https://aaiff.org/",
-      "source": "公式/ニュース記事",
+      "prize": "賞金総額100万ドル",
+      "requirement": "AI技術のみを使用して制作された映画",
+      "url": "https://aiff.kz/",
+      "source": "公式ウェブサイト/Qazinform",
       "status": "募集中",
       "firstSeen": "2026-06-11"
     },
@@ -341,13 +369,13 @@
       "name": "第五回AIアートグランプリ",
       "organizer": null,
       "region": "日本",
-      "category": "AIアート作品",
+      "category": "アート作品 (画像)",
       "start": "2026-08-01",
       "deadline": "2026-09-15",
-      "prize": "グランプリ授賞式（詳細は後日発表）",
-      "requirement": "AIを活用したアート作品",
-      "url": null,
-      "source": "公式",
+      "prize": null,
+      "requirement": "制作過程にAIを使用したアート作品",
+      "url": "https://aiartgp.com/",
+      "source": "公式/公募ガイド",
       "status": "まもなく開始",
       "firstSeen": "2026-06-13"
     },
@@ -378,6 +406,20 @@
       "source": "公式",
       "status": "まもなく開始",
       "firstSeen": "2026-06-11"
+    },
+    {
+      "name": "AI London Film Festival",
+      "organizer": null,
+      "region": "国際 (英国ロンドン)",
+      "category": "AI短編映画",
+      "start": "2026-07-15",
+      "deadline": "2026-10-07",
+      "prize": null,
+      "requirement": "AIアシストおよびAI生成シネマ",
+      "url": "https://filmfreeway.com/AILondonFilmFestival",
+      "source": "FilmFreeway",
+      "status": "まもなく開始",
+      "firstSeen": "2026-06-21"
     },
     {
       "name": "GENERATE 2026",
@@ -450,6 +492,34 @@
       "firstSeen": "2026-06-12"
     },
     {
+      "name": "AI ZONE International AI Film Festival",
+      "organizer": null,
+      "region": "国際",
+      "category": "AI生成シネマ/映像作品",
+      "start": "2026-05-31",
+      "deadline": "2026-12-30",
+      "prize": "公式ローレル/ベストAIミニムービーへの経済的支援",
+      "requirement": "AI生成シネマおよび動画作品",
+      "url": "https://filmfreeway.com/AIZONEInternationalAIFilmFestival",
+      "source": "FilmFreeway/Melies",
+      "status": "募集中",
+      "firstSeen": "2026-06-13"
+    },
+    {
+      "name": "Bali International AI Film Festival (BIAIFF) 2026",
+      "organizer": null,
+      "region": "国際 (バリ島)",
+      "category": "AI映画",
+      "start": "2026-04-30",
+      "deadline": "2026-12-30",
+      "prize": null,
+      "requirement": null,
+      "url": null,
+      "source": "Melies",
+      "status": "募集中",
+      "firstSeen": "2026-06-12"
+    },
+    {
       "name": "AI ZONE International AI Film Festival (2026)",
       "organizer": "AI ZONE",
       "region": "国際",
@@ -464,12 +534,40 @@
       "firstSeen": "2026-06-12"
     },
     {
-      "name": "Bali International AI Film Festival (BIAIFF) 2026",
+      "name": "AI Creative Future Awards（AICA）2026",
+      "organizer": "一般社団法人AICA",
+      "region": "日本",
+      "category": "クリエイティブプロジェクト全般 (広告/アート/音楽/映像/ゲーム/プロダクト/研究)",
+      "start": "2026-06-17",
+      "deadline": null,
+      "prize": null,
+      "requirement": "AIを活用したクリエイティブプロジェクト全般",
+      "url": "https://aica-awards.com",
+      "source": "PR TIMES",
+      "status": "募集中",
+      "firstSeen": "2026-06-19"
+    },
+    {
+      "name": "LifeArt AI Global Film Festival 2026",
+      "organizer": null,
+      "region": "国際 (米国ハリウッド/ロサンゼルス)",
+      "category": "短編映画",
+      "start": "2026-06-19",
+      "deadline": null,
+      "prize": null,
+      "requirement": null,
+      "url": null,
+      "source": "Melies",
+      "status": "募集中",
+      "firstSeen": "2026-06-21"
+    },
+    {
+      "name": "Chroma Awards — Season 2",
       "organizer": null,
       "region": "国際",
-      "category": "AI映画",
-      "start": "2026-04-30",
-      "deadline": "2026-12-30",
+      "category": "AIクリエイティブ作品",
+      "start": null,
+      "deadline": null,
       "prize": null,
       "requirement": null,
       "url": null,
@@ -518,20 +616,6 @@
       "source": "公募ガイド, YouTube",
       "status": "まもなく開始",
       "firstSeen": "2026-06-20"
-    },
-    {
-      "name": "AI International Film Festival",
-      "organizer": "AI International Film Festival",
-      "region": "国際",
-      "category": "AI Films, Hybrid AI Films, Live-Action, Documentary, Animated Films",
-      "start": null,
-      "deadline": null,
-      "prize": "Jury Awards, Audience Choice Awards",
-      "requirement": "AIツールを使用、またはAIが社会に与える影響を探求する作品",
-      "url": "https://filmfreeway.com/AIInternationalFilmFestival",
-      "source": "FilmFreeway",
-      "status": "募集中",
-      "firstSeen": "2026-06-09"
     },
     {
       "name": "Artificial Intelligence Media Festival (AIMF) 2026",
@@ -590,20 +674,6 @@
       "firstSeen": "2026-06-20"
     },
     {
-      "name": "AI Creative Future Awards（AICA）2026",
-      "organizer": "一般社団法人AICA",
-      "region": "国際",
-      "category": "クリエイティブプロジェクト全般（広告、アート、音楽、映像、ゲーム、プロダクト、研究プロジェクトなど）",
-      "start": "2026-06-17",
-      "deadline": null,
-      "prize": null,
-      "requirement": "AIを活用したクリエイティブプロジェクト全般",
-      "url": "https://aica-awards.com",
-      "source": "PR TIMES",
-      "status": "募集中",
-      "firstSeen": "2026-06-19"
-    },
-    {
       "name": "AIクリエイティブコンテスト 第1回「COLOTEK（コロテック）」2026春",
       "organizer": "日本コロムビア株式会社",
       "region": "日本",
@@ -644,20 +714,6 @@
       "source": "AI活用教育賞実行委員会",
       "status": "不明",
       "firstSeen": "2026-06-19"
-    },
-    {
-      "name": "Chroma Awards — Season 2",
-      "organizer": null,
-      "region": "国際",
-      "category": "AI Film",
-      "start": null,
-      "deadline": null,
-      "prize": null,
-      "requirement": null,
-      "url": "https://melies.co/ai-film-festivals",
-      "source": "Melies",
-      "status": "募集中",
-      "firstSeen": "2026-06-12"
     },
     {
       "name": "World Ai Film Festival Edition 2026 (WAIFF Cannes)",
@@ -826,20 +882,6 @@
       "source": "公式",
       "status": "詳細不明",
       "firstSeen": "2026-06-15"
-    },
-    {
-      "name": "AI ZONE International AI Film Festival",
-      "organizer": null,
-      "region": "国際",
-      "category": "短編映画/アニメーション/音楽ビデオ/抽象映像",
-      "start": null,
-      "deadline": null,
-      "prize": null,
-      "requirement": "安全なAIフィルム全般（物語短編、実験作品、アニメーション、音楽ビデオ、抽象映像など）",
-      "url": "https://filmfreeway.com/AIZONEInternationalAIFilmFestival",
-      "source": "FilmFreeway",
-      "status": "募集中",
-      "firstSeen": "2026-06-13"
     },
     {
       "name": "The Seattle AI Film Festival (SAIFF)",
