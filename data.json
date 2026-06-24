@@ -1,48 +1,6 @@
 {
-  "generatedAt": "2026-06-23 01:16",
+  "generatedAt": "2026-06-24 19:29",
   "contests": [
-    {
-      "name": "第2回 AIプレゼンテーション全国大会 | U-18 AIチャンピオンシップ 2026",
-      "organizer": "一般社団法人教育AI活用協会（AIUEO）",
-      "region": "日本",
-      "category": "AIプレゼンテーション（ビジネス・アイデア・企画、プログラミング）",
-      "start": null,
-      "deadline": "2026-06-22",
-      "prize": null,
-      "requirement": "2027年4月1日時点で18歳以下、個人・グループ応募可、東西エリア大会(2026/7/4)と全国大会(2026/8/7)で発表できること",
-      "url": "https://www.digiren.or.jp/ai",
-      "source": "デジタル人材共創連盟（デジ連）",
-      "status": "締切間近",
-      "firstSeen": "2026-06-19"
-    },
-    {
-      "name": "第2回「U18 AIチャンピオンシップ」",
-      "organizer": "一般社団法人教育AI活用協会",
-      "region": "日本",
-      "category": "AIを活用したアイデアのプレゼンテーション",
-      "start": null,
-      "deadline": "2026-06-22",
-      "prize": "参加賞状 (PDF), その他の賞は後日発表",
-      "requirement": "2027年4月1日時点で18歳以下、AIを活用したアイデアを発表、発表スライド（PDF）提出",
-      "url": "https://ai-ueo.org/2026/04/01/u18-ai-championship-2026/",
-      "source": "PR TIMES, Koubo, 公式サイト",
-      "status": "締切間近",
-      "firstSeen": "2026-06-16"
-    },
-    {
-      "name": "第2回 U18 AIチャンピオンシップ (AIプレゼンテーション全国大会)",
-      "organizer": "一般社団法人教育AI活用協会（AIUEO）",
-      "region": "日本",
-      "category": "AIを活用したアイデアのプレゼンテーション",
-      "start": null,
-      "deadline": "2026-06-22",
-      "prize": null,
-      "requirement": "2027年4月1日時点で18歳以下の方。AIを活用して「自分の好きを深掘り」したり、「身の回りの課題解決」のアイデアを発表。",
-      "url": null,
-      "source": "デジ連/PR TIMES",
-      "status": "締切間近",
-      "firstSeen": "2026-06-15"
-    },
     {
       "name": "2026ムービンピック AI動画コンテスト",
       "organizer": "ムービンピック実行委員会",
@@ -86,6 +44,20 @@
       "firstSeen": "2026-06-12"
     },
     {
+      "name": "COLOTEK（コロテック）AIクリエイティブコンテスト",
+      "organizer": "日本コロムビアグループ株式会社",
+      "region": "日本",
+      "category": "AIアニメ作品",
+      "start": "2026-04-13",
+      "deadline": "2026-06-30",
+      "prize": "総額1000万円",
+      "requirement": "AIを活用したオリジナルアニメ作品、1分以上15分以内、16:9横型、日本語音声か字幕。応募者自身が全ての権利を保有し、続編を想定した作品。",
+      "url": "https://colotek.jp/",
+      "source": "ITmedia AI+, 公募ガイド, PR TIMES",
+      "status": "締切間近",
+      "firstSeen": "2026-06-12"
+    },
+    {
       "name": "COLOTEK（コロテック）",
       "organizer": "日本コロムビアグループ (NCG)",
       "region": "日本 / 国際",
@@ -114,20 +86,6 @@
       "firstSeen": "2026-06-21"
     },
     {
-      "name": "COLOTEK（コロテック） AIクリエイティブコンテスト",
-      "organizer": "日本コロムビアグループ株式会社 (NCG)",
-      "region": "日本",
-      "category": "AIアニメ作品（1分以上15分以内）",
-      "start": "2026-04-13",
-      "deadline": "2026-06-30",
-      "prize": "賞金総額1,000万円（プレミア上映、授賞式、クリエイターズパーティー、音楽展開の検討）",
-      "requirement": "AIを活用したオリジナルアニメ作品、16:9横型、日本語音声または日本語字幕付き、応募者自身が全ての権利を保有、受賞歴のない作品を歓迎",
-      "url": "https://colo-tek.com/",
-      "source": "PR TIMES, ITmedia, Koubo",
-      "status": "締切間近",
-      "firstSeen": "2026-06-12"
-    },
-    {
       "name": "COLOTEK（コロテック）- AIクリエイティブコンテスト",
       "organizer": "日本コロムビアグループ株式会社 (NCG)",
       "region": "日本 - 国際",
@@ -140,6 +98,20 @@
       "source": "PR TIMES, ITmedia, 公募ガイド, 公式",
       "status": "締切間近",
       "firstSeen": "2026-06-14"
+    },
+    {
+      "name": "Burano Artificial intelligence Film Festival (BAIFF)",
+      "organizer": "BAIFF",
+      "region": "国際（イタリア）",
+      "category": "AI短編映画, 映像作品, ビジュアル実験",
+      "start": "2025-12-01",
+      "deadline": "2026-07-01",
+      "prize": null,
+      "requirement": "AIを活用して制作されたオーディオビジュアル作品、短編映画。AIが創造プロセスで重要な役割を果たすこと。",
+      "url": "https://www.baiiff.com/",
+      "source": "BAIFF公式サイト, Festagent, AI Film Contests",
+      "status": "締切間近",
+      "firstSeen": "2026-06-24"
     },
     {
       "name": "BAIFF（Burano AI Film Festival）",
@@ -182,6 +154,20 @@
       "source": "まとめ(fundsforNGOs)",
       "status": "締切間近",
       "firstSeen": "2026-06-09"
+    },
+    {
+      "name": "note投稿コンテスト「#AIで遊ぼう」",
+      "organizer": "AIフェスティバル (株式会社サードウェーブ主催), note公式",
+      "region": "日本",
+      "category": "投稿（マンガ, エッセイ, イラストなど）",
+      "start": "2026-06-15",
+      "deadline": "2026-07-15",
+      "prize": "グランプリ：ギフトカード 7万円分, AIフェスティバル賞：ギフトカード 3万円分, 副賞：AIフェスティバル 2026「AIクリエイターズマーケット」出展ブース1コマ",
+      "requirement": "「#AIで遊ぼう」をテーマにAIをたのしんだ体験をnoteに投稿。マンガ、エッセイ、イラストなど形式は自由。",
+      "url": "https://note.com/info/n/n4f8d95101037",
+      "source": "note公式",
+      "status": "締切間近",
+      "firstSeen": "2026-06-24"
     },
     {
       "name": "AIフェスティバル×note 投稿コンテスト「#AIで遊ぼう」",
@@ -297,15 +283,15 @@
     },
     {
       "name": "Astana AI Film Festival (AAIFF 2026)",
-      "organizer": "Ozen, Brave Talents creative media company",
+      "organizer": "AAIFF",
       "region": "国際（カザフスタン）",
       "category": "短編映画",
       "start": "2026-05-25",
       "deadline": "2026-08-15",
-      "prize": "総額100万ドル",
-      "requirement": "AI生成の短編映画、3分以上10分以内。",
-      "url": null,
-      "source": "The Astana Times/公式",
+      "prize": "$1,000,000",
+      "requirement": "AI技術を主要な制作ツールとして使用した3分以上の短編映画（10分以内）。テーマ「The Future Worth Living In」またはオープンコンペティション。",
+      "url": "https://aaiiff.org/",
+      "source": "AAIFF公式サイト, Astana Times, The Times Of Central Asia, AzerNews",
       "status": "募集中",
       "firstSeen": "2026-06-11"
     },
@@ -437,16 +423,16 @@
     },
     {
       "name": "AI London Film Festival",
-      "organizer": null,
-      "region": "国際 (英国ロンドン)",
+      "organizer": "AI London Film Festival",
+      "region": "国際（ロンドン）",
       "category": "AI短編映画",
-      "start": "2026-07-15",
+      "start": null,
       "deadline": "2026-10-07",
       "prize": null,
-      "requirement": "AIアシストおよびAI生成シネマ",
+      "requirement": "AI支援またはAI生成された映画。10分未満の短編映画。",
       "url": "https://filmfreeway.com/AILondonFilmFestival",
       "source": "FilmFreeway",
-      "status": "まもなく開始",
+      "status": "募集中",
       "firstSeen": "2026-06-21"
     },
     {
@@ -560,6 +546,34 @@
       "source": "FilmFreeway/Melies",
       "status": "募集中",
       "firstSeen": "2026-06-13"
+    },
+    {
+      "name": "The Chroma Awards",
+      "organizer": "ElevenLabs (主催), Google Cloud, Freepik, fal, Dreamina AI, CapCut (提供)",
+      "region": "国際",
+      "category": "AI映画, ミュージックビデオ, ゲーム",
+      "start": "2026-09",
+      "deadline": null,
+      "prize": "現金賞金$250,000以上, 無料トライアル・プロモーション$1M以上, 配給・開発契約, AI映画スタジオでの仕事・インターンシップ",
+      "requirement": "AIツールを活用した作品。映画、ミュージックビデオ、ゲームのいずれかの部門。",
+      "url": "https://chromaawards.com/",
+      "source": "Chroma Awards公式サイト, Business Wire, Shaike.ai",
+      "status": "まもなく開始",
+      "firstSeen": "2026-06-24"
+    },
+    {
+      "name": "AI Film Festival Japan 2026",
+      "organizer": "AI映画祭ジャパン（AIFJ）",
+      "region": "日本（東京）",
+      "category": "長編短編映画, アニメーション, ドキュメンタリー, 実験作品, 学生映画",
+      "start": null,
+      "deadline": null,
+      "prize": "最優秀AIナラティブ, 最優秀AIドキュメンタリー, 最優秀AIアニメーション, 最優秀AI実験作品, AIイノベーション, DEIスペシャル・ショーケース, オーディエンス・チョイス・アワード",
+      "requirement": "脚本作成、画像生成、編集、サウンド、アニメーション、テーマなど、クリエイティブプロセスの重要な部分でAIを使用。1分から30分の作品。",
+      "url": "https://aifilmfest.jp/",
+      "source": "Festhome, AI Film Festival Japan公式サイト",
+      "status": "募集中",
+      "firstSeen": "2026-06-24"
     },
     {
       "name": "AI Creative Future Awards（AICA）2026",
