@@ -1,20 +1,6 @@
 {
-  "generatedAt": "2026-07-02 17:37",
+  "generatedAt": "2026-07-03 18:46",
   "contests": [
-    {
-      "name": "AIMagica AI Film Festival 2026",
-      "organizer": null,
-      "region": "国際",
-      "category": "AIフィルム",
-      "start": null,
-      "deadline": "2026-07-02",
-      "prize": null,
-      "requirement": null,
-      "url": null,
-      "source": "Melies (GenFlix)",
-      "status": "締切間近",
-      "firstSeen": "2026-06-28"
-    },
     {
       "name": "Shortest AI Film Competition 2026",
       "organizer": null,
@@ -100,6 +86,20 @@
       "firstSeen": "2026-06-11"
     },
     {
+      "name": "AIフェスティバル×note 投稿コンテスト「#AIで遊ぼう」",
+      "organizer": "note公式, AIフェスティバル 2026 Powered by THIRDWAVE",
+      "region": "日本",
+      "category": "投稿 (マンガ、エッセイ、イラストなど)",
+      "start": "2026-06-15",
+      "deadline": "2026-07-15",
+      "prize": "グランプリ 7万円分ギフトカード, AIフェスティバル賞 3万円分ギフトカード, AIクリエイターズマーケット出展ブース1コマ",
+      "requirement": "ハッシュタグ「#AIで遊ぼう」をつけてnoteに投稿、無料公開、AIを自分なりに楽しんだ体験",
+      "url": "https://note.com/info/n/ncfaf79c67407",
+      "source": "note公式, 窓の杜, ドスパラ, 公募ガイド",
+      "status": "締切間近",
+      "firstSeen": "2026-06-16"
+    },
+    {
       "name": "BLACK AI FEST — International A.I Film Academy Festival & Awards",
       "organizer": null,
       "region": "国際",
@@ -126,20 +126,6 @@
       "source": "note公式",
       "status": "締切間近",
       "firstSeen": "2026-06-24"
-    },
-    {
-      "name": "AIフェスティバル×note 投稿コンテスト「#AIで遊ぼう」",
-      "organizer": "AIフェスティバル (株式会社サードウェーブ) / note",
-      "region": "日本",
-      "category": "エッセイ/マンガ/イラスト/その他投稿",
-      "start": "2026-06-15",
-      "deadline": "2026-07-15",
-      "prize": "ギフトカード7万円分 (グランプリ), ギフトカード3万円分 (AIフェスティバル賞), AIクリエイターズマーケット出展ブース1コマ",
-      "requirement": "「#AIで遊ぼう」をテーマにAIを楽しんだ体験をnoteに投稿",
-      "url": "https://note.com/info/n/n245846b0a944",
-      "source": "note",
-      "status": "締切間近",
-      "firstSeen": "2026-06-16"
     },
     {
       "name": "LundinStudio Ai Film Festival",
@@ -214,14 +200,14 @@
     {
       "name": "PARKOUR TOP OF JAPAN YOKOSUKA 2026 AIクリエイティブ・アワード",
       "organizer": null,
-      "region": "日本（横須賀市）",
+      "region": "日本（横須賀）",
       "category": "PR動画",
       "start": null,
       "deadline": "2026-07-21",
-      "prize": null,
-      "requirement": "主催が用意した素材を使って、日本のトップ選手がパルクールで横須賀を駆け抜けるPR動画を制作",
-      "url": "https://parkour.yokosuka.ai/",
-      "source": "note",
+      "prize": "豪華な賞金と特典",
+      "requirement": "主催者提供素材を使用、「日本のトップ選手がパルクールで横須賀を駆け抜ける」PR動画",
+      "url": "https://euclidsolutions.co.jp/contents/menu/170136",
+      "source": "公募ガイド, note",
       "status": "締切間近",
       "firstSeen": "2026-06-14"
     },
@@ -341,12 +327,12 @@
       "name": "AI実装ナレッジ逆輸入コンテスト by SMC-POWER",
       "organizer": "SMC-POWER",
       "region": "日本",
-      "category": "企画書PDFとPR動画 (AI×デザイン、AI×マーケ、AI×SNS、AI×動画制作など、ジャンル不問)",
+      "category": "企画書PDFとPR動画",
       "start": null,
       "deadline": "2026-08-07",
       "prize": null,
-      "requirement": "学生向け、企画書とPR動画提出",
-      "url": "https://smc-power.jp/contest/",
+      "requirement": "AI実装ナレッジを見せるコンテスト",
+      "url": null,
       "source": "note",
       "status": "募集中",
       "firstSeen": "2026-07-02"
@@ -534,6 +520,20 @@
       "firstSeen": "2026-06-26"
     },
     {
+      "name": "SKIPシティ キネテク国際映画祭",
+      "organizer": "SKIPシティ キネテク国際映画祭実行委員会",
+      "region": "日本（埼玉）",
+      "category": "映画, AI生成映像, VFX, ゲームエンジン, 縦型動画, メディアアートなど新しい映像表現",
+      "start": "2026-07-01",
+      "deadline": "2026-08-31",
+      "prize": null,
+      "requirement": "AI・VFXなど先端技術を活用した映像作品、劇場公開された長編映画（60分以上）の制作本数が4本以下の監督による作品、2025年7月1日以降に制作されたもの",
+      "url": "https://www.skipcity-dcf.jp/",
+      "source": "PR TIMES, ぴあ, ニコニコニュース",
+      "status": "募集中",
+      "firstSeen": "2026-07-03"
+    },
+    {
       "name": "SKIPシティ キネテク国際映画祭 2027",
       "organizer": "埼玉県、川口市、川口商工会議所",
       "region": "日本（埼玉県川口市）",
@@ -660,6 +660,20 @@
       "firstSeen": "2026-06-28"
     },
     {
+      "name": "AI日本国際映画祭（AI Film Festival Japan 2026）",
+      "organizer": "AI Film Festival Japan 2026 実行委員会",
+      "region": "国際（開催地: 日本（東京））",
+      "category": "AI Cinema Narrative, AI Creative Film & Experimental, AI Animation, AI Film Music / Score, AI Vocal Track",
+      "start": "2026-06-01",
+      "deadline": "2026-09-01",
+      "prize": "最優秀な AI ナラティブ, 最優秀AIドキュメンタリー, 最優秀AIアニメーション, 最優秀AI 実験作品, AI イノベーション ／ ジャンルなし ／ DEI スペシャル・ショーケース, オーディエンス・チョイス・アワード",
+      "requirement": "AIを創造プロセスの重要な部分で使用 (脚本、画像生成、編集、サウンド、アニメーション、テーマなど), 1分から30分, フルHD以上 (1080p), 16:9",
+      "url": "https://aiffj.net/",
+      "source": "Festhome, 公式Web, PR TIMES",
+      "status": "募集中",
+      "firstSeen": "2026-07-02"
+    },
+    {
       "name": "New Technologies AI Film Festival 2026",
       "organizer": null,
       "region": "国際",
@@ -714,6 +728,20 @@
       "source": "Scouts by Yutori",
       "status": "募集中",
       "firstSeen": "2026-07-02"
+    },
+    {
+      "name": "AIアートグランプリ (第五回)",
+      "organizer": "AIアートグランプリ実行委員会",
+      "region": "日本",
+      "category": "AIを活用したアート作品 (静止画、映像など)",
+      "start": "2026-08-01",
+      "deadline": "2026-09-15",
+      "prize": null,
+      "requirement": "AIを活用したアート作品、テーマは『調和』",
+      "url": "https://www.aiartgrandprix.com/",
+      "source": "公式Web, PR TIMES, 公募ガイド, 窓の杜",
+      "status": "まもなく開始",
+      "firstSeen": "2026-07-03"
     },
     {
       "name": "WAIFF Los Angeles 2026 (World AI Film Festival — U.S. Edition)",
@@ -812,20 +840,6 @@
       "source": "公式",
       "status": "募集中",
       "firstSeen": "2026-06-22"
-    },
-    {
-      "name": "GMO DESIGN AWARD 2026",
-      "organizer": "GMOインターネットグループ",
-      "region": "日本",
-      "category": "プロダクト/ビジュアル（動画作品中心）",
-      "start": "2026-06-15",
-      "deadline": "2026-09-30",
-      "prize": "最優秀賞 100万円",
-      "requirement": "AIと共に生成する「トキメキ」をテーマにした作品。AI活用の方法を評価。",
-      "url": "https://design.gmo.jp/award/2026/",
-      "source": "公式",
-      "status": "まもなく開始",
-      "firstSeen": "2026-06-11"
     },
     {
       "name": "Slamdance Film Festival — DIG (AI Films Encouraged) 2027",
@@ -1136,18 +1150,32 @@
       "firstSeen": "2026-07-02"
     },
     {
-      "name": "AI日本国際映画祭 (AI Film Festival Japan) 2026",
-      "organizer": "AI Film Festival Japan 2026 実行委員会",
-      "region": "日本（東京）",
-      "category": "AI Cinema Narrative, AI Creative Film & Experimental, AI Animation, AI Film Music / Score",
-      "start": "2026-07-01",
+      "name": "GMO DESIGN AWARD 2026",
+      "organizer": "GMOインターネットグループ",
+      "region": "日本",
+      "category": "AIを活用したデザイン (映像制作も含む可能性)",
+      "start": "2026-07-03",
       "deadline": null,
       "prize": null,
-      "requirement": "人間とAIの共創、AI利用の透明性と倫理規定遵守。音楽部門は公式ビジュアルアセットへのスコアリング必須。",
-      "url": "https://aiff.jp/",
-      "source": "公式/FilmFreeway/note",
+      "requirement": "AIを活用したデザイン",
+      "url": "https://gmo-design-award.com/",
+      "source": "PR TIMES",
       "status": "募集中",
-      "firstSeen": "2026-07-02"
+      "firstSeen": "2026-06-11"
+    },
+    {
+      "name": "地域PR動画コンテスト (Metagri研究所)",
+      "organizer": "Metagri研究所（株式会社農情人）",
+      "region": "日本 (全国の自治体と連携)",
+      "category": "地域PR動画 (動画生成AIを活用)",
+      "start": "2026年秋以降 (予定)",
+      "deadline": null,
+      "prize": "グランプリ作品は市の公式PR動画に採用",
+      "requirement": "動画生成AIを活用",
+      "url": "https://metagri-labo.com/",
+      "source": "PR TIMES, 公募ガイド, ライブドアニュース, 山形経済新聞",
+      "status": "まもなく開始",
+      "firstSeen": "2026-07-03"
     },
     {
       "name": "東京AI映画祭 2026",
