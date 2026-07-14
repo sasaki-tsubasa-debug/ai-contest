@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14 08:00",
+  "generatedAt": "2026-07-15 08:02",
   "contests": [
     {
       "name": "note「#AIで遊ぼう」投稿コンテスト",
@@ -184,6 +184,20 @@
       "firstSeen": "2026-06-28"
     },
     {
+      "name": "PARKOUR TOP OF JAPAN YOKOSUKA 2026 AIクリエイティブ・アワード",
+      "organizer": "東京都体操協会パルクール委員会, 株式会社ユークリッド・ソリューションズ, 横須賀市",
+      "region": "日本（横須賀市）",
+      "category": "PR動画 (生成AI技術活用)",
+      "start": null,
+      "deadline": "2026-07-21",
+      "prize": null,
+      "requirement": "主催者提供の素材（選手映像・音楽・風景）を基に生成AI技術を駆使して制作された大会PR動画。45秒以内。",
+      "url": "https://euclidsolutions.co.jp/contents/menu/170136",
+      "source": "横須賀市のプレスリリース, note (まとめ記事)",
+      "status": "締切間近",
+      "firstSeen": "2026-06-14"
+    },
+    {
       "name": "「PARKOUR TOP OF JAPAN YOKOSUKA 2026 」 AIクリエイティブ・アワード",
       "organizer": "東京都体操協会パルクール委員会, 株式会社ユークリッド・ソリューションズ, 横須賀市",
       "region": "日本（横須賀市）",
@@ -196,20 +210,6 @@
       "source": "PR TIMES",
       "status": "締切間近",
       "firstSeen": "2026-06-11"
-    },
-    {
-      "name": "PARKOUR TOP OF JAPAN YOKOSUKA 2026 AIクリエイティブ・アワード",
-      "organizer": "東京都体操協会パルクール委員会, 株式会社ユークリッド・ソリューションズ, 横須賀市",
-      "region": "日本（横須賀市）",
-      "category": "PR動画 (45秒以内)",
-      "start": null,
-      "deadline": "2026-07-21",
-      "prize": null,
-      "requirement": "主催者提供の素材（選手映像・音楽・風景）を基に生成AI技術を駆使して制作された大会PR動画。",
-      "url": "https://euclidsolutions.co.jp/contents/menu/170136",
-      "source": "プレスリリース, note, デジ連",
-      "status": "締切間近",
-      "firstSeen": "2026-06-14"
     },
     {
       "name": "横須賀パルクールAIアワード (PARKOUR TOP OF JAPAN YOKOSUKA 2026 AIクリエイティブ・アワード)",
@@ -425,13 +425,13 @@
       "name": "AI実装ナレッジ逆輸入コンテスト by SMC-POWER",
       "organizer": "SMC-POWER",
       "region": "日本",
-      "category": "企画書PDFと1分程度のPR動画 (AI×デザイン/AI×マーケ/AI×SNS/AI×動画制作などジャンル不問)",
+      "category": "AI×デザイン/AI×マーケ/AI×SNS/AI×動画制作 (ジャンル不問)",
       "start": null,
       "deadline": "2026-08-07",
       "prize": null,
-      "requirement": "AIの実装ナレッジや考え方、使い方を見せるコンテスト。",
+      "requirement": "企画書PDFと1分程度のPR動画。AIの考え方や使い方で勝負。",
       "url": null,
-      "source": "note",
+      "source": "note (まとめ記事)",
       "status": "締切間近",
       "firstSeen": "2026-07-02"
     },
@@ -448,6 +448,34 @@
       "source": "FilmFreeway",
       "status": "募集中",
       "firstSeen": "2026-06-09"
+    },
+    {
+      "name": "第33回環境フォト・コンテスト2027",
+      "organizer": "プレジデント社",
+      "region": "日本",
+      "category": "写真",
+      "start": "2026-06-26",
+      "deadline": "2026-08-14",
+      "prize": null,
+      "requirement": "環境をテーマにした写真。AI時代に「写真」が問われるものを考える。",
+      "url": "https://www.smartcross.jp",
+      "source": "note (記事)",
+      "status": "募集中",
+      "firstSeen": "2026-07-14"
+    },
+    {
+      "name": "Google × XPRIZE「Future Vision」",
+      "organizer": "Google・XPRIZE・Range Media Partners",
+      "region": "国際",
+      "category": "短編映画/予告編 (AI活用)",
+      "start": null,
+      "deadline": "2026-08-15",
+      "prize": "賞金総額350万ドル（約5億4,000万円）。グランプリ受賞者の3分作品をGoogleが制作支援し長編映画に昇華。",
+      "requirement": "テクノロジーを前向きに捉えた、楽観的な未来像を描く作品。3分以内。実写・アニメ・AIツール（Google Flow 等）いずれも可。",
+      "url": "https://futurevisionxprize.com",
+      "source": "Liberators (記事)",
+      "status": "募集中",
+      "firstSeen": "2026-07-14"
     },
     {
       "name": "Astana AI Film Festival (AAIFF) 2026",
@@ -644,20 +672,6 @@
       "source": "FilmFreeway",
       "status": "締切間近",
       "firstSeen": "2026-07-07"
-    },
-    {
-      "name": "AIGC for Future Global Challenge 2026",
-      "organizer": null,
-      "region": "国際",
-      "category": "AIGC",
-      "start": null,
-      "deadline": "2026-08-31",
-      "prize": null,
-      "requirement": null,
-      "url": null,
-      "source": "AI Film Contests",
-      "status": "募集中",
-      "firstSeen": "2026-06-28"
     },
     {
       "name": "Sparknify Human vs. AI Film Festival 2026",
@@ -898,32 +912,32 @@
       "firstSeen": "2026-07-02"
     },
     {
-      "name": "AI Creative Future Awards (AICA) 2026",
+      "name": "26秒のカーニバル 第9期",
+      "organizer": "三池崇史監督 (審査)",
+      "region": "日本",
+      "category": "ショート動画",
+      "start": "2026-06-05",
+      "deadline": "2026-09-13",
+      "prize": "金賞・銀賞・銅賞（各10万円）, 入賞（5万円×2本）, 学生賞（5万円×2本）",
+      "requirement": "26秒の未公開動画。テーマ『私はあなたとは違う』。生成AIの利用可。",
+      "url": null,
+      "source": "PR TIMES (記事)",
+      "status": "募集中",
+      "firstSeen": "2026-07-12"
+    },
+    {
+      "name": "AI Creative Future Awards（AICA）2026",
       "organizer": "一般社団法人AICA",
       "region": "国際",
-      "category": "広告, アート, 音楽, 映像, ゲームなどジャンルを問わず、AIによって新しい発想や社会的インパクトを生み出したプロジェクト",
+      "category": "広告/アート/音楽/映像/ゲーム/プロダクト/研究プロジェクトなど (AIを活用したクリエイティブプロジェクト全般)",
       "start": "2026-06-17",
       "deadline": "2026-09-13",
       "prize": null,
-      "requirement": "AIをどのように使ったのか、その実践は創造性を前進させているのかという問いについて議論を重ねる。AI利用の明確な開示が必要。",
-      "url": "https://aica-awards.com/",
-      "source": "JDN, PR TIMES, 公式",
+      "requirement": "AIを活用したクリエイティブプロジェクト。AIの利用方法とその実践が創造性を前進させているかが重要。",
+      "url": "https://aica-awards.com",
+      "source": "PR TIMES, デザイン情報サイト[JDN]",
       "status": "募集中",
       "firstSeen": "2026-06-19"
-    },
-    {
-      "name": "26秒のカーニバル 第9期",
-      "organizer": "三池崇史監督 (審査員)",
-      "region": "日本",
-      "category": "ショート動画 (26秒)",
-      "start": "2026-06-05",
-      "deadline": "2026-09-13",
-      "prize": "金賞・銀賞・銅賞（各10万円）、入賞（5万円×2本）、学生賞（5万円×2本）",
-      "requirement": "26秒の未公開動画、生成AIの利用可、テーマ『私はあなたとは違う』",
-      "url": null,
-      "source": "PR TIMES",
-      "status": "募集中",
-      "firstSeen": "2026-07-12"
     },
     {
       "name": "WAIFF Los Angeles 2026 — World AI Film Festival USA",
@@ -1008,6 +1022,20 @@
       "source": "FilmFreeway, Official Site",
       "status": "募集中",
       "firstSeen": "2026-07-09"
+    },
+    {
+      "name": "GMO DESIGN AWARD 2026",
+      "organizer": "GMOインターネットグループ",
+      "region": "日本",
+      "category": "AI活用デザイン",
+      "start": "2026-06-22",
+      "deadline": "2026-09-30",
+      "prize": "最優秀賞100万円, 優秀賞4点に各20万円",
+      "requirement": "18歳以上30歳未満の若手クリエイター・デザイナー。「トキメキ」をテーマとしたAI活用デザイン作品。",
+      "url": "https://www.gmo.jp/news/article/8876/",
+      "source": "I4U (記事)",
+      "status": "募集中",
+      "firstSeen": "2026-06-11"
     },
     {
       "name": "Runway AI Film Festival (AIF 2026)",
@@ -1136,20 +1164,6 @@
       "firstSeen": "2026-06-21"
     },
     {
-      "name": "AI Film Festival Japan (AIFJ 2026)",
-      "organizer": "AI Film Festival Japan 2026 実行委員会",
-      "region": "日本（東京）",
-      "category": "短編映画/AIフィルムミュージック・スコア/アニメーション/クリエイティブ・エクスペリメンタル",
-      "start": null,
-      "deadline": "2026-10-15",
-      "prize": null,
-      "requirement": "人間とAIの共創作品。AIフィルムミュージック・スコア部門では公式課題映像素材の使用必須。",
-      "url": "https://filmfreeway.com/AIFilmFestivalJapan",
-      "source": "FilmFreeway, 公式サイト",
-      "status": "募集中",
-      "firstSeen": "2026-06-12"
-    },
-    {
       "name": "Golden Dunes Dubai International Film Festival 2026",
       "organizer": null,
       "region": "アラブ首長国連邦（ドバイ）",
@@ -1251,13 +1265,13 @@
       "name": "2026 AI Creativity Awards",
       "organizer": null,
       "region": "国際",
-      "category": "AI Image & Illustration, Motion & Film, Design & Brand Systems, Music & Audio, Writing & Narrative, Interactive & Experience, Fashion, Product & Spatial, Responsible AI Creativity",
+      "category": "AI Image & Illustration/Motion & Film/Design & Brand Systems/Music & Audio/Writing & Narrative/Interactive & Experience/Fashion/Product & Spatial/Responsible AI Creativity",
       "start": "2026-06-01",
       "deadline": "2026-11-01",
-      "prize": "受賞タイトル、デジタルローレル、結果掲載、デジタル証明書",
-      "requirement": "AI利用の明確な開示（ツール、生成部分、素材、人間の関与）。18歳以上のクリエイターまたは許可を得た者。",
-      "url": "https://aicreativityawards.com/",
-      "source": "Graphic Competitions, 公式",
+      "prize": "受賞タイトル, デジタルローレル, 公開結果掲載, デジタル証明書",
+      "requirement": "AIを活用したクリエイティブ作品。AIツール、モデル、生成・変換要素、ソース素材、人間の指示を明確に開示。",
+      "url": "https://www.aicreativityawards.com/",
+      "source": "Graphic Competitions",
       "status": "募集中",
       "firstSeen": "2026-06-11"
     },
@@ -1570,6 +1584,76 @@
       "firstSeen": "2026-06-09"
     },
     {
+      "name": "AI Film Festival Japan (AIFJ 2026)",
+      "organizer": "AI Film Festival Japan 2026 Executive Committee",
+      "region": "日本（東京）",
+      "category": "短編映画/AI Film Music / AI Cinema Narrative / AI Creative Film & Experimental / AI Animation",
+      "start": null,
+      "deadline": null,
+      "prize": null,
+      "requirement": "人間とAIの共創による作品。AI Film Music部門は公式ビジュアルアセットに合わせた100%オリジナル音楽。",
+      "url": "https://aiff.jp/",
+      "source": "公式, FilmFreeway",
+      "status": "募集中",
+      "firstSeen": "2026-06-12"
+    },
+    {
+      "name": "第五回AIアートグランプリ",
+      "organizer": null,
+      "region": "日本",
+      "category": "AIアート作品",
+      "start": "2026-08-01",
+      "deadline": null,
+      "prize": null,
+      "requirement": "AIを活用したアート作品。",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZYxHZaCQOvB9Flk5ABckavUANERW1O7T4cafBJXvESkXECT50Qn-xWaeWNysfnkOqeVw8Um6ic0PvQeno9Qqkr0QYASWVYoQqA1jnDKqhHFCcXptCq6vZbQw=",
+      "source": "公式",
+      "status": "まもなく開始",
+      "firstSeen": "2026-06-13"
+    },
+    {
+      "name": "GENIAC-PRIZE<NEDO懸賞金活用型プログラム>",
+      "organizer": "NEDO (国立研究開発法人新エネルギー・産業技術総合開発機構)",
+      "region": "日本",
+      "category": "AI基盤モデル開発/AI活用 (社会課題解決)",
+      "start": "2026-05-29",
+      "deadline": null,
+      "prize": "懸賞金総額：約3,000万円",
+      "requirement": "AI基盤モデル開発を行う。AIを活用したエッセンシャルサービス業における人手不足の課題解消に資する提案。国産基盤モデルを活用した開発・実証。",
+      "url": "https://geniac-prize.jp/",
+      "source": "公式",
+      "status": "募集中",
+      "firstSeen": "2026-07-14"
+    },
+    {
+      "name": "地方創生 × 動画AIコンテスト (自治体連携募集)",
+      "organizer": "Metagri研究所（株式会社農情人）",
+      "region": "日本 (全国の自治体)",
+      "category": "動画AI (地域PR動画)",
+      "start": "2026年春",
+      "deadline": null,
+      "prize": null,
+      "requirement": "PR動画を作りたい自治体、Z世代・若年層への発信を強化したい自治体、AIなどの最新技術を地域活性化に取り入れたい自治体、関係人口を創出したい自治体。",
+      "url": "https://metagri-labo.com/contact/",
+      "source": "Metagri研究所 (公式)",
+      "status": "募集中",
+      "firstSeen": "2026-07-14"
+    },
+    {
+      "name": "AIGC for Future Global Challenge 2026",
+      "organizer": null,
+      "region": "国際 (中国、スイス)",
+      "category": "AI-Generated Creativity (Green Developmentなど)",
+      "start": null,
+      "deadline": null,
+      "prize": "USD 10,000",
+      "requirement": "若手クリエイター、イノベーター、研究者、学際的チーム。気候変動対策、持続可能性、再生可能エネルギー、環境保護、循環経済、グリーンイノベーションに焦点を当てたAI駆動型コンセプト。",
+      "url": "https://opportunitiesforyouth.org/aigc-for-future-global-challenge-2026-win-usd-10000-and-showcase-your-ai-generated-creativity-on-a-global-stage-in-china-and-switzerland/",
+      "source": "Opportunities for Youth",
+      "status": "募集中",
+      "firstSeen": "2026-06-28"
+    },
+    {
       "name": "Artificial Intelligence Media Festival (AIMF) 2026",
       "organizer": null,
       "region": "米国（カリフォルニア州ロサンゼルス）",
@@ -1752,20 +1836,6 @@
       "firstSeen": "2026-07-04"
     },
     {
-      "name": "第五回AIアートグランプリ",
-      "organizer": null,
-      "region": "日本",
-      "category": "AIアート（画像）",
-      "start": "2026-08-01",
-      "deadline": null,
-      "prize": null,
-      "requirement": "AIを活用したアート作品。人間の創造力とAIの可能性を融合させた作品。",
-      "url": "https://aiartgp.com/",
-      "source": "公式",
-      "status": "まもなく開始",
-      "firstSeen": "2026-06-13"
-    },
-    {
       "name": "KURIEMI AI Short Film Contest",
       "organizer": "Kuriemi",
       "region": "日本",
@@ -1820,20 +1890,6 @@
       "source": "公式",
       "status": "まもなく開始",
       "firstSeen": "2026-06-13"
-    },
-    {
-      "name": "GMO DESIGN AWARD 2026",
-      "organizer": "GMOインターネットグループ",
-      "region": "日本",
-      "category": "デザイン（プロダクト, ビジュアル）",
-      "start": "2026-06-15",
-      "deadline": null,
-      "prize": "最優秀賞100万円",
-      "requirement": "18歳以上30歳未満の若手クリエイター・デザイナー対象, テーマ「トキメキ」, AIを制作プロセスに活用",
-      "url": "https://gmo-design-award.com/",
-      "source": "PR TIMES",
-      "status": "募集中",
-      "firstSeen": "2026-06-11"
     },
     {
       "name": "World AI Movie Festival (WAIMF)",
