@@ -147,6 +147,13 @@
   .addmsg{font-size:12px; color:var(--green); font-weight:700}
   .delbtn{font-size:11px; color:var(--red); background:none; border:0; cursor:pointer; padding:2px 4px}
   .manualtag{display:inline-block; font-size:10px; font-weight:700; color:var(--accent); background:var(--tealbg); border-radius:5px; padding:1px 7px; margin-right:7px; vertical-align:2px}
+  /* assignees */
+  .assign{display:flex; align-items:center; gap:6px; flex-wrap:wrap; margin-top:6px}
+  .assign .alab{font-size:10.5px; color:var(--dim)}
+  .asgchip{font-size:11px; font-weight:700; color:var(--accent); background:var(--tealbg); border:1px solid #bce8f0; border-radius:999px; padding:2px 9px; cursor:pointer}
+  .asgchip:hover{background:#fee2e2; color:var(--red); border-color:#fecaca}
+  .asgadd{font-size:11px; font-weight:700; color:var(--muted); background:#fff; border:1px dashed var(--line); border-radius:999px; padding:2px 9px; cursor:pointer}
+  .asgadd:hover{color:var(--accent); border-color:var(--accent)}
   @media (max-width:600px){
     .wrap{padding:0 14px 56px}
     .row{flex-wrap:wrap; gap:10px}
@@ -235,9 +242,28 @@
   <details><summary>▸ 過去開催ぶんを表示（来期のウォッチ用）</summary><div class="list past" id="past-list" style="margin-top:10px"></div></details>
 
   <div class="sources"><h3>監視ソース</h3><div class="srcgrid" id="sources"></div></div>
-  <p class="note">締切・賞金は各公式サイトで最終確認してください（「要確認」は公式に明記がなかったもの）。応募資格に地域制限がある大会もあります。残り日数は閲覧時の日付から自動計算。一覧は毎日 GitHub Actions が自動更新します（国内は小規模も含めて網羅的に収集）。「応募状況」はこのブラウザに保存されます（端末やブラウザを変えるとリセットされます）。</p>
+  <p class="note">締切・賞金は各公式サイトで最終確認してください（「要確認」は公式に明記がなかったもの）。応募資格に地域制限がある大会もあります。残り日数は閲覧時の日付から自動計算。一覧は毎日 GitHub Actions が自動更新します（国内は小規模も含めて網羅的に収集）。「応募状況」「担当者」「手動追加」は、共有設定（Firebase）済みなら全員でリアルタイム共有、未設定なら各自のブラウザ保存です。</p>
 </div>
 
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-database-compat.js"></script>
+<script>
+/* ══════════════════════════════════════════════════════════
+   チーム共有設定（Firebase Realtime Database）
+   ここに自分のFirebase設定を貼ると、応募状況・担当者・手動追加が
+   全員のブラウザでリアルタイム共有されます。
+   空のままなら従来どおり各自のブラウザ保存で動きます。
+   ══════════════════════════════════════════════════════════ */
+const FIREBASE_CONFIG = {
+  apiKey: "AIzaSyAgfdKx0ArUIebmy_0zTWb9dbNlAf2kuhM",
+  authDomain: "ai-contest-checker.firebaseapp.com",
+  databaseURL: "https://ai-contest-checker-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "ai-contest-checker",
+  storageBucket: "ai-contest-checker.firebasestorage.app",
+  messagingSenderId: "311858210272",
+  appId: "1:311858210272:web:568c4938edce26f2aff785"
+};
+</script>
 <script>
 const TODAY=new Date();TODAY.setHours(0,0,0,0);
 const PILL={'締切間近':['var(--red)','var(--redbg)'],'募集中':['var(--green)','var(--greenbg)'],'近日開始':['var(--blue)','var(--bluebg)'],'通年募集':['var(--teal)','var(--tealbg)'],'終了':['var(--gray)','var(--graybg)']};
@@ -273,27 +299,70 @@ const isJP=c=>String(c.region||'').includes('日本');
 const isNew=c=>{if(!c.firstSeen)return false;const f=new Date(c.firstSeen);f.setHours(0,0,0,0);const d=Math.round((TODAY-f)/864e5);return d>=0&&d<=2;};
 const byDeadlineAsc=(a,b)=>{const x=daysLeft(a.deadline),y=daysLeft(b.deadline);if(x==null)return 1;if(y==null)return -1;return x-y;};
 
-/* ── 応募状況（この端末のブラウザに保存） ── */
+/* ── 応募状況 ── */
+const kf=s=>String(s).replace(/[.#$\/\[\]]/g,'_');  // Firebaseキーに使えない文字を除去
 const APP_KEY='aiContestAppStatus';
 const APP_LABEL={none:'未着手',want:'検討中',wip:'制作中',done:'応募済み',skip:'見送り'};
 let APP={};
 try{APP=JSON.parse(localStorage.getItem(APP_KEY)||'{}');}catch(e){APP={};}
-const appOf=c=>APP[c.name]||'none';
-function setApp(name,val){ if(val==='none')delete APP[name]; else APP[name]=val;
-  try{localStorage.setItem(APP_KEY,JSON.stringify(APP));}catch(e){} apply(); }
+const appOf=c=>APP[kf(c.name)]||APP[c.name]||'none';
+function setApp(name,val){
+  const k=kf(name);
+  if(FB){FB.ref('tracker/app/'+k).set(val==='none'?null:val);return;} // 共有モード: リスナー経由で全員に反映
+  if(val==='none')delete APP[k];else APP[k]=val;
+  try{localStorage.setItem(APP_KEY,JSON.stringify(APP));}catch(e){} apply();
+}
 function appSelect(c){
   const cur=appOf(c);
   const opts=Object.keys(APP_LABEL).map(k=>`<option value="${k}"${k===cur?' selected':''}>${APP_LABEL[k]}</option>`).join('');
   return `<div class="app"><span class="al">応募状況</span><select class="st-${cur}" data-name="${esc(c.name)}">${opts}</select></div>`;
 }
 
-/* ── 手動追加（この端末のブラウザに保存。リポジトリの manual.json でチーム共有も可） ── */
+/* ── 手動追加 ── */
 const MAN_KEY='aiContestManual';
 let MANUAL=[];
 try{MANUAL=JSON.parse(localStorage.getItem(MAN_KEY)||'[]');}catch(e){MANUAL=[];}
 function saveManual(){try{localStorage.setItem(MAN_KEY,JSON.stringify(MANUAL));}catch(e){}}
-function addManual(c){MANUAL.push(c);saveManual();}
-function removeManual(name){MANUAL=MANUAL.filter(c=>c.name!==name);saveManual();rebuild();}
+function addManual(c){
+  if(FB){FB.ref('tracker/manual/'+kf(c.name)).set(c);return;}
+  MANUAL.push(c);saveManual();
+}
+function removeManual(name){
+  if(FB){FB.ref('tracker/manual/'+kf(name)).remove();return;}
+  MANUAL=MANUAL.filter(c=>c.name!==name);saveManual();rebuild();
+}
+
+/* ── 担当者（最大3名） ── */
+const ASG_KEY='aiContestAssignees';
+let ASSIGN={};
+try{ASSIGN=JSON.parse(localStorage.getItem(ASG_KEY)||'{}');}catch(e){ASSIGN={};}
+const asgOf=c=>ASSIGN[kf(c.name)]||ASSIGN[c.name]||[];
+function saveAsg(){try{localStorage.setItem(ASG_KEY,JSON.stringify(ASSIGN));}catch(e){}}
+function writeAsg(name,arr){
+  const k=kf(name);
+  if(FB){FB.ref('tracker/asg/'+k).set(arr.length?arr:null);return;}
+  if(arr.length)ASSIGN[k]=arr;else delete ASSIGN[k];
+  saveAsg();apply();
+}
+function addAsg(name){
+  const cur=ASSIGN[kf(name)]||ASSIGN[name]||[];
+  if(cur.length>=3){alert('担当者は3名までです');return;}
+  const p=(window.prompt('担当者名を入力（最大3名）')||'').trim();
+  if(!p)return;
+  if(cur.includes(p)){alert('すでに追加されています');return;}
+  writeAsg(name,[...cur,p]);
+}
+function rmAsg(name,person){
+  if(!confirm(person+' さんを担当から外しますか？'))return;
+  const cur=ASSIGN[kf(name)]||ASSIGN[name]||[];
+  writeAsg(name,cur.filter(x=>x!==person));
+}
+function assignHtml(c){
+  const list=asgOf(c);
+  const chips=list.map(p=>`<span class="asgchip" data-asgrm="${esc(c.name)}" data-person="${esc(p)}" title="クリックで外す">${esc(p)} ×</span>`).join('');
+  const add=list.length<3?`<button class="asgadd" data-asgadd="${esc(c.name)}">＋担当</button>`:'';
+  return `<div class="assign"><span class="alab">担当</span>${chips}${add}</div>`;
+}
 
 function dlBlock(c){
   const dl=daysLeft(c.deadline); let key,numHtml,lab,date='';
@@ -315,6 +384,7 @@ function rowHtml(c){
       <div class="name">${isNew(c)?'<span class="newbadge">NEW</span>':''}${c._manual?'<span class="manualtag">手動</span>':''}${esc(c.name)}</div>
       <div class="meta"><b>${esc(c.region)}</b> ・ ${esc(c.category)} ・ ${esc(c.organizer)}</div>
       ${c.requirement?`<div class="req">${esc(c.requirement)}</div>`:''}
+      ${assignHtml(c)}
     </div>
     <div class="aside">
       <div class="prize"><span class="pl">賞金 / 賞</span><span class="pv">${esc(c.prize)}</span></div>
@@ -334,6 +404,8 @@ function updateStats(rows){
 function bindAppSelects(el){
   el.querySelectorAll('.app select').forEach(s=>s.addEventListener('change',e=>setApp(e.target.dataset.name,e.target.value)));
   el.querySelectorAll('.delbtn').forEach(b=>b.addEventListener('click',e=>{if(confirm('この手動追加を削除しますか？'))removeManual(e.target.dataset.del);}));
+  el.querySelectorAll('.asgadd').forEach(b=>b.addEventListener('click',e=>addAsg(e.target.dataset.asgadd)));
+  el.querySelectorAll('.asgchip').forEach(b=>b.addEventListener('click',e=>rmAsg(e.target.dataset.asgrm,e.target.dataset.person)));
 }
 function apply(){
   const inReg=CONTESTS.filter(c=>region==='jp'?isJP(c):!isJP(c));
@@ -437,7 +509,24 @@ function render(p){
   });
   rebuild();
 }
+let FB=null;
 (async()=>{
+  // 共有モードの初期化（設定があれば）
+  if(FIREBASE_CONFIG&&FIREBASE_CONFIG.databaseURL){
+    try{
+      firebase.initializeApp(FIREBASE_CONFIG);
+      FB=firebase.database();
+      FB.ref('tracker').on('value',snap=>{
+        const v=snap.val()||{};
+        APP=v.app||{};
+        ASSIGN={};
+        Object.entries(v.asg||{}).forEach(([k,a])=>{ASSIGN[k]=Array.isArray(a)?a:Object.values(a||{});});
+        MANUAL=Object.values(v.manual||{});
+        rebuild();
+      });
+      document.getElementById('updated').textContent='共有モードで接続中…';
+    }catch(e){console.warn('Firebase初期化失敗（ローカル保存モードで継続）',e);FB=null;}
+  }
   let p; try{const r=await fetch('data.json?'+Date.now());if(!r.ok)throw 0;p=await r.json();}catch(e){p=FALLBACK;}
   try{const r2=await fetch('manual.json?'+Date.now());if(r2.ok){const m=await r2.json();SHARED=m.contests||[];}}catch(e){SHARED=[];}
   render(p);
