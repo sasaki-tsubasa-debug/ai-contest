@@ -154,6 +154,35 @@
   .asgchip:hover{background:#fee2e2; color:var(--red); border-color:#fecaca}
   .asgadd{font-size:11px; font-weight:700; color:var(--muted); background:#fff; border:1px dashed var(--line); border-radius:999px; padding:2px 9px; cursor:pointer}
   .asgadd:hover{color:var(--accent); border-color:var(--accent)}
+  /* results panel */
+  .rstats{display:flex; gap:12px; flex-wrap:wrap; margin:4px 0 14px}
+  .rstat{background:var(--surface); border:1px solid var(--line); border-radius:11px; padding:10px 16px; min-width:104px}
+  .rstat .n{font-family:var(--disp); font-weight:700; font-size:24px; line-height:1.1}
+  .rstat .l{font-size:11px; color:var(--dim)}
+  .rrow{display:flex; gap:14px; background:var(--surface); border:1px solid var(--line); border-left-width:4px; border-radius:11px; padding:13px 16px; margin-bottom:8px; flex-wrap:wrap; align-items:flex-start}
+  .rmain{flex:1 1 260px; min-width:220px}
+  .rname{font-weight:700; font-size:14.5px}
+  .rname a{color:var(--txt); text-decoration:none}
+  .rname a:hover{color:var(--accent)}
+  .rmeta{font-size:11.5px; color:var(--muted); margin-top:2px}
+  .crlist{display:flex; gap:6px; flex-wrap:wrap; margin-top:8px; align-items:center}
+  .crlab{font-size:10.5px; color:var(--dim)}
+  .crchip{font-size:11px; font-weight:700; color:#5B21B6; background:#F5F3FF; border:1px solid #ddd6fe; border-radius:999px; padding:2px 10px; text-decoration:none; display:inline-flex; align-items:center; gap:5px}
+  .crchip:hover{background:#ede9fe}
+  .crdel{color:var(--red); cursor:pointer; font-weight:700}
+  .raside{display:flex; flex-direction:column; gap:8px; align-items:flex-end; margin-left:auto}
+  .rsel{font-family:var(--body); font-size:12px; font-weight:700; border:1px solid var(--line); border-radius:8px; padding:5px 8px; background:#fff; cursor:pointer; outline:none}
+  .rsel.r-wait{color:var(--amber); border-color:var(--amber); background:var(--amberbg)}
+  .rsel.r-win{color:var(--green); border-color:var(--green); background:var(--greenbg)}
+  .rsel.r-nom{color:var(--blue); border-color:var(--blue); background:var(--bluebg)}
+  .rsel.r-lose{color:var(--gray); background:var(--graybg)}
+  .rtext{font-family:var(--body); font-size:12px; border:1px solid var(--line); border-radius:8px; padding:6px 10px; background:#fff; color:var(--txt); outline:none; width:220px; max-width:100%}
+  .rtext:focus{border-color:var(--accent); box-shadow:0 0 0 3px #0e749022}
+  .rtext::placeholder{color:var(--dim)}
+  .rsaved{font-size:10.5px; color:var(--green); font-weight:700; text-align:right; min-height:14px}
+  .rnote{font-size:11.5px; color:var(--muted); margin-top:6px; cursor:pointer}
+  .rnote:hover{color:var(--accent)}
+  .rempty{color:var(--dim); font-size:13px; padding:26px; text-align:center; background:var(--surface); border:1px dashed var(--line); border-radius:11px}
   @media (max-width:600px){
     .wrap{padding:0 14px 56px}
     .row{flex-wrap:wrap; gap:10px}
@@ -204,6 +233,7 @@
     <div class="viewtg" id="viewtg">
       <button class="vbtn" data-v="list" aria-pressed="true">リスト</button>
       <button class="vbtn" data-v="gantt" aria-pressed="false">ガント</button>
+      <button class="vbtn" data-v="results" aria-pressed="false">応募・結果</button>
     </div>
     <div class="search"><input id="q" type="search" placeholder="名称・地域・主催で検索"></div>
   </div>
@@ -237,6 +267,10 @@
   <div class="secthead"><h2 id="open-title">募集中・近日（締切が近い順）</h2><span class="count" id="open-count"></span><span class="rule"></span></div>
   <div class="list" id="open-list"></div>
   <div class="gantt" id="gantt" style="display:none"><div class="g-inner" id="g-inner"></div><div class="g-note">バーは「今日（または応募開始）→締切」。日程未定・通年・近日開始のコンテストは下段に表示。行名クリックで公式へ。</div></div>
+  <div id="results" style="display:none">
+    <div class="rstats" id="rstats"></div>
+    <div id="rlist"></div>
+  </div>
 
   <div class="secthead"><h2>終了・来期注目</h2><span class="count">年次の主要大会</span><span class="rule"></span></div>
   <details><summary>▸ 過去開催ぶんを表示（来期のウォッチ用）</summary><div class="list past" id="past-list" style="margin-top:10px"></div></details>
@@ -308,6 +342,7 @@ try{APP=JSON.parse(localStorage.getItem(APP_KEY)||'{}');}catch(e){APP={};}
 const appOf=c=>APP[kf(c.name)]||APP[c.name]||'none';
 function setApp(name,val){
   const k=kf(name);
+  if(val==='done'&&!ENTRY[k]){const e=entEnsure(name);if(FB)FB.ref('tracker/entry/'+k).set(e);else{ENTRY[k]=e;saveEnt();}}
   if(FB){FB.ref('tracker/app/'+k).set(val==='none'?null:val);return;} // 共有モード: リスナー経由で全員に反映
   if(val==='none')delete APP[k];else APP[k]=val;
   try{localStorage.setItem(APP_KEY,JSON.stringify(APP));}catch(e){} apply();
@@ -364,6 +399,43 @@ function assignHtml(c){
   return `<div class="assign"><span class="alab">担当</span>${chips}${add}</div>`;
 }
 
+/* ── 応募エントリ（CR・結果・メモ。コンテストが一覧から消えても保持） ── */
+const ENT_KEY='aiContestEntries';
+const RESULT_LABEL={wait:'結果待ち',win:'受賞・入賞',nom:'入選・ノミネート',lose:'落選'};
+let ENTRY={};
+try{ENTRY=JSON.parse(localStorage.getItem(ENT_KEY)||'{}');}catch(e){ENTRY={};}
+function saveEnt(){try{localStorage.setItem(ENT_KEY,JSON.stringify(ENTRY));}catch(e){}}
+function entWrite(k,obj){
+  if(FB){FB.ref('tracker/entry/'+k).set(obj);return;}
+  if(obj)ENTRY[k]=obj;else delete ENTRY[k];
+  saveEnt();apply();
+}
+function entOf(name){const k=kf(name);return ENTRY[k]||null;}
+function entMetaFrom(name){
+  const c=CONTESTS.find(x=>x.name===name)||{};
+  return {name:name,deadline:c.deadline||null,url:c.url||'#',region:c.region||'',organizer:c.organizer||''};
+}
+function entEnsure(name){
+  const k=kf(name);
+  const e=ENTRY[k]||{meta:entMetaFrom(name),cr:[],result:'wait',note:''};
+  if(!e.meta||!e.meta.name)e.meta=entMetaFrom(name);
+  e.cr=Array.isArray(e.cr)?e.cr:Object.values(e.cr||{});
+  return e;
+}
+function addCr(name){
+  const t=(window.prompt('作品名（CRのタイトル）')||'').trim(); if(!t)return;
+  const u=(window.prompt('作品のURL（YouTube等。無ければ空欄）')||'').trim();
+  const e=entEnsure(name); e.cr.push({title:t,url:u});
+  entWrite(kf(name),e);
+}
+function rmCr(name,idx){
+  const e=entEnsure(name);
+  if(!confirm('「'+(e.cr[idx]&&e.cr[idx].title)+'」を削除しますか？'))return;
+  e.cr.splice(idx,1); entWrite(kf(name),e);
+}
+function setResult(name,val){const e=entEnsure(name);e.result=val;entWrite(kf(name),e);}
+function setNoteVal(name,val){const e=entEnsure(name);e.note=String(val||'').trim();entWrite(kf(name),e);}
+
 function dlBlock(c){
   const dl=daysLeft(c.deadline); let key,numHtml,lab,date='';
   if(c.status==='通年募集'){key='ever'; numHtml='通年'; lab='随時募集';}
@@ -407,6 +479,80 @@ function bindAppSelects(el){
   el.querySelectorAll('.asgadd').forEach(b=>b.addEventListener('click',e=>addAsg(e.target.dataset.asgadd)));
   el.querySelectorAll('.asgchip').forEach(b=>b.addEventListener('click',e=>rmAsg(e.target.dataset.asgrm,e.target.dataset.person)));
 }
+function resultsHtml(){
+  // 対象: 応募状況が付いた or エントリ登録済みのコンテスト（過去分はENTRYのメタで復元）
+  const keys=new Set(Object.keys(ENTRY));
+  Object.keys(APP).forEach(k=>keys.add(k));
+  const items=[];
+  keys.forEach(k=>{
+    const e=ENTRY[k];
+    const live=CONTESTS.find(c=>kf(c.name)===k);
+    const meta=e&&e.meta&&e.meta.name?e.meta:(live?{name:live.name,deadline:live.deadline,url:live.url,region:live.region,organizer:live.organizer}:null);
+    if(!meta)return;
+    const app=APP[k]||'none';
+    if(!e&&app==='none')return;
+    items.push({k,meta,e:e||{cr:[],result:'wait',note:''},app,live:!!live});
+  });
+  if(!items.length)return{stats:'',rows:'<div class="rempty">まだ応募・検討中のコンテストがありません。<br>一覧の「応募状況」を変えるか、応募済みにするとここに集まります。</div>'};
+  // 並び: 結果待ち→検討/制作→結果あり、各グループ内は締切降順
+  const ord={wait:0,win:2,nom:2,lose:2};
+  items.sort((a,b)=>{
+    const ga=a.app==='done'?ord[a.e.result||'wait']:1, gb=b.app==='done'?ord[b.e.result||'wait']:1;
+    if(ga!==gb)return ga-gb;
+    return String(b.meta.deadline||'').localeCompare(String(a.meta.deadline||''));
+  });
+  const applied=items.filter(i=>i.app==='done');
+  const wins=applied.filter(i=>i.e.result==='win').length;
+  const noms=applied.filter(i=>i.e.result==='nom').length;
+  const waits=applied.filter(i=>(i.e.result||'wait')==='wait').length;
+  const stats=`
+    <div class="rstat"><div class="n">${applied.length}</div><div class="l">応募済み</div></div>
+    <div class="rstat"><div class="n" style="color:var(--amber)">${waits}</div><div class="l">結果待ち</div></div>
+    <div class="rstat"><div class="n" style="color:var(--green)">${wins}</div><div class="l">受賞・入賞</div></div>
+    <div class="rstat"><div class="n" style="color:var(--blue)">${noms}</div><div class="l">入選・ノミネート</div></div>`;
+  const RCOL={wait:'var(--amber)',win:'var(--green)',nom:'var(--blue)',lose:'var(--gray)'};
+  const rows=items.map(i=>{
+    const res=i.app==='done'?(i.e.result||'wait'):null;
+    const border=res?RCOL[res]:'var(--line)';
+    const crs=(i.e.cr||[]).map((c2,idx)=>{
+      const inner=`🎬 ${esc(c2.title)} <span class="crdel" data-crdel="${esc(i.meta.name)}" data-idx="${idx}" title="削除">×</span>`;
+      return c2.url?`<a class="crchip" href="${esc(c2.url)}" target="_blank" rel="noopener">${inner}</a>`:`<span class="crchip">${inner}</span>`;
+    }).join('');
+    const dl=i.meta.deadline?String(i.meta.deadline).replace(/-/g,'/'):'—';
+    const asg=(ASSIGN[i.k]||[]).map(p=>`<span class="asgchip" style="cursor:default">${esc(p)}</span>`).join('');
+    const resSel=i.app==='done'
+      ?`<select class="rsel r-${res}" data-res="${esc(i.meta.name)}">${Object.keys(RESULT_LABEL).map(r=>`<option value="${r}"${r===res?' selected':''}>${RESULT_LABEL[r]}</option>`).join('')}</select>`
+      :`<span class="pill" style="color:var(--muted);background:var(--graybg)">${APP_LABEL[i.app]||'検討中'}</span>`;
+    return `<div class="rrow" style="border-left-color:${border}">
+      <div class="rmain">
+        <div class="rname"><a href="${esc(i.meta.url||'#')}" target="_blank" rel="noopener">${esc(i.meta.name)}</a>${i.live?'':' <span style="font-size:10px;color:var(--dim)">（募集終了）</span>'}</div>
+        <div class="rmeta">${esc(i.meta.region||'')} ・ 締切 ${dl}${asg?' ・ 担当 ':''}${asg}</div>
+        <div class="crlist"><span class="crlab">応募CR</span>${crs}<button class="asgadd" data-cradd="${esc(i.meta.name)}">＋CRを追加</button></div>
+      </div>
+      <div class="raside">${resSel}
+        <input class="rtext" data-note="${esc(i.meta.name)}" placeholder="結果を入力（例: グランプリ受賞）" value="${esc(i.e.note||'')}">
+        <div class="rsaved" data-saved="${esc(i.meta.name)}"></div>
+      </div>
+    </div>`;
+  }).join('');
+  return {stats,rows};
+}
+function bindResults(){
+  const el=document.getElementById('results');
+  el.querySelectorAll('[data-cradd]').forEach(b=>b.addEventListener('click',e=>addCr(e.target.dataset.cradd)));
+  el.querySelectorAll('[data-crdel]').forEach(b=>b.addEventListener('click',e=>{e.preventDefault();e.stopPropagation();rmCr(e.target.dataset.crdel,+e.target.dataset.idx);}));
+  el.querySelectorAll('[data-res]').forEach(s=>s.addEventListener('change',e=>setResult(e.target.dataset.res,e.target.value)));
+  el.querySelectorAll('input.rtext').forEach(inp=>{
+    const save=()=>{
+      const name=inp.dataset.note;
+      setNoteVal(name,inp.value);
+      const s=el.querySelector(`[data-saved="${CSS.escape(name)}"]`);
+      if(s){s.textContent='✓ 保存しました';setTimeout(()=>{s.textContent='';},1800);}
+    };
+    inp.addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();inp.blur();}});
+    inp.addEventListener('blur',()=>{const k=kf(inp.dataset.note);const cur=(ENTRY[k]&&ENTRY[k].note)||'';if(inp.value.trim()!==cur)save();});
+  });
+}
 function apply(){
   const inReg=CONTESTS.filter(c=>region==='jp'?isJP(c):!isJP(c));
   updateStats(inReg);
@@ -419,15 +565,28 @@ function apply(){
   const ns=document.getElementById('new-sect');
   if(news.length){ns.style.display='';document.getElementById('new-list').innerHTML=news.map(rowHtml).join('');document.getElementById('new-count').textContent=news.length+' 件';bindAppSelects(document.getElementById('new-list'));}
   else ns.style.display='none';
-  const lEl=document.getElementById('open-list'),gEl=document.getElementById('gantt');
+  const lEl=document.getElementById('open-list'),gEl=document.getElementById('gantt'),rEl=document.getElementById('results');
   document.getElementById('open-count').textContent=list.length+' 件';
-  if(view==='list'){
-    gEl.style.display='none'; lEl.style.display='';
+  if(view==='results'){
+    lEl.style.display='none'; gEl.style.display='none'; rEl.style.display='';
+    document.getElementById('open-title').textContent='応募・結果パネル（全地域）';
+    const ae=document.activeElement;
+    if(ae&&ae.classList&&ae.classList.contains('rtext')){/* 入力中は再描画しない（打ち込みが消えるのを防ぐ） */}
+    else{
+      const r=resultsHtml();
+      document.getElementById('rstats').innerHTML=r.stats;
+      document.getElementById('rlist').innerHTML=r.rows;
+      bindResults();
+    }
+    const cnt=document.querySelectorAll('#rlist .rrow').length;
+    document.getElementById('open-count').textContent=cnt+' 件';
+  }else if(view==='list'){
+    rEl.style.display='none'; gEl.style.display='none'; lEl.style.display='';
     document.getElementById('open-title').textContent='募集中・近日（締切が近い順）';
     lEl.innerHTML=list.length?list.map(rowHtml).join(''):'<div class="empty">この条件に該当するコンテストはありません。</div>';
     bindAppSelects(lEl);
   }else{
-    lEl.style.display='none'; gEl.style.display='';
+    rEl.style.display='none'; lEl.style.display='none'; gEl.style.display='';
     document.getElementById('open-title').textContent='締切タイムライン（ガント）';
     document.getElementById('g-inner').innerHTML=ganttHtml(list);
   }
@@ -522,6 +681,8 @@ let FB=null;
         ASSIGN={};
         Object.entries(v.asg||{}).forEach(([k,a])=>{ASSIGN[k]=Array.isArray(a)?a:Object.values(a||{});});
         MANUAL=Object.values(v.manual||{});
+        ENTRY={};
+        Object.entries(v.entry||{}).forEach(([k,e])=>{if(e){e.cr=Array.isArray(e.cr)?e.cr:Object.values(e.cr||{});ENTRY[k]=e;}});
         rebuild();
       });
       document.getElementById('updated').textContent='共有モードで接続中…';
