@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27 08:03",
+  "generatedAt": "2026-07-28 08:09",
   "contests": [
     {
       "name": "AGEWEC 2026（Agentic Work Execution Challenge 2026）",
@@ -842,6 +842,20 @@
       "firstSeen": "2026-06-28"
     },
     {
+      "name": "2026 AI Creativity Awards",
+      "organizer": null,
+      "region": "国際",
+      "category": "AI Image & Illustration, Motion & Film, Design & Brand Systems, Music & Audio, Writing & Narrative, Interactive & Experience, Fashion, Product & Spatial, Responsible AI Creativity",
+      "start": "2026-06-01",
+      "deadline": "2026-09-01",
+      "prize": "Recognition benefits, digital laurels",
+      "requirement": "AIを活用したクリエイティブ作品全般、AI disclosureが必要",
+      "url": null,
+      "source": "Graphic Competitions",
+      "status": "募集中",
+      "firstSeen": "2026-06-11"
+    },
+    {
       "name": "AI for the Future Festival — UNGA / Climate Week 2026",
       "organizer": null,
       "region": "国際",
@@ -899,27 +913,41 @@
     },
     {
       "name": "ユメカタリ 学生生成AIコンテスト 2026",
-      "organizer": "学生が選ぶ愛知の企業100選",
-      "region": "日本",
-      "category": "生成AI (企画/開発)",
-      "start": "null",
+      "organizer": "愛知100選編集事務局",
+      "region": "日本（名古屋・東京）",
+      "category": "生成AIを使ったアプリ・ツール・サービス（開発部門）、企画とアイデア（クリエイティブ部門）",
+      "start": null,
       "deadline": "2026-09-10",
-      "prize": "グランプリ 30万円",
-      "requirement": "大学生・大学院生、専門学校生、高等専門学校生、高校生、第二新卒（学校卒業後3年以内）。過去に他のコンテストや公募展等で受賞歴のないオリジナル作品に限る。クリエイティブ部門は作品概要書、完成作品、ピッチ動画（1分）。",
-      "url": "https://aichi-hyakusen.com/yume-contest/",
-      "source": "公式サイト",
+      "prize": "グランプリ 30万円（開発部門）",
+      "requirement": "大学生・大学院生、専門学校生、高等専門学校生、高校生、第二新卒（学校卒業後3年以内）、生成AIを使ったアプリ・ツール・サービス、または企画",
+      "url": null,
+      "source": "登竜門, 公式",
       "status": "募集中",
       "firstSeen": "2026-07-26"
     },
     {
+      "name": "AI Creative Future Awards（AICA）2026",
+      "organizer": "一般社団法人AICA",
+      "region": "国際",
+      "category": "AIを活用したクリエイティブプロジェクト全般（広告、アート、音楽、映像、ゲーム、プロダクト、研究プロジェクトなど）",
+      "start": "2026-06-17",
+      "deadline": "2026-09-13",
+      "prize": null,
+      "requirement": "AIと人の共創による新たなクリエイティブ作品。AI活用に関する開示が必要。",
+      "url": "https://aica-awards.com",
+      "source": "PR TIMES, 公式",
+      "status": "募集中",
+      "firstSeen": "2026-06-19"
+    },
+    {
       "name": "三池崇史監督主催のショート動画コンテスト「26秒のカーニバル」第9期",
-      "organizer": "三池崇史監督 (審査)",
+      "organizer": null,
       "region": "日本",
-      "category": "ショート動画 (26秒)",
+      "category": "ショート動画（26秒）",
       "start": "2026-06-05",
       "deadline": "2026-09-13",
-      "prize": "金賞・銀賞・銅賞 (各賞金10万円), 入賞 (5万円×2本), 学生賞 (5万円×2本)",
-      "requirement": "26秒の未公開動画、生成AI活用可能 (利用箇所を記載)",
+      "prize": "金賞・銀賞・銅賞（各10万円）、入賞（5万円×2本）、学生賞（5万円×2本）",
+      "requirement": "26秒の未公開動画、テーマ『私はあなたとは違う』、生成AIの利用可",
       "url": null,
       "source": "ニュース記事",
       "status": "募集中",
@@ -938,20 +966,6 @@
       "source": "PR TIMES (記事)",
       "status": "募集中",
       "firstSeen": "2026-07-12"
-    },
-    {
-      "name": "AI Creative Future Awards（AICA）2026",
-      "organizer": "一般社団法人AICA",
-      "region": "国際",
-      "category": "広告/アート/音楽/映像/ゲーム/プロダクト/研究プロジェクトなど (AIを活用したクリエイティブプロジェクト全般)",
-      "start": "2026-06-17",
-      "deadline": "2026-09-13",
-      "prize": null,
-      "requirement": "AIを活用したクリエイティブプロジェクト。AIの利用方法とその実践が創造性を前進させているかが重要。",
-      "url": "https://aica-awards.com",
-      "source": "PR TIMES, デザイン情報サイト[JDN]",
-      "status": "募集中",
-      "firstSeen": "2026-06-19"
     },
     {
       "name": "第五回AIアートグランプリ",
@@ -1386,20 +1400,6 @@
       "source": "Graphic Competitions",
       "status": "募集中",
       "firstSeen": "2026-07-21"
-    },
-    {
-      "name": "2026 AI Creativity Awards",
-      "organizer": null,
-      "region": "国際",
-      "category": "AI Image & Illustration/Motion & Film/Design & Brand Systems/Music & Audio/Writing & Narrative/Interactive & Experience/Fashion/Product & Spatial/Responsible AI Creativity",
-      "start": "2026-06-01",
-      "deadline": "2026-11-01",
-      "prize": "受賞タイトル, デジタルローレル, 公開結果掲載, デジタル証明書",
-      "requirement": "AIを活用したクリエイティブ作品。AIツール、モデル、生成・変換要素、ソース素材、人間の指示を明確に開示。",
-      "url": "https://www.aicreativityawards.com/",
-      "source": "Graphic Competitions",
-      "status": "募集中",
-      "firstSeen": "2026-06-11"
     },
     {
       "name": "Chroma Awards 2026 S2",
@@ -1892,6 +1892,48 @@
       "firstSeen": "2026-06-29"
     },
     {
+      "name": "AI Film Festival Japan 2026",
+      "organizer": "AI Film Festival Japan 2026 実行委員会（主幹事：株式会社 AI FILM JAPAN）",
+      "region": "日本（国際的プラットフォーム）",
+      "category": "AI ムービー・ナラティブ部門（ショートムービー）、劇伴音楽部門",
+      "start": null,
+      "deadline": null,
+      "prize": null,
+      "requirement": "AIと人間の共創がもたらす映像および音楽表現の未来を探求する作品",
+      "url": "https://aiff.jp/",
+      "source": "公式",
+      "status": "募集中",
+      "firstSeen": "2026-06-24"
+    },
+    {
+      "name": "AIキャラクター「SIO」が世界規模のクリエイティブコンテスト（音楽部門）",
+      "organizer": "IYS株式会社（SIOプロジェクトチーム）",
+      "region": "国際（日本発）",
+      "category": "AIボーカル楽曲・映像作品（リリックビデオ形式）",
+      "start": null,
+      "deadline": null,
+      "prize": "最優秀作品はAI日本国際映画祭・LOOP Festで展開",
+      "requirement": "日本神話の「天照大神」「かぐや姫」の物語にインスパイアされた2つの「ドリームファイル」をもとに、AIボーカルを用いたオリジナル楽曲",
+      "url": "https://siooc01.loop8fest.com/",
+      "source": "PR TIMES",
+      "status": "募集中",
+      "firstSeen": "2026-07-27"
+    },
+    {
+      "name": "All Is Prompt Artificial Intelligence AI Film Festival 2nd Edition",
+      "organizer": "Todo es Prompt",
+      "region": "国際（オンライン映画祭）",
+      "category": "短編映画（AIを駆使したオーディオビジュアルナラティブ）",
+      "start": null,
+      "deadline": null,
+      "prize": "最優秀AI音楽、最優秀AIマイクロショート（1分未満）、最優秀新進AIディレクター",
+      "requirement": "人工知能ツールを活用した新しい形式のオーディオビジュアルナラティブ",
+      "url": null,
+      "source": "filmmakers",
+      "status": "まもなく開始",
+      "firstSeen": "2026-07-27"
+    },
+    {
       "name": "第2回 AI日本国際映画祭 (AI Film Festival Japan 2026)",
       "organizer": "AI Film Festival Japan 2026 実行委員会 (主幹事：株式会社 AI FILM JAPAN)",
       "region": "日本（東京）",
@@ -2044,20 +2086,6 @@
       "source": "Kajimelo/公式",
       "status": "まもなく開始",
       "firstSeen": "2026-06-09"
-    },
-    {
-      "name": "AI Film Festival Japan 2026",
-      "organizer": "AI Film Festival Japan 2026 Executive Committee (Main Lead: AI FILM JAPAN inc.)",
-      "region": "日本（東京）",
-      "category": "AI Cinema Narrative/AI Creative Film & Experimental/AI Animation/AI Film Music Score",
-      "start": "2026-07-01",
-      "deadline": null,
-      "prize": null,
-      "requirement": "全年齢・国籍・性別のクリエイターが対象。2026年1月1日以降に完成した作品。AI透明性および生成AI倫理ポリシー必須。",
-      "url": "https://aiff.jp/",
-      "source": "公式/FilmFreeway",
-      "status": "募集中",
-      "firstSeen": "2026-06-24"
     },
     {
       "name": "Bochnia International AI Film Festival 2026",
