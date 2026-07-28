@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28 08:09",
+  "generatedAt": "2026-07-29 08:05",
   "contests": [
     {
       "name": "AGEWEC 2026（Agentic Work Execution Challenge 2026）",
@@ -14,20 +14,6 @@
       "source": "PR TIMES",
       "status": "締切間近",
       "firstSeen": "2026-07-23"
-    },
-    {
-      "name": "World AI Film Festival (WAIFF) LA USA 2026",
-      "organizer": "Institut EuropIA",
-      "region": "米国（ロサンゼルス）",
-      "category": "AI活用映画 (短編/長編/アニメーション/ドキュメンタリー/縦型/ミュージックビデオ/CM/AR/VR/XR/ゲーム)",
-      "start": "2026-05-20",
-      "deadline": "2026-07-31",
-      "prize": "トロフィー、WAIFF Cannes 2027への進出権、グランプリ",
-      "requirement": "米国在住のクリエイター。AIを作品に組み込むこと。AIツールの使用を明記した制作日誌。",
-      "url": "https://worldaifilmfestival.us",
-      "source": "FilmFreeway",
-      "status": "締切間近",
-      "firstSeen": "2026-06-17"
     },
     {
       "name": "AI International Film Festival (Hollywood)",
@@ -70,20 +56,6 @@
       "source": "PR TIMES",
       "status": "締切間近",
       "firstSeen": "2026-07-20"
-    },
-    {
-      "name": "New World AI Film Festival (NWAIFF)",
-      "organizer": "NWAIFF",
-      "region": "国際",
-      "category": "映画 (AI生成/AIアシスト、全ジャンル/フォーマット)",
-      "start": "2026-04-01",
-      "deadline": "2026-07-31",
-      "prize": "各カテゴリのベストフィルム賞、初回制作者向け特別賞 (ベスト初回AI映画製作者/ベスト初回AI映画)、デジタルローレル、デジタルアワード証明書",
-      "requirement": "オリジナル作品、応募フォーム記入、オンライン応募、応募料必要",
-      "url": "https://filmfreeway.com/NewWorldAIFilmFestival",
-      "source": "FilmFreeway",
-      "status": "締切間近",
-      "firstSeen": "2026-07-07"
     },
     {
       "name": "New World AI Film Festival (NWAIFF) 2026",
@@ -296,6 +268,20 @@
       "firstSeen": "2026-07-02"
     },
     {
+      "name": "Red Rocks AI Film Festival 2026",
+      "organizer": "Red Rocks AI Film Festival",
+      "region": "米国 (コロラド州)",
+      "category": "AI映画、AI短編映画、AIアニメーション、AIコメディ、AIインスピレーション映画",
+      "start": "2026-01-02",
+      "deadline": "2026-08-10",
+      "prize": "証明書、ローレル、グローバル露出、ネットワーキング機会",
+      "requirement": "AI映画（3～20分）。高揚感とインスピレーションを与えるコンテンツがテーマ。応募料必要。",
+      "url": "https://filmfreeway.com/RedRocksAIFilmFestival",
+      "source": "Melies, FilmFreeway",
+      "status": "締切間近",
+      "firstSeen": "2026-06-25"
+    },
+    {
       "name": "My Style vintage 生成AIコンテスト 2026",
       "organizer": "株式会社セレ コーポレーション",
       "region": "日本",
@@ -308,20 +294,6 @@
       "source": "PR TIMES, 公式サイト",
       "status": "締切間近",
       "firstSeen": "2026-07-20"
-    },
-    {
-      "name": "Red Rocks AI Film Festival 2026",
-      "organizer": "Red Rocks AI Film Festival",
-      "region": "国際（米国ユタ州）",
-      "category": "AI映画 (短編/超短編/広告/自然/アニメーション/コメディ/インスピレーション/高揚感)",
-      "start": "2026-01-02",
-      "deadline": "2026-08-10",
-      "prize": "証明書、世界的な露出、ネットワークへの掲載",
-      "requirement": "「Illuminate and Uplift」をテーマとした作品。",
-      "url": "null",
-      "source": "FilmFreeway",
-      "status": "締切間近",
-      "firstSeen": "2026-06-25"
     },
     {
       "name": "Red Rocks AI Film Festival",
@@ -380,16 +352,16 @@
       "firstSeen": "2026-07-14"
     },
     {
-      "name": "Astana AI Film Festival (AAIFF) 2026",
+      "name": "Astana AI Film Festival (AAIFF 2026)",
       "organizer": "Ozen, Brave Talents",
-      "region": "国際（アスタナ、カザフスタン）",
-      "category": "AI生成短編映画",
+      "region": "国際 (カザフスタン)",
+      "category": "AI短編映画",
       "start": "2026-05-25",
       "deadline": "2026-08-15",
-      "prize": "総額1,000,000米ドル",
-      "requirement": "AI生成の10分以内の短編映画。生成AIが制作に不可欠であること。英語字幕（英語以外の言語の場合）。",
-      "url": "https://aaiff.ai",
-      "source": "公式サイト, GOV.KZ, Qazinform, FilmFreeway",
+      "prize": "総額1,000,000ドル (グランプリ450,000ドル、2位200,000ドル、3位100,000ドルなど)",
+      "requirement": "AI生成の短編映画（3分以上10分以内）。生成AIが制作に不可欠であること。非英語作品は英語字幕必須。AIモデルとパイプラインの開示。",
+      "url": "https://aaiff.ai/",
+      "source": "公式, Melies, GOV.KZ, Reddit, Qazinform",
       "status": "締切間近",
       "firstSeen": "2026-06-11"
     },
@@ -632,6 +604,20 @@
       "firstSeen": "2026-06-26"
     },
     {
+      "name": "AI International Film Festival 2026",
+      "organizer": "AI International Film Festival",
+      "region": "国際 (ハリウッド上映イベント)",
+      "category": "AI生成、ハイブリッド、実写、アニメーション、ドキュメンタリー作品（長編、短編、ミュージックビデオ、縦型ショート/シリーズ）",
+      "start": "2026-07-24",
+      "deadline": "2026-08-21",
+      "prize": "各カテゴリでの賞、IMDb認定",
+      "requirement": "AIが映画制作を再構築している作品。",
+      "url": "https://filmfreeway.com/AIInternationalFilmFestival",
+      "source": "Melies, FilmFreeway",
+      "status": "締切間近",
+      "firstSeen": "2026-07-28"
+    },
+    {
       "name": "CryptoNinja × AI動画コンテスト2026夏",
       "organizer": "にんじゃーと学園",
       "region": "日本",
@@ -646,18 +632,18 @@
       "firstSeen": "2026-07-18"
     },
     {
-      "name": "AI M0V1E FILM FESTIVAL",
-      "organizer": "AI M0V1E FILM FESTIVAL",
+      "name": "New World AI Film Festival (NWAIFF)",
+      "organizer": "New World AI Film Festival",
       "region": "国際",
-      "category": "AIナラティブ短編映画",
-      "start": "2026-05-01",
-      "deadline": "2026-08-24",
-      "prize": "null",
-      "requirement": "AI支援および完全にAI生成された作品。オリジナル脚本。各シーンでAI生成ショットを使用。",
-      "url": "null",
+      "category": "AI駆動の映画およびビデオ（短編、長編、アニメーション、コマーシャル、実験作品）",
+      "start": "2026-04-01",
+      "deadline": "2026-08-31",
+      "prize": "各カテゴリの最優秀作品賞、デジタルローレル、デジタルアワード証明書、提携プラットフォームでの紹介",
+      "requirement": "AI生成またはAI支援の映画/ビデオ。オリジナル作品。応募料。",
+      "url": null,
       "source": "FilmFreeway",
       "status": "締切間近",
-      "firstSeen": "2026-07-26"
+      "firstSeen": "2026-07-07"
     },
     {
       "name": "AI.motion at IULM Milan",
@@ -842,20 +828,6 @@
       "firstSeen": "2026-06-28"
     },
     {
-      "name": "2026 AI Creativity Awards",
-      "organizer": null,
-      "region": "国際",
-      "category": "AI Image & Illustration, Motion & Film, Design & Brand Systems, Music & Audio, Writing & Narrative, Interactive & Experience, Fashion, Product & Spatial, Responsible AI Creativity",
-      "start": "2026-06-01",
-      "deadline": "2026-09-01",
-      "prize": "Recognition benefits, digital laurels",
-      "requirement": "AIを活用したクリエイティブ作品全般、AI disclosureが必要",
-      "url": null,
-      "source": "Graphic Competitions",
-      "status": "募集中",
-      "firstSeen": "2026-06-11"
-    },
-    {
       "name": "AI for the Future Festival — UNGA / Climate Week 2026",
       "organizer": null,
       "region": "国際",
@@ -975,9 +947,9 @@
       "start": "2026-08-01",
       "deadline": "2026-09-15",
       "prize": null,
-      "requirement": "AIを活用したアート作品、テーマ「調和」。",
+      "requirement": "AIを活用したアート作品。テーマは『調和』。",
       "url": "https://aiartgp.com/",
-      "source": "公式",
+      "source": "公式, AIアートグランプリ",
       "status": "まもなく開始",
       "firstSeen": "2026-06-13"
     },
@@ -1092,6 +1064,20 @@
       "source": "FilmFreeway, Official Site",
       "status": "募集中",
       "firstSeen": "2026-07-09"
+    },
+    {
+      "name": "World AI Film Festival (WAIFF LA USA 2026)",
+      "organizer": "World AI Film Festival",
+      "region": "米国 (ロサンゼルス)",
+      "category": "実写短編映画、長編映画、アニメーション短編、ドキュメンタリー、縦型・モバイルコンテンツ、ミュージックビデオ、広告、AR/VR/XR体験、ゲーム",
+      "start": "2026-05-20",
+      "deadline": "2026-09-30",
+      "prize": "WAIFF LA USAトロフィー、公式ローレル、グランプリ、スポンサー賞",
+      "requirement": "AIを制作に組み込んだ作品。AIツールの使用を明記した制作ジャーナル必須。米国を拠点とするクリエイター。",
+      "url": "https://worldaifilmfestival.us/",
+      "source": "FilmFreeway, Curious Refuge",
+      "status": "募集中",
+      "firstSeen": "2026-06-17"
     },
     {
       "name": "We Are Human Festival Paris - Call for Films AI 2026",
@@ -1332,20 +1318,6 @@
       "firstSeen": "2026-07-12"
     },
     {
-      "name": "GENERATE 2026 (TCCP AI Art Contest)",
-      "organizer": "Technology Council of Central PA (TCCP)",
-      "region": "米国（セントラルペンシルベニア）",
-      "category": "AIアート",
-      "start": "null",
-      "deadline": "2026-10-30",
-      "prize": "null",
-      "requirement": "「The Human Side of Technology」をテーマとしたAIツールを使用した視覚的に印象的なアートワーク。純粋な生成アート、AI生成物に触発された伝統アート、デジタルアートと生成アートの組み合わせが許容される。",
-      "url": "https://form.jotform.com/260224440862148",
-      "source": "公式サイト",
-      "status": "募集中",
-      "firstSeen": "2026-06-25"
-    },
-    {
       "name": "TCCP GENERATE 2026 AI Art Contest",
       "organizer": "Technology Council of Central PA (TCCP)",
       "region": "米国（ペンシルベニア州中部）",
@@ -1388,6 +1360,34 @@
       "firstSeen": "2026-06-28"
     },
     {
+      "name": "2026 AI Creativity Awards",
+      "organizer": "AI Creativity Awards",
+      "region": "国際",
+      "category": "AI画像＆イラスト、モーション＆フィルム、デザイン＆ブランドシステム、音楽＆オーディオ、ライティング＆ナラティブ、インタラクティブ＆エクスペリエンス、ファッション、プロダクト＆空間、責任あるAIクリエイティビティ",
+      "start": "2026-06-01",
+      "deadline": "2026-11-01",
+      "prize": "表彰、デジタルローレル、結果の公開機能",
+      "requirement": "AIで形成されたクリエイティブ作品。明確なAI開示が必要。応募料。",
+      "url": null,
+      "source": "Graphic Competitions",
+      "status": "募集中",
+      "firstSeen": "2026-06-11"
+    },
+    {
+      "name": "AI M0V1E FILM FESTIVAL",
+      "organizer": "AI M0V1E",
+      "region": "国際",
+      "category": "AI物語性ショートフィルム (3-30分)",
+      "start": "2026-05-01",
+      "deadline": "2026-11-01",
+      "prize": "賞金、賞、配給機会",
+      "requirement": "AI支援および完全にAI生成された作品。FilmFreewayからの応募とAI M0V1Eプラットフォームへのアップロード。応募料。",
+      "url": "https://filmfreeway.com/AIM0V1E",
+      "source": "FilmFreeway",
+      "status": "募集中",
+      "firstSeen": "2026-07-26"
+    },
+    {
       "name": "AI Creativity Awards 2026",
       "organizer": "AI Creativity Awards",
       "region": "国際",
@@ -1428,6 +1428,20 @@
       "source": "公式サイト, Melies.co",
       "status": "まもなく開始",
       "firstSeen": "2026-07-26"
+    },
+    {
+      "name": "Ai Film Festival",
+      "organizer": "Ai Film Festival",
+      "region": "国際",
+      "category": "AI短編映画",
+      "start": "2026-04-16",
+      "deadline": "2026-11-19",
+      "prize": "Melies Proでの3ヶ月間",
+      "requirement": "オリジナル脚本に基づき、各シーンでAI生成ショットを使用。著作権またはライセンス契約を所有。",
+      "url": "https://filmfreeway.com/AiFilmFestival",
+      "source": "FilmFreeway",
+      "status": "募集中",
+      "firstSeen": "2026-07-28"
     },
     {
       "name": "Ai Film Festival (Melies.co関連)",
@@ -1543,29 +1557,29 @@
     },
     {
       "name": "Bali International AI Film Festival (BIAIFF) 2026",
-      "organizer": "BIAIFF (Ben Makinen)",
-      "region": "国際（バリ島、インドネシア）",
-      "category": "AI映画",
+      "organizer": "Ben Makinen",
+      "region": "インドネシア (バリ島)",
+      "category": "実験的AIシネマ",
       "start": "2026-04-30",
       "deadline": "2026-12-30",
-      "prize": "null",
-      "requirement": "null",
-      "url": "null",
-      "source": "Melies.co",
+      "prize": null,
+      "requirement": "キュレーションされた劇場型AI映画祭。映画製作者第一主義。",
+      "url": null,
+      "source": "Melies",
       "status": "募集中",
       "firstSeen": "2026-06-12"
     },
     {
       "name": "AI ZONE International AI Film Festival 2026",
-      "organizer": null,
-      "region": "国際（オンライン）",
-      "category": "物語短編 / 実験作品 / アニメーション / ミュージックビデオ / 抽象的なビジュアル / シネマティック探求",
+      "organizer": "AI ZONE International AI Film Festival",
+      "region": "国際 (オンライン)",
+      "category": "AI生成シネマおよび動画（物語性ショート、実験作品、アニメーション、ミュージックビデオ、抽象的ビジュアル、シネマティック探求）",
       "start": "2026-05-31",
       "deadline": "2026-12-30",
-      "prize": "公式ローレル、Best AI Mini Movieへの財政支援",
-      "requirement": "AI生成されたシネマおよび動画",
-      "url": "https://aizonefilmfestival.com/",
-      "source": "Melies.co, AI ZONE公式サイト",
+      "prize": "公式ローレル、ベストAIミニムービーへの財政支援",
+      "requirement": "AI生成シネマに特化。あらゆる言語での国際応募可。",
+      "url": null,
+      "source": "Melies",
       "status": "募集中",
       "firstSeen": "2026-06-12"
     },
@@ -1599,16 +1613,16 @@
     },
     {
       "name": "Chroma Awards Season 2",
-      "organizer": "ElevenLabs (主催), Google Cloud, Fal, Freepik, Dreamina, CapCut (提供)",
+      "organizer": "ElevenLabs (Google, CapCut, Dreamina, Freepik, fal, Kling, a16z, Luma, Adobe, Hailuoなど協賛)",
       "region": "国際",
-      "category": "映画 / ミュージックビデオ / AIゲーム",
-      "start": "2026-05-31",
+      "category": "映画、ミュージックビデオ、ゲーム、広告、その他クリエイティブ",
+      "start": "2026-09-01",
       "deadline": "2026-12-31",
-      "prize": "現金$175,000以上、ツールクレジット$1,000,000以上",
-      "requirement": "AIクリエイティブ作品",
-      "url": "https://chroma.awards.com/",
-      "source": "Melies.co, Best AI Film Festivals for Beginners in 2026記事, Chroma Awards公式サイト",
-      "status": "募集中",
+      "prize": "現金賞金250,000ドル以上、ツールクレジット1,000,000ドル以上、ハリウッドでの授賞式招待、配給・開発契約、AI映画スタジオでの仕事・インターンシップ",
+      "requirement": "AIクリエイティブ作品（映画、音楽、ゲーム）。応募無料。",
+      "url": "https://chromaawards.com/",
+      "source": "公式, Melies, Best AI Film Festivals for Beginners in 2026",
+      "status": "まもなく開始",
       "firstSeen": "2026-07-20"
     },
     {
@@ -1890,6 +1904,20 @@
       "source": "Melies.co",
       "status": "まもなく開始",
       "firstSeen": "2026-06-29"
+    },
+    {
+      "name": "GENERATE 2026 (TCCP AI Art Contest)",
+      "organizer": "Technology Council of Central PA (TCCP)",
+      "region": "米国 (Central Pennsylvania)",
+      "category": "AIアート作品",
+      "start": null,
+      "deadline": null,
+      "prize": "認知、アーティストのためのプラットフォーム",
+      "requirement": "AIツールを使用したアート作品。テーマは「テクノロジーの人間的な側面」。",
+      "url": null,
+      "source": "Technology Council of Central Pennsylvania",
+      "status": "まもなく開始",
+      "firstSeen": "2026-06-25"
     },
     {
       "name": "AI Film Festival Japan 2026",
