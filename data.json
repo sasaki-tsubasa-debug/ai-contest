@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09 07:35",
+  "generatedAt": "2026-08-10 07:37",
   "contests": [
     {
       "name": "Red Rocks AI Film Festival",
@@ -112,20 +112,6 @@
       "source": "note (記事)",
       "status": "募集中",
       "firstSeen": "2026-07-14"
-    },
-    {
-      "name": "AI Film Festival Japan (AIFJ 2026)",
-      "organizer": "AI Film Festival Japan 2026 実行委員会 (株式会社 AI FILM JAPAN)",
-      "region": "日本（東京）",
-      "category": "AIムービー・ナラティブ部門/AIクリエイティブ・エクスペリメンタル部門/AIアニメーション部門/AI劇伴音楽部門",
-      "start": null,
-      "deadline": "2026-08-15",
-      "prize": null,
-      "requirement": "人工知能（AI）と人間の共創がもたらす映像および音楽表現。AI劇伴音楽部門は応募料無料キャンペーン中。",
-      "url": "https://aiff.jp/",
-      "source": "公式/FilmFreeway",
-      "status": "締切間近",
-      "firstSeen": "2026-08-02"
     },
     {
       "name": "Artificial Intelligence Media Festival (AIMF) 2026",
@@ -282,20 +268,6 @@
       "firstSeen": "2026-07-02"
     },
     {
-      "name": "AAIFF 2026 — Astana AI Film Festival",
-      "organizer": "Astana AI Film Festival",
-      "region": "国際 (カザフスタン・アスタナ)",
-      "category": "AIネイティブ短編映画 (10分以内)",
-      "start": "2026-05-25",
-      "deadline": "2026-08-15",
-      "prize": "賞金総額100万ドル (複数の賞に分配)",
-      "requirement": "AIツールで作成された映画。テーマ『The Future Worth Living In』。",
-      "url": "https://aai-ff.org",
-      "source": "公式",
-      "status": "募集中",
-      "firstSeen": "2026-06-13"
-    },
-    {
       "name": "AAIFF（Astana AI Film Festival）2026",
       "organizer": "AAIFF",
       "region": "国際（カザフスタン）",
@@ -316,9 +288,9 @@
       "category": "AIイラスト",
       "start": null,
       "deadline": "2026-08-16",
-      "prize": "最優秀賞：5000円分のAmazonギフト券 他",
-      "requirement": "AI生成画像を主体とした作品、テーマ「宇宙旅行」、A4縦印刷対応サイズ",
-      "url": "https://sstj.or.jp/",
+      "prize": "Amazonギフト券 (最優秀賞 5000円, 優秀賞 2000円, 審査員特別賞 1000円)",
+      "requirement": "AI生成画像を主体とした作品, テーマ「宇宙旅行」",
+      "url": "https://sstj.or.jp/ai-illustration-contest/",
       "source": "登竜門",
       "status": "締切間近",
       "firstSeen": "2026-08-07"
@@ -394,6 +366,76 @@
       "firstSeen": "2026-07-18"
     },
     {
+      "name": "AAIFF 2026 — Astana AI Film Festival",
+      "organizer": null,
+      "region": "カザフスタン",
+      "category": "AI映画",
+      "start": "2026-05-25",
+      "deadline": "2026-08-31",
+      "prize": null,
+      "requirement": "生成AIが制作に不可欠, 英語字幕必須",
+      "url": "https://aiff.kz/",
+      "source": "公式",
+      "status": "締切間近",
+      "firstSeen": "2026-06-13"
+    },
+    {
+      "name": "Artiver AI Art Awards 2026",
+      "organizer": "Artiver",
+      "region": "米国",
+      "category": "映像, ビジュアルアート, 空間・建築, インタラクティブメディア",
+      "start": "2026-06-02",
+      "deadline": "2026-08-31",
+      "prize": "Master Award: 最大$2,000 USD, Category/Sub-theme Award: 最大$500 USD",
+      "requirement": "AIツール使用, 18歳以上, 世界中から応募可",
+      "url": "https://filmfreeway.com/ArtiverAIArtAwards",
+      "source": "FilmFreeway",
+      "status": "締切間近",
+      "firstSeen": "2026-06-26"
+    },
+    {
+      "name": "AI Media Award",
+      "organizer": "Smile Swiss Influence Award & AMA AI Media Agency",
+      "region": "スイス",
+      "category": "AI生成広告, アニメーション, アート, ファッション, 音楽, 物語作品",
+      "start": null,
+      "deadline": "2026-08-31",
+      "prize": "各カテゴリ勝者に500スイスフラン (約$620)",
+      "requirement": "AI生成作品",
+      "url": null,
+      "source": "FilmFreeway (記事)",
+      "status": "締切間近",
+      "firstSeen": "2026-07-29"
+    },
+    {
+      "name": "Neu Wave AI Film Festival",
+      "organizer": null,
+      "region": "米国 (ハリウッド)",
+      "category": "AI製ショートフィルム, 長編映画, CM, 縦型マイクロドラマ",
+      "start": null,
+      "deadline": "2026-08-31",
+      "prize": "Topview縦型ドラマ勝者 $5,000, その他カテゴリ勝者は業界認知/スポンサー技術クレジット",
+      "requirement": "AI製フィルム",
+      "url": null,
+      "source": "FilmFreeway (記事)",
+      "status": "締切間近",
+      "firstSeen": "2026-07-29"
+    },
+    {
+      "name": "Token AI Film Festival",
+      "organizer": "Token Institute",
+      "region": "米国 (シカゴ)",
+      "category": "AI製フィルム (3-15分)",
+      "start": null,
+      "deadline": "2026-08-31",
+      "prize": "各カテゴリ$250, 観客賞",
+      "requirement": "AIをツールとして使用, AI使用の開示",
+      "url": null,
+      "source": "FilmFreeway (記事)",
+      "status": "締切間近",
+      "firstSeen": "2026-07-29"
+    },
+    {
       "name": "Astana AI Film Festival (AAIFF) 2026",
       "organizer": null,
       "region": "国際 (カザフスタン)",
@@ -420,20 +462,6 @@
       "source": "Plus Web3 Media / AI FREAK / 公式",
       "status": "締切間近",
       "firstSeen": "2026-08-05"
-    },
-    {
-      "name": "Artiver AI Art Awards 2026",
-      "organizer": "Artiver",
-      "region": "国際",
-      "category": "フィルム＆ビデオ, 画像＆ビジュアルアート, 空間＆建築, インタラクティブメディア",
-      "start": null,
-      "deadline": "2026-08-31",
-      "prize": "賞金 (マスターアワード: 最大2,000ドル, カテゴリー/サブテーマアワード: 最大500ドル), 公式認定, オンラインショーケース, 特集の機会.",
-      "requirement": "人間とAIのコラボレーションによる革新的な作品. 世界中の18歳以上のクリエイター. 主要なAIツール/クリエイティブプロセスの開示. 応募者による意味のあるクリエイティブなインプット.",
-      "url": null,
-      "source": "FilmFreeway/Artiverウェブサイト",
-      "status": "締切間近",
-      "firstSeen": "2026-06-26"
     },
     {
       "name": "AI.motion at IULM Milan 2026",
@@ -518,48 +546,6 @@
       "source": "AI Film Contests",
       "status": "募集中",
       "firstSeen": "2026-07-02"
-    },
-    {
-      "name": "AI Media Award",
-      "organizer": "Smile Swiss Influence Award with AMA AI Media Agency",
-      "region": "国際 (Switzerland)",
-      "category": "AI生成広告、アニメーション、アート、ファッション、音楽、物語作品",
-      "start": null,
-      "deadline": "2026-08-31",
-      "prize": "500スイスフラン (約$620) / カテゴリー",
-      "requirement": "単独のAI駆動作品 (キャンペーン全体ではない)",
-      "url": null,
-      "source": "FilmFreeway",
-      "status": "締切間近",
-      "firstSeen": "2026-07-29"
-    },
-    {
-      "name": "Neu Wave AI Film Festival",
-      "organizer": null,
-      "region": "米国 (Los Angeles)",
-      "category": "AI制作の短編、長編映画、CM、縦型マイクロドラマ",
-      "start": null,
-      "deadline": "2026-08-31",
-      "prize": "Topview縦型ドラマ部門 $5,000, その他部門 業界認知・スポンサー技術クレジット",
-      "requirement": "AIを用いた短編、長編、CM、縦型マイクロドラマ",
-      "url": null,
-      "source": "FilmFreeway",
-      "status": "締切間近",
-      "firstSeen": "2026-07-29"
-    },
-    {
-      "name": "Token AI Film Festival",
-      "organizer": "Token Institute",
-      "region": "米国 (Chicago)",
-      "category": "AI活用短編映画 (3-15分)",
-      "start": null,
-      "deadline": "2026-08-31",
-      "prize": "$250 / 各部門, 観客賞",
-      "requirement": "AIの利用度合いを明示 (3-15分), 応募無料",
-      "url": null,
-      "source": "FilmFreeway",
-      "status": "締切間近",
-      "firstSeen": "2026-07-29"
     },
     {
       "name": "New World AI Film Festival (NWAIFF)",
@@ -716,20 +702,6 @@
       "firstSeen": "2026-06-28"
     },
     {
-      "name": "CSFCCA International AI Film Festival",
-      "organizer": null,
-      "region": "国際 (Taipei)",
-      "category": "20以上のカテゴリ (AIが作品の半分以上を形成)",
-      "start": null,
-      "deadline": "2026-09",
-      "prize": "達成証明書, グランプリ受賞者には記念像",
-      "requirement": "AIが作品の半分以上を意味ある形で形成",
-      "url": null,
-      "source": "FilmFreeway",
-      "status": "締切間近",
-      "firstSeen": "2026-07-29"
-    },
-    {
       "name": "2026 AI Creativity Awards",
       "organizer": null,
       "region": "国際",
@@ -814,6 +786,34 @@
       "firstSeen": "2026-07-02"
     },
     {
+      "name": "26秒のカーニバル",
+      "organizer": "三池崇史監督",
+      "region": "日本",
+      "category": "ショート動画 (26秒)",
+      "start": "2026-06-05",
+      "deadline": "2026-09-13",
+      "prize": "金賞・銀賞・銅賞 (各10万円), 入賞 (5万円×2本), 学生賞 (5万円×2本)",
+      "requirement": "26秒の未公開動画, 生成AI活用可能, テーマ「私はあなたとは違う」",
+      "url": "https://26sec.jp/",
+      "source": "プレスリリース",
+      "status": "募集中",
+      "firstSeen": "2026-08-09"
+    },
+    {
+      "name": "AI Creative Future Awards (AICA 2026)",
+      "organizer": null,
+      "region": "国際",
+      "category": "AIクリエイティブ作品 (映像、画像、その他)",
+      "start": "2026-06-17",
+      "deadline": "2026-09-13",
+      "prize": null,
+      "requirement": "日本語または英語での提出",
+      "url": null,
+      "source": "公式",
+      "status": "募集中",
+      "firstSeen": "2026-06-19"
+    },
+    {
       "name": "三池崇史監督主催のショート動画コンテスト「26秒のカーニバル」第9期",
       "organizer": null,
       "region": "日本",
@@ -854,20 +854,6 @@
       "source": "FilmFreeway",
       "status": "募集中",
       "firstSeen": "2026-08-08"
-    },
-    {
-      "name": "第五回AIアートグランプリ",
-      "organizer": "AIアートグランプリ実行委員会、ドスパラ（株式会社サードウェーブ）",
-      "region": "日本",
-      "category": "静止画/動画/ゲーム/マンガ/ロボット/インスタレーション/ツール",
-      "start": "2026-08-01",
-      "deadline": "2026-09-15",
-      "prize": "グランプリ：賞金15万円、GALLERIAデスクトップモデル 他",
-      "requirement": "AIを活用したアート作品、テーマ「調和」、AIモデル・プロンプト等の開示、AI生成物を人間が加工（技術革新部門除く）",
-      "url": "https://www.aiartgp.com/",
-      "source": "公式/ITmedia/登竜門",
-      "status": "募集中",
-      "firstSeen": "2026-06-13"
     },
     {
       "name": "AI Film Festival Japan 2026",
@@ -1011,17 +997,59 @@
     },
     {
       "name": "GMO DESIGN AWARD 2026",
-      "organizer": "GMOインターネットグループ",
+      "organizer": "GMOインターネットグループ株式会社",
       "region": "日本",
-      "category": "AIと共創する作品（デザイン全般）",
-      "start": "2026-06-15",
+      "category": "映像作品, プロダクト (AI共創)",
+      "start": null,
       "deadline": "2026-09-30",
-      "prize": null,
-      "requirement": "テーマ「ときめき」、AIと共創する作品",
-      "url": "https://designaward.gmo/",
-      "source": "公式",
+      "prize": "最優秀賞 100万円, GMO賞 10万円",
+      "requirement": "18歳以上30歳未満, 日本国内在住, AIとの共創が前提",
+      "url": "https://gmo.jp/design-award/",
+      "source": "公募ナビ",
       "status": "募集中",
       "firstSeen": "2026-06-11"
+    },
+    {
+      "name": "We Are Human Festival Paris",
+      "organizer": "We Are Human Festival",
+      "region": "フランス",
+      "category": "AIを用いたオーディオビジュアル作品 (フィクション, ドキュメンタリー, 実験映像, ビデオポエム, オーディオビジュアルエッセイ)",
+      "start": "2026-06-01",
+      "deadline": "2026-09-30",
+      "prize": null,
+      "requirement": "AI、オーディオビジュアル制作、人権の関連性を探求 (世界人権宣言第1条)",
+      "url": "https://wearehuman.paris/call-for-films-ai-2026",
+      "source": "公式",
+      "status": "募集中",
+      "firstSeen": "2026-08-02"
+    },
+    {
+      "name": "World AI Film Festival USA (WAIFF LA USA 2026)",
+      "organizer": "WAIFF USA",
+      "region": "米国 (ロサンゼルス)",
+      "category": "実写短編映画, 長編映画, アニメーション短編, ドキュメンタリー, 縦型・モバイルコンテンツ, ミュージックビデオ, 広告・CM, AR/VR/XR体験, ゲーム, AI映画音楽",
+      "start": "2026-05-20",
+      "deadline": "2026-09-30",
+      "prize": "WAIFF USAトロフィー, 公式ローレル, 5作品がWAIFFカンヌ2027に進出",
+      "requirement": "米国在住クリエイター (13歳以上), AIツール使用, 制作日誌必須",
+      "url": "https://filmfreeway.com/WorldAIFilmFestivalUSA",
+      "source": "FilmFreeway",
+      "status": "募集中",
+      "firstSeen": "2026-08-09"
+    },
+    {
+      "name": "CSFCCA International AI Film Festival",
+      "organizer": null,
+      "region": "台湾",
+      "category": "AIが作品の半分以上を占める20以上のカテゴリ",
+      "start": null,
+      "deadline": "2026-09-30",
+      "prize": "ゴールデンマーズグランプリ (像), 認定証",
+      "requirement": "AIが作品の半分以上を占める",
+      "url": null,
+      "source": "FilmFreeway (記事)",
+      "status": "募集中",
+      "firstSeen": "2026-07-29"
     },
     {
       "name": "World AI Film Festival (WAiFF) LA USA 2026",
@@ -1050,20 +1078,6 @@
       "source": "公式/Ima Studio/Film Resource Africa",
       "status": "締切間近",
       "firstSeen": "2026-07-12"
-    },
-    {
-      "name": "We Are Human Festival Paris",
-      "organizer": "We Are Human Festival",
-      "region": "国際（フランス、パリ）",
-      "category": "AI、視聴覚制作、人権の関連を探求する作品 (フィクション、ドキュメンタリー、実験作品、ビデオポエム、視聴覚エッセイなど)",
-      "start": "2026-06-01",
-      "deadline": "2026-09-30",
-      "prize": null,
-      "requirement": "AI、視聴覚制作、人権の関連を探求する作品。18歳以上。",
-      "url": "https://wearehuman.paris/call-for-films-ai-2026/",
-      "source": "公式",
-      "status": "募集中",
-      "firstSeen": "2026-08-02"
     },
     {
       "name": "We Are Human Festival 2026 – Call for Films",
@@ -1344,6 +1358,34 @@
       "source": "PR TIMES / 公式",
       "status": "募集中",
       "firstSeen": "2026-08-07"
+    },
+    {
+      "name": "All Is Prompt Artificial Intelligence AI Film Festival 2nd Edition",
+      "organizer": "Todo es Prompt",
+      "region": "国際",
+      "category": "AIショートフィルム (30分以内)",
+      "start": "2026-07-22",
+      "deadline": "2026-10-25",
+      "prize": null,
+      "requirement": "AIツール使用, 30分以内, 英語字幕またはスペイン語字幕",
+      "url": "https://festhome.com/f/all-is-prompt",
+      "source": "Festhome",
+      "status": "募集中",
+      "firstSeen": "2026-07-27"
+    },
+    {
+      "name": "GENERATE 2026",
+      "organizer": "Technology Council of Central Pennsylvania (TCCP)",
+      "region": "米国 (Central Pennsylvania)",
+      "category": "AIアート (画像)",
+      "start": "2026-08-24",
+      "deadline": "2026-10-30",
+      "prize": null,
+      "requirement": "AIツール使用, テーマ「The Human Side of Technology」, TCCPのサービスエリア在住",
+      "url": "https://form.jotform.com/260224440862148",
+      "source": "公式",
+      "status": "まもなく開始",
+      "firstSeen": "2026-06-17"
     },
     {
       "name": "GENERATE 2026 (TCCP AI Art Contest)",
@@ -2032,6 +2074,48 @@
       "firstSeen": "2026-07-21"
     },
     {
+      "name": "第五回AIアートグランプリ",
+      "organizer": null,
+      "region": "日本",
+      "category": "AIアート",
+      "start": "2026-08-01",
+      "deadline": null,
+      "prize": null,
+      "requirement": "AIを活用したアート作品",
+      "url": "https://aiartgp.com/",
+      "source": "公式",
+      "status": "募集中",
+      "firstSeen": "2026-06-13"
+    },
+    {
+      "name": "AI Film Festival Japan (AIFJ 2026)",
+      "organizer": "AI Film Festival Japan 2026 実行委員会",
+      "region": "日本",
+      "category": "AIムービー・ナラティブ, AIクリエイティブ・エクスペリメンタル, AIフィルムミュージック・スコア, ボーカル部門 (SIO)",
+      "start": "2026-07-01",
+      "deadline": null,
+      "prize": null,
+      "requirement": "AIを制作過程の重要な部分で使用, 1分〜20分 (映像), 3分〜4分 (音楽)",
+      "url": "https://aifilmfestival.jp/",
+      "source": "公式",
+      "status": "募集中",
+      "firstSeen": "2026-08-02"
+    },
+    {
+      "name": "AI Film Festival Biberach an der Riß",
+      "organizer": "KI-AI Filmfestival",
+      "region": "ドイツ",
+      "category": "短編映画 (15分まで), 長編映画 (15分超60分まで)",
+      "start": null,
+      "deadline": null,
+      "prize": null,
+      "requirement": "AIツールが制作過程の重要な部分を占める (最低30%のAI使用), 英語字幕",
+      "url": "https://ki-filmfestival.eu/",
+      "source": "公式",
+      "status": "募集中",
+      "firstSeen": "2026-08-09"
+    },
+    {
       "name": "A' Generative, Algorithmic, Parametric and AI-Assisted Design Award 2026-2027",
       "organizer": "A' Design Awards",
       "region": "国際",
@@ -2058,20 +2142,6 @@
       "source": "公式/Melies/Business Wire",
       "status": "まもなく開始",
       "firstSeen": "2026-08-08"
-    },
-    {
-      "name": "AI Creative Future Awards（AICA）2026",
-      "organizer": "一般社団法人AICA",
-      "region": "国際（日本発）",
-      "category": "AIを活用したクリエイティブプロジェクト全般（広告、アート、音楽、映像、ゲーム、プロダクト、研究プロジェクトなど）",
-      "start": "2026-06-17",
-      "deadline": null,
-      "prize": null,
-      "requirement": "AIと人の共創による新たなクリエイティブ、自薦・他薦による応募",
-      "url": "https://aica-awards.com",
-      "source": "PR TIMES",
-      "status": "募集中",
-      "firstSeen": "2026-06-19"
     },
     {
       "name": "ユメカタリ 学生生成AIコンテスト 2026",
@@ -2128,20 +2198,6 @@
       "source": "Melies",
       "status": "まもなく開始",
       "firstSeen": "2026-08-05"
-    },
-    {
-      "name": "All Is Prompt Artificial Intelligence AI Film Festival 2nd Edition",
-      "organizer": null,
-      "region": "国際（オンライン）",
-      "category": "AI短編映画",
-      "start": null,
-      "deadline": null,
-      "prize": "ベストAI監督、ベストAIが作った音楽、最優秀AIマイクロショート 他",
-      "requirement": "人工知能ツールを活用したオーディオビジュアルナラティブ",
-      "url": "https://www.filmmakers.eu/festival/all-is-prompt-artificial-intelligence-ai-film-festival",
-      "source": "filmmakers",
-      "status": "まもなく開始",
-      "firstSeen": "2026-07-27"
     },
     {
       "name": "COLOTEK（コロテック） (UVERworldコラボ)",
@@ -3066,20 +3122,6 @@
       "source": "公式",
       "status": "募集中",
       "firstSeen": "2026-07-10"
-    },
-    {
-      "name": "GENERATE 2026",
-      "organizer": "Technology Council of Central Pennsylvania (TCCP)",
-      "region": "米国（Central Pennsylvania）",
-      "category": "AIアート（画像）",
-      "start": null,
-      "deadline": null,
-      "prize": null,
-      "requirement": "TCCPの22郡の地理的サービスエリア内に居住。AIツールの開示。",
-      "url": "https://www.tccp.org/generate-2026",
-      "source": "公式",
-      "status": "募集中",
-      "firstSeen": "2026-06-17"
     },
     {
       "name": "Runway AI Festival 2026 (AIF)",
