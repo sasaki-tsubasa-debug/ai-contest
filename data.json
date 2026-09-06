@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05 08:52",
+  "generatedAt": "2026-09-07 08:40",
   "contests": [
     {
       "name": "FORMAT International Photography Festival 2027",
@@ -198,6 +198,34 @@
       "firstSeen": "2026-08-08"
     },
     {
+      "name": "AI Film Festival Japan (AIFJ 2026)",
+      "organizer": "AI Film Festival Japan 実行委員会",
+      "region": "国際（日本・東京）",
+      "category": "映像・音楽作品（短編映画、AI Film Music / Score, AIムービー, AIアニメーション, AIクリエイティブ, AI劇伴音楽, AIボーカルトラック）",
+      "start": "2026-01-10",
+      "deadline": "2026-09-15",
+      "prize": "各部門で優秀賞を授与。公式上映あり。賞金に関する明記はなし。",
+      "requirement": "18歳以上（未成年は親権者の同意が必要）。国籍、性別、経歴不問。個人またはグループでの応募が可能。2026年1月1日以降に完成した作品であること。AIツールの利用が必須。使用したAIツール、モデル、プラットフォームを具体的に明記する義務あり。実在人物の無断学習や声のクローンは禁止。映像部門：90秒〜15分、MP4/MOV、FHD/4K。音楽部門：60秒〜5分、MP3/AAC/WAV/FLAC。",
+      "url": "https://aifilm.jp/",
+      "source": "公式/FilmFreeway/AI Contest Radar",
+      "status": "締切間近",
+      "firstSeen": "2026-08-02"
+    },
+    {
+      "name": "AKOOL Creator Clash Contest",
+      "organizer": "AKOOL",
+      "region": "国際",
+      "category": "AI Video",
+      "start": null,
+      "deadline": "2026-09-15",
+      "prize": "Cash prizes, $100 Creator Bonus for qualified submission",
+      "requirement": "Create your best Seedance 2 video with AKOOL",
+      "url": null,
+      "source": "Curious Refuge",
+      "status": "締切間近",
+      "firstSeen": "2026-08-12"
+    },
+    {
       "name": "Naija AI Film Festival (NAIFF) 2026",
       "organizer": "Naija AI Film Festival",
       "region": "ナイジェリア（ラゴス）",
@@ -252,20 +280,6 @@
       "source": "FilmFreeway",
       "status": "締切間近",
       "firstSeen": "2026-08-23"
-    },
-    {
-      "name": "AKOOL Creator Clash Contest",
-      "organizer": "AKOOL",
-      "region": "国際",
-      "category": "AI動画コンテスト (AKOOLでSeedance 2動画を制作)",
-      "start": null,
-      "deadline": "2026-09-15",
-      "prize": "賞金、資格のある応募ごとに100ドルのクリエイターボーナス",
-      "requirement": "AKOOLで最高のSeedance 2動画を制作",
-      "url": null,
-      "source": "Curious Refuge",
-      "status": "締切間近",
-      "firstSeen": "2026-08-12"
     },
     {
       "name": "tsukurun デジタルクリエイティブコンテスト2026 (前期)",
@@ -422,6 +436,20 @@
       "firstSeen": "2026-07-02"
     },
     {
+      "name": "Moonshots LIVE (Film Competition)",
+      "organizer": "Peter Diamandis and the Moonshots Mates",
+      "region": "国際",
+      "category": "Films (showing a future worth building)",
+      "start": null,
+      "deadline": "2026-09-25",
+      "prize": "Over $5M ($3.5M for films)",
+      "requirement": "Films that show a future worth building",
+      "url": null,
+      "source": "Curious Refuge",
+      "status": "締切間近",
+      "firstSeen": "2026-09-06"
+    },
+    {
       "name": "We Are Human Festival 2026",
       "organizer": "We Are Human Festival",
       "region": "国際（パリ、サンパウロ、ニューヨークなど）",
@@ -448,20 +476,6 @@
       "source": "AI Film Society",
       "status": "締切間近",
       "firstSeen": "2026-09-04"
-    },
-    {
-      "name": "AI Film Festival Japan (AIFJ 2026)",
-      "organizer": "AI Film Festival Japan 2026 Executive Committee",
-      "region": "日本（東京）/ 国際",
-      "category": "短編映画/アニメーション/ドキュメンタリー/実験作品/学生映画/映画音楽/スコア",
-      "start": "2026-07-01",
-      "deadline": "2026-09-30",
-      "prize": null,
-      "requirement": "人間とAIの共創作品、2026年1月1日以降に完成した作品、AIの透明性、ランタイム1分から30分（映画）、3分から4分（音楽）など",
-      "url": "https://aiff.film/",
-      "source": "FilmFreeway, Facebook",
-      "status": "締切間近",
-      "firstSeen": "2026-08-02"
     },
     {
       "name": "We Are Human Festival Paris - Call for Films AI 2026",
@@ -1150,20 +1164,6 @@
       "firstSeen": "2026-08-07"
     },
     {
-      "name": "All Is Prompt Artificial Intelligence Ai Film Festival 2nd Edition",
-      "organizer": null,
-      "region": "国際（オンライン）",
-      "category": "短編映画 (AIを活用したオーディオビジュアルナラティブ)",
-      "start": null,
-      "deadline": "2026-10-25",
-      "prize": "最優秀AI短編映画/最優秀AI音楽/最優秀AIマイクロショート/最優秀新進AIディレクター",
-      "requirement": "著作権、肖像権、第三者の知的財産権を侵害しないこと、検証可能な同意なしにディープフェイクを使用しないこと",
-      "url": null,
-      "source": "Festhome",
-      "status": "募集中",
-      "firstSeen": "2026-07-27"
-    },
-    {
       "name": "GENERATE 2026 (TCCP AI Art Contest)",
       "organizer": "Technology Council of Central PA (TCCP)",
       "region": "米国（Central Pennsylvania）",
@@ -1232,20 +1232,6 @@
       "source": "武蔵野市観光機構",
       "status": "募集中",
       "firstSeen": "2026-08-16"
-    },
-    {
-      "name": "ロボットカーニバルAIフィルムコンテスト",
-      "organizer": "AiHUB株式会社, 東京藝術大学映像リサーチセンターDoCK",
-      "region": "国際",
-      "category": "短編SF映像 (テーマ「AI×ロボティクス×IP」)",
-      "start": "2026-08-29",
-      "deadline": "2026-10-31",
-      "prize": null,
-      "requirement": "AI×ロボットとどう生きるかという問いに対する新しい時代の物語を描き出すこと。生成技術の精巧さのみでなく、独創性、物語性、映像表現、テーマとの整合性、商業作品化の可能性、ロボット像の新規性、社会への問い、AI活用の創造性、および権利面の適切性を総合的に評価。",
-      "url": "https://www.creators-wonderland.com/ja/contests/robot-carnival",
-      "source": "PR TIMES/Facebook",
-      "status": "募集中",
-      "firstSeen": "2026-08-17"
     },
     {
       "name": "Video Hackers Film Festival",
@@ -2074,6 +2060,20 @@
       "firstSeen": "2026-07-31"
     },
     {
+      "name": "The First Ever Feel-Good AI Film Competition",
+      "organizer": "Curious Refuge, Epidemic Sound",
+      "region": "国際",
+      "category": "AI Film",
+      "start": null,
+      "deadline": "2027-03-10",
+      "prize": null,
+      "requirement": "AI Film",
+      "url": null,
+      "source": "Curious Refuge",
+      "status": "募集中",
+      "firstSeen": "2026-09-06"
+    },
+    {
       "name": "World Film Festival in Cannes — Remember the Future (Best AI Film 2027)",
       "organizer": "World Film Festival in Cannes",
       "region": "フランス（カンヌ）",
@@ -2268,6 +2268,48 @@
       "source": "公式",
       "status": "募集中",
       "firstSeen": "2026-08-17"
+    },
+    {
+      "name": "ロボットカーニバルAIフィルムコンテスト",
+      "organizer": "AiHUB株式会社",
+      "region": "国際",
+      "category": "短編SF映像（AI×ロボティクス×IP）",
+      "start": "2026-08-29",
+      "deadline": null,
+      "prize": null,
+      "requirement": "AI×ロボットと、どう生きるか」という問いに対する新しい時代の物語を、クリエイター自身の解釈で描き出すこと。生成技術の精巧さのみを評価するのではなく、独創性、物語性、映像表現、テーマとの整合性、商業作品化の可能性、ロボット像の新規性、社会への問い、AI活用の創造性、および権利面の適切性を総合的に評価。",
+      "url": null,
+      "source": "PR TIMES",
+      "status": "募集中",
+      "firstSeen": "2026-08-17"
+    },
+    {
+      "name": "第4回北九州国際映画祭 (フルAI部門)",
+      "organizer": "北九州国際映画祭",
+      "region": "日本（北九州市）",
+      "category": "AI作品",
+      "start": null,
+      "deadline": null,
+      "prize": null,
+      "requirement": "AI作品",
+      "url": null,
+      "source": "公募ガイド",
+      "status": "募集中",
+      "firstSeen": "2026-09-06"
+    },
+    {
+      "name": "All Is Prompt Artificial Intelligence Ai Film Festival 2nd Edition",
+      "organizer": "Todo es Prompt",
+      "region": "国際",
+      "category": "短編映画（AIを駆使したオーディオビジュアルナラティブ）",
+      "start": null,
+      "deadline": null,
+      "prize": "最優秀AIが作った最高の音楽, 最優秀AIマイクロショート (1分未満), 最優秀新進AIディレクター",
+      "requirement": "著作権、肖像権、第三者の知的財産権を侵害しない。検証可能な同意なしにディープフェイクを使用しない。",
+      "url": null,
+      "source": "Festhome",
+      "status": "募集中",
+      "firstSeen": "2026-07-27"
     },
     {
       "name": "AI Film Festival Japan (AIFJ)",
