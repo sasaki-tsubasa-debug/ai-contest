@@ -1,6 +1,20 @@
 {
-  "generatedAt": "2026-09-09 08:59",
+  "generatedAt": "2026-09-10 08:57",
   "contests": [
+    {
+      "name": "ユメカタリ 学生生成AIコンテスト2026",
+      "organizer": "共同ピーアール, 新東通信",
+      "region": "日本",
+      "category": "アプリ開発, ポスター, 動画など (クリエイティブ部門)",
+      "start": null,
+      "deadline": "2026-09-10",
+      "prize": "30万円",
+      "requirement": "高校生・大学生・高等専門学校生を対象。生成AIを活用し、社会課題の解決に取り組むアイデアやソリューション。",
+      "url": null,
+      "source": "リセマム",
+      "status": "締切間近",
+      "firstSeen": "2026-07-26"
+    },
     {
       "name": "Rome AI Festival 2026",
       "organizer": "Rome AI Festival",
@@ -42,20 +56,6 @@
       "source": "AIFC",
       "status": "締切間近",
       "firstSeen": "2026-08-29"
-    },
-    {
-      "name": "ユメカタリ 学生生成AIコンテスト 2026",
-      "organizer": "愛知100選編集事務局",
-      "region": "日本（学生限定）",
-      "category": "生成AI",
-      "start": null,
-      "deadline": "2026-09-10",
-      "prize": "グランプリ賞金10万円",
-      "requirement": "学生限定、生成AIを活用した作品",
-      "url": null,
-      "source": "登竜門",
-      "status": "締切間近",
-      "firstSeen": "2026-07-26"
     },
     {
       "name": "Busan International AI Film Festival (BIAIF)",
@@ -156,6 +156,20 @@
       "firstSeen": "2026-08-08"
     },
     {
+      "name": "第五回AIアートグランプリ",
+      "organizer": "AIアートグランプリ実行委員会",
+      "region": "国際",
+      "category": "動画、静止画、マンガ、音楽、ゲームなど幅広いジャンル",
+      "start": "2026-08-01",
+      "deadline": "2026-09-15",
+      "prize": "グランプリ15万円、GALLERIAデスクトップPC",
+      "requirement": "AIを利用して作られた表現物やツール等であること。生成プロセスの開示が可能で、AI生成物を人間が加工したものであること。",
+      "url": "https://www.aiartgrandprix.com/",
+      "source": "公式, PR TIMES, AI Contest Radar",
+      "status": "締切間近",
+      "firstSeen": "2026-06-13"
+    },
+    {
       "name": "Future Frames: Corfu International AI & 3D Film Festival",
       "organizer": null,
       "region": "ギリシャ（ケルキラ）",
@@ -168,20 +182,6 @@
       "source": "AI Film Society",
       "status": "締切間近",
       "firstSeen": "2026-09-08"
-    },
-    {
-      "name": "第五回AIアートグランプリ",
-      "organizer": "AIアートグランプリ実行委員会",
-      "region": "日本",
-      "category": "AIアート作品 (画像/映像)",
-      "start": "2026-08-01",
-      "deadline": "2026-09-15",
-      "prize": "グランプリ：賞金15万円、他",
-      "requirement": "AIを活用したアート作品。",
-      "url": "https://aiartgp.com/",
-      "source": "公式ウェブサイト / コンペディア [16, 41]",
-      "status": "締切間近",
-      "firstSeen": "2026-06-13"
     },
     {
       "name": "KAGAWA AI ART FESTIVAL 2026",
@@ -448,6 +448,20 @@
       "source": "Curious Refuge",
       "status": "締切間近",
       "firstSeen": "2026-09-06"
+    },
+    {
+      "name": "Call for Films AI 2026 (We Are Human Festival Paris)",
+      "organizer": "We Are Human Festival",
+      "region": "国際 (パリ, フランス)",
+      "category": "AI、オーディオビジュアル制作、人権のつながりを模索する作品 (フィクション、ドキュメンタリー、実験作品、ビデオポエム、オーディオビジュアルエッセイ)",
+      "start": "2026-06-01",
+      "deadline": "2026-09-30",
+      "prize": null,
+      "requirement": "18歳以上。AIを積極的に活用し、人権の視点からAIの利用を問いかける作品。",
+      "url": "https://wearehuman.paris/call-for-films-ai-2026/",
+      "source": "We Are Human Festival, Melies",
+      "status": "締切間近",
+      "firstSeen": "2026-09-09"
     },
     {
       "name": "We Are Human Festival",
@@ -1836,6 +1850,20 @@
       "firstSeen": "2026-06-13"
     },
     {
+      "name": "Chroma Awards Season 2",
+      "organizer": "ElevenLabs, Google Cloud, Fal, Freepik, Dreamina, CapCut",
+      "region": "国際",
+      "category": "AI Film, Music, Games",
+      "start": "2026-06-01",
+      "deadline": "2026-12-31",
+      "prize": "175,000ドル以上の賞金、100万ドル以上のツールクレジット",
+      "requirement": "AIを活用した作品。",
+      "url": "https://chromaawards.com/",
+      "source": "Melies, Business Wire, YouTube",
+      "status": "募集中",
+      "firstSeen": "2026-07-20"
+    },
+    {
       "name": "BLACK AI FEST - International A.I Film Academy Festival & Awards",
       "organizer": "Mighty Jot Ltd, Realtime International Film Festival (RTF)",
       "region": "国際（イベントは英国、ロンドン）",
@@ -1862,20 +1890,6 @@
       "source": "AI Film Society",
       "status": "募集中",
       "firstSeen": "2026-07-10"
-    },
-    {
-      "name": "Chroma Awards Season 2",
-      "organizer": "ElevenLabs",
-      "region": "国際（オンライン）",
-      "category": "AIフィルム/ミュージックビデオ/ゲーム",
-      "start": null,
-      "deadline": "2026-12-31",
-      "prize": "$175,000+現金 + $1M+ツールクレジット (前回実績)",
-      "requirement": "AIクリエイティブ作品、AIツールの使用を透明化",
-      "url": "https://chromaawards.com/",
-      "source": "Kajimelo, 公式サイト",
-      "status": "募集中",
-      "firstSeen": "2026-07-20"
     },
     {
       "name": "Bali International AI Film Festival (BIAIFF) 2026",
@@ -2366,6 +2380,62 @@
       "source": "公式",
       "status": "募集中",
       "firstSeen": "2026-08-17"
+    },
+    {
+      "name": "2026ムービンピック AI動画コンテスト",
+      "organizer": "武蔵野市観光機構",
+      "region": "日本（武蔵野市）",
+      "category": "映像作品 (3分以内)",
+      "start": null,
+      "deadline": null,
+      "prize": null,
+      "requirement": "AI技術を駆使した3分以内の映像作品で「未来の武蔵野」を描く。",
+      "url": "https://www.musashino-kanko.com/event/movinpic2026-ai/",
+      "source": "公式",
+      "status": "募集中",
+      "firstSeen": "2026-09-09"
+    },
+    {
+      "name": "World AI Film Festival 2026 in KYOTO",
+      "organizer": "WAIFF",
+      "region": "日本（京都） / 国際",
+      "category": "AIフィルム、AIアニメ、縦型マイクロシリーズ、シノプシス＋AIティザー、AI CM",
+      "start": null,
+      "deadline": null,
+      "prize": "ベストAIフィルム賞100万円、ベストAIアニメ賞100万円、ベストPocketANIME賞100万円など",
+      "requirement": "AIツールを用いて制作された映像作品や脚本。作品本編、メインビジュアル、シノプシス、作品紹介、制作ログなど。",
+      "url": "https://waiff.jp/",
+      "source": "公式",
+      "status": "募集中",
+      "firstSeen": "2026-07-12"
+    },
+    {
+      "name": "AI LAB CREATION (毎月賞金10万円のAIビデオコンテスト)",
+      "organizer": "AI LAB STARTUP",
+      "region": "日本",
+      "category": "AI動画",
+      "start": null,
+      "deadline": null,
+      "prize": "毎月10万円",
+      "requirement": "生成AIクリエイティブ作品。",
+      "url": "https://ailab.jp/creation",
+      "source": "公式",
+      "status": "募集中",
+      "firstSeen": "2026-07-18"
+    },
+    {
+      "name": "KURIEMI AI Short Film Contest",
+      "organizer": "Creators' Wonderland",
+      "region": "日本",
+      "category": "10秒チャレンジ部門 (10秒〜30秒), ショートフィルム部門 (1分〜10分)",
+      "start": null,
+      "deadline": null,
+      "prize": "賞金総額140万円 (ショートフィルム部門 最優秀賞50万円、10秒チャレンジ部門 最優秀賞20万円など)",
+      "requirement": "OiiOii AIで「走れ」をテーマに制作されたオリジナル映像。",
+      "url": "https://creators-wonderland.com/contest/kuriemi-ai-short-film-contest",
+      "source": "公式",
+      "status": "募集中",
+      "firstSeen": "2026-07-10"
     },
     {
       "name": "ロボットカーニバルAIフィルムコンテスト",
@@ -3740,20 +3810,6 @@
       "firstSeen": "2026-08-04"
     },
     {
-      "name": "WORLD AI FILM FESTIVAL 2026 in KYOTO",
-      "organizer": null,
-      "region": "日本（京都）",
-      "category": "AIフィルム、AIアニメ、PocketANIME（縦型マイクロシリーズ）、シノプシス＋AIティザー、AI CM、特別賞／審査員賞。アニメーション、アクション、エモーション、ファンタジー、ドキュメンタリーの5ジャンル。",
-      "start": null,
-      "deadline": null,
-      "prize": "ベストAIフィルム賞 – 賞金100万円, ベストAIアニメ賞 – 賞金100万円, ベストPocketANIME賞 – 賞金100万円など",
-      "requirement": "少なくとも3つの生成AIツール（画像生成専用ツールを少なくとも1つ含む）が組み込まれていること。",
-      "url": null,
-      "source": "公式サイトらしき情報",
-      "status": "募集中",
-      "firstSeen": "2026-07-12"
-    },
-    {
       "name": "Unbound Dreams: AI Big Screen Video Contest 2026",
       "organizer": "OiiOii AI",
       "region": "国際",
@@ -4118,20 +4174,6 @@
       "firstSeen": "2026-07-19"
     },
     {
-      "name": "AI LAB CREATION 毎月賞金10万円のAIビデオコンテスト",
-      "organizer": "AI LAB CREATION",
-      "region": "国際",
-      "category": "AI動画",
-      "start": null,
-      "deadline": null,
-      "prize": "グランプリ10万円（JPY）",
-      "requirement": "AIツールを使った映像表現",
-      "url": "https://ailabcreation.com/",
-      "source": "AI LAB CREATION 公式サイト",
-      "status": "募集中",
-      "firstSeen": "2026-07-18"
-    },
-    {
       "name": "World AI Film Festival (WAiFF) 2026",
       "organizer": "Institut EuropIA",
       "region": "国際（フランス カンヌで最終審査）",
@@ -4270,20 +4312,6 @@
       "source": "公式/登竜門",
       "status": "募集中",
       "firstSeen": "2026-07-07"
-    },
-    {
-      "name": "KURIEMI AI Short Film Contest",
-      "organizer": "Kuriemi",
-      "region": "日本",
-      "category": "AIショートフィルム（10秒）",
-      "start": null,
-      "deadline": null,
-      "prize": null,
-      "requirement": "10秒の超短編、AIを活用。",
-      "url": "https://kuriemi.com/ai-film-contest/",
-      "source": "公式",
-      "status": "募集中",
-      "firstSeen": "2026-07-10"
     },
     {
       "name": "Runway AI Festival 2026 (AIF)",
