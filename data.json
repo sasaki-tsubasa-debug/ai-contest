@@ -1,6 +1,34 @@
 {
-  "generatedAt": "2026-09-12 09:07",
+  "generatedAt": "2026-09-13 08:54",
   "contests": [
+    {
+      "name": "26-Second Carnival, 9th Edition",
+      "organizer": null,
+      "region": "日本",
+      "category": "短編動画 (26秒以内)",
+      "start": null,
+      "deadline": "2026-09-13",
+      "prize": null,
+      "requirement": "AI作品歓迎、未発表作品、テーマ「I am different from you.」",
+      "url": null,
+      "source": "note",
+      "status": "締切間近",
+      "firstSeen": "2026-09-12"
+    },
+    {
+      "name": "AICM COMPETITION 2026",
+      "organizer": "aicrew株式会社",
+      "region": "日本",
+      "category": "15秒CM (AI動画限定)",
+      "start": null,
+      "deadline": "2026-09-13",
+      "prize": "ファイナリスト作品は「AIgekijo 2026」で上映",
+      "requirement": "aicrew株式会社の企業CMをテーマに、AIを活用して映像制作に取り組むクリエイター",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF13OPP1i4Kzb_yjuTIwJbOx8kRldENNybEBCzqcidYxrZu5GtDtNEOHvBxTpgUBUja8hnK4EEPJflPFjuCgQ7KxSJNDt_STN6QNCClsFuLpJo_FTIXL2NjdwotNJPI-w",
+      "source": "PR TIMES",
+      "status": "締切間近",
+      "firstSeen": "2026-09-10"
+    },
     {
       "name": "Artificial Intelligence Media Festival (AIMF) 2026",
       "organizer": null,
@@ -14,20 +42,6 @@
       "source": "Melies.co",
       "status": "締切間近",
       "firstSeen": "2026-08-18"
-    },
-    {
-      "name": "AICM COMPETITION 2026",
-      "organizer": "aicrew株式会社",
-      "region": "日本",
-      "category": "CM動画",
-      "start": null,
-      "deadline": "2026-09-13",
-      "prize": "最優秀賞 賞金60万円、TV CMまたはタクシー広告で放映。優秀賞 賞金20万円、芋洗坂係長賞 賞金10万円、BLAM賞 賞金5万円、AI FREAK賞 賞金5万円",
-      "requirement": "15秒CM、芋洗坂係長のアテレコ音声（15秒）を一つ選択して使用、AIツール不問、未発表・オリジナル作品、実写の芋洗坂係長を想起させる映像表現は不可",
-      "url": "https://prtimes.jp/draft/f393777b211d90973141ea170165",
-      "source": "PR TIMES, 登竜門",
-      "status": "締切間近",
-      "firstSeen": "2026-09-10"
     },
     {
       "name": "三池崇史監督によるショート動画コンテスト「26秒のカーニバル」第9期",
@@ -103,13 +117,13 @@
       "name": "AI for the Future Festival",
       "organizer": "Lisa Russell (Emmy filmmaker, UN arts curator)",
       "region": "国際 (Online)",
-      "category": "AI関連または国連テーマに沿った映像作品",
+      "category": "AI映画",
       "start": "2026-08-31",
       "deadline": "2026-09-14",
       "prize": null,
-      "requirement": "AIとガバナンスの未来に関わる作品、AIを制作プロセスに使用、または国連テーマ（ジェンダー平等、気候正義、人権、文化多様性）に沿った非AI作品",
+      "requirement": "AIとガバナンスの未来に関わる作品、AIをクリエイティブプロセスに利用した作品、または国連テーマに沿った非AI作品",
       "url": null,
-      "source": "StudioList, AI Film Festivals",
+      "source": "StudioList",
       "status": "締切間近",
       "firstSeen": "2026-09-10"
     },
@@ -140,6 +154,20 @@
       "source": "FilmFreeway",
       "status": "募集中",
       "firstSeen": "2026-08-08"
+    },
+    {
+      "name": "5th AI Art Grand Prix",
+      "organizer": null,
+      "region": "日本",
+      "category": "AIアート (画像)",
+      "start": null,
+      "deadline": "2026-09-15",
+      "prize": null,
+      "requirement": null,
+      "url": null,
+      "source": "note",
+      "status": "締切間近",
+      "firstSeen": "2026-09-12"
     },
     {
       "name": "第五回AIアートグランプリ",
@@ -196,20 +224,6 @@
       "source": "PR TIMES [45]",
       "status": "締切間近",
       "firstSeen": "2026-09-08"
-    },
-    {
-      "name": "AI Film Festival Japan (AIFJ 2026)",
-      "organizer": "AI Film Festival Japan 実行委員会",
-      "region": "国際（日本・東京）",
-      "category": "映像・音楽作品（短編映画、AI Film Music / Score, AIムービー, AIアニメーション, AIクリエイティブ, AI劇伴音楽, AIボーカルトラック）",
-      "start": "2026-01-10",
-      "deadline": "2026-09-15",
-      "prize": "各部門で優秀賞を授与。公式上映あり。賞金に関する明記はなし。",
-      "requirement": "18歳以上（未成年は親権者の同意が必要）。国籍、性別、経歴不問。個人またはグループでの応募が可能。2026年1月1日以降に完成した作品であること。AIツールの利用が必須。使用したAIツール、モデル、プラットフォームを具体的に明記する義務あり。実在人物の無断学習や声のクローンは禁止。映像部門：90秒〜15分、MP4/MOV、FHD/4K。音楽部門：60秒〜5分、MP3/AAC/WAV/FLAC。",
-      "url": "https://aifilm.jp/",
-      "source": "公式/FilmFreeway/AI Contest Radar",
-      "status": "締切間近",
-      "firstSeen": "2026-08-02"
     },
     {
       "name": "AKOOL Creator Clash Contest",
@@ -451,15 +465,15 @@
     },
     {
       "name": "AI International Film Festival",
-      "organizer": "AI International Film Festival (Non-Profit 501(c)(3))",
-      "region": "国際 (Hollywood)",
-      "category": "AI映画/ハイブリッドAI映画/実写/ドキュメンタリー/アニメーション (AIツールを使用またはAIの影響を探求)",
-      "start": "2026-08-24",
+      "organizer": "AI International Film Festival",
+      "region": "国際 (San Diego, California, United States)",
+      "category": "短編映画/長編映画/テキストプロジェクト/フィクション/ドキュメンタリー/アニメーション/ファンタスティック/ホラー/実験的/ミュージックビデオ",
+      "start": null,
       "deadline": "2026-09-21",
-      "prize": "最優秀作品賞、最優秀AI映画賞、最優秀AI長編映画賞、最優秀AI短編映画賞、最優秀音楽ビデオ賞、最優秀AI縦型短編賞、最優秀AI縦型シリーズ賞（またはパイロット版）",
-      "requirement": "AIツールをストーリーテリングと映画制作の未来を示すために使用するか、AIが社会に与える影響を探求する作品。縦型・横型作品可。",
-      "url": "https://aifilmfest.org/",
-      "source": "FilmFreeway",
+      "prize": null,
+      "requirement": "AIツールの利用必須 (Total AI Usage)、英語字幕必須 (非英語作品)",
+      "url": "https://festhome.com/f/ai-international-film-festival",
+      "source": "Festhome",
       "status": "締切間近",
       "firstSeen": "2026-06-09"
     },
@@ -476,6 +490,104 @@
       "source": "Curious Refuge",
       "status": "締切間近",
       "firstSeen": "2026-09-06"
+    },
+    {
+      "name": "AI Film Festival Japan (AIFJ 2026)",
+      "organizer": "AI Film Festival Japan 2026 実行委員会",
+      "region": "日本（東京） / 国際",
+      "category": "映像部門/音楽部門/劇伴音楽部門/AIムービー/AIアニメーション/AIクリエイティブ/AIボーカルトラック/短編映画",
+      "start": "2026-07-01",
+      "deadline": "2026-09-30",
+      "prize": "各部門優秀賞、CapCut AI Creative Award (協賛特別賞)",
+      "requirement": "AIと人間の共創、AIツールの利用必須、使用ツール・モデル・プラットフォームの明記",
+      "url": "https://aifilm.jp/",
+      "source": "FilmFreeway, AI Contest Radar, Official Website",
+      "status": "締切間近",
+      "firstSeen": "2026-08-02"
+    },
+    {
+      "name": "GMO DESIGN AWARD 2026",
+      "organizer": "GMO",
+      "region": "日本",
+      "category": "デザイン (AI利用可)",
+      "start": null,
+      "deadline": "2026-09-30",
+      "prize": "高額賞金 (詳細不明)",
+      "requirement": null,
+      "url": null,
+      "source": "note",
+      "status": "締切間近",
+      "firstSeen": "2026-06-11"
+    },
+    {
+      "name": "4th Scene Sketch Contest",
+      "organizer": null,
+      "region": "日本",
+      "category": "画像/イラスト",
+      "start": null,
+      "deadline": "2026-09-30",
+      "prize": null,
+      "requirement": null,
+      "url": null,
+      "source": "note",
+      "status": "締切間近",
+      "firstSeen": "2026-09-12"
+    },
+    {
+      "name": "GENIAC PRIZE 2026 (テーマ1：社会課題)",
+      "organizer": "NEDO (経済産業省とNEDO)",
+      "region": "日本",
+      "category": "AIを活用した業務プロセス改革 (企業・団体対象)",
+      "start": null,
+      "deadline": "2026-09-30",
+      "prize": "総額 6 億円",
+      "requirement": "国産基盤モデルを活用した開発・実証を実施",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyqqi2PpGjwevQKT3w-QGataR8yzgfTakphDXs1ZHU8ikmnHdDwHNHWVz7xnEM-GBC0Uwe_aOV3hNaVywd8o7UUARYsdnJzIUKtgyt5TfK3mlx939JcHDCWzxi",
+      "source": "Official Website",
+      "status": "締切間近",
+      "firstSeen": "2026-09-12"
+    },
+    {
+      "name": "GENIAC PRIZE 2026 (テーマ2：人材育成)",
+      "organizer": "NEDO (経済産業省とNEDO)",
+      "region": "日本",
+      "category": "フィジカルAIに向けた開発者育成のための公開型の基盤モデル開発 (学生対象)",
+      "start": null,
+      "deadline": "2026-09-30",
+      "prize": "総額 3000 万円",
+      "requirement": "12歳〜29歳の学生。個人応募、スクリーニング後にチーム編成。",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyqqi2PpGjwevQKT3w-QGataR8yzgfTakphDXs1ZHU8ikmnHdDwHNHWVz7xnEM-GBC0Uwe_aOV3hNaVywd8o7UUARYsdnJzIUKtgyt5TfK3mlx939JcHDCWzxi",
+      "source": "Official Website",
+      "status": "締切間近",
+      "firstSeen": "2026-09-12"
+    },
+    {
+      "name": "NEXT ART AI 2026",
+      "organizer": null,
+      "region": "国際 (Korea)",
+      "category": "AIアート (画像)",
+      "start": null,
+      "deadline": "2026-09-30",
+      "prize": null,
+      "requirement": null,
+      "url": null,
+      "source": "note",
+      "status": "締切間近",
+      "firstSeen": "2026-09-12"
+    },
+    {
+      "name": "Runway AI Film Festival (AIF)",
+      "organizer": "Runway",
+      "region": "国際 (Online, New York, Los Angeles, Tokyo)",
+      "category": "映画/デザイン/ニューメディア/ファッション/広告/ゲーム",
+      "start": null,
+      "deadline": "2026-09-30",
+      "prize": null,
+      "requirement": "AIを活用した作品",
+      "url": "https://runwayml.com/ai-festival/",
+      "source": "Official Website, AdArena",
+      "status": "締切間近",
+      "firstSeen": "2026-08-31"
     },
     {
       "name": "AI Film Festival Japan (AIFJ) 2026 - CapCut AI Creative Award",
@@ -688,20 +800,6 @@
       "firstSeen": "2026-09-01"
     },
     {
-      "name": "Runway AI Film Festival (AIF)",
-      "organizer": "Runway",
-      "region": "国際",
-      "category": "フィルム/デザイン/ニューメディア/ファッション/広告/ゲーム",
-      "start": null,
-      "deadline": "2026-09-30",
-      "prize": null,
-      "requirement": "無料応募",
-      "url": null,
-      "source": "Kajimelo/Hollywood.AI/Best AI Film Festivals for Beginners",
-      "status": "締切間近",
-      "firstSeen": "2026-08-31"
-    },
-    {
       "name": "Hoban A.I. Art Award: Next Art A.I.",
       "organizer": "Hoban Cultural Foundation",
       "region": "国際 (Gwangju, South Korea)",
@@ -870,20 +968,6 @@
       "firstSeen": "2026-08-10"
     },
     {
-      "name": "GMO DESIGN AWARD 2026",
-      "organizer": "GMOインターネットグループ株式会社",
-      "region": "日本",
-      "category": "映像作品, プロダクト (AI共創)",
-      "start": null,
-      "deadline": "2026-09-30",
-      "prize": "最優秀賞 100万円, GMO賞 10万円",
-      "requirement": "18歳以上30歳未満, 日本国内在住, AIとの共創が前提",
-      "url": "https://gmo.jp/design-award/",
-      "source": "公募ナビ",
-      "status": "募集中",
-      "firstSeen": "2026-06-11"
-    },
-    {
       "name": "We Are Human Festival Paris",
       "organizer": "We Are Human Festival",
       "region": "フランス",
@@ -1038,6 +1122,20 @@
       "firstSeen": "2026-08-12"
     },
     {
+      "name": "FESTIAV 2026",
+      "organizer": null,
+      "region": "国際",
+      "category": null,
+      "start": null,
+      "deadline": "2026-10-04",
+      "prize": null,
+      "requirement": null,
+      "url": null,
+      "source": "note",
+      "status": "締切間近",
+      "firstSeen": "2026-08-05"
+    },
+    {
       "name": "Runway GEN:48 — 48-Hour Film Sprint",
       "organizer": "Runway",
       "region": "オンライン",
@@ -1148,6 +1246,20 @@
       "source": "AI Film Society",
       "status": "募集中",
       "firstSeen": "2026-09-04"
+    },
+    {
+      "name": "AI Filmfest Athens 2026",
+      "organizer": null,
+      "region": "国際 (Athens, Greece)",
+      "category": "映画",
+      "start": null,
+      "deadline": "2026-10-15",
+      "prize": null,
+      "requirement": null,
+      "url": null,
+      "source": "note",
+      "status": "募集中",
+      "firstSeen": "2026-09-12"
     },
     {
       "name": "KIAFF 2026 | Kerala International AI Film Festival",
@@ -1346,6 +1458,20 @@
       "firstSeen": "2026-08-07"
     },
     {
+      "name": "AIミュージック・ビデオコンテスト「AIは布の記憶の夢を見るか？」",
+      "organizer": "ぬのきおく制作委員会",
+      "region": "日本",
+      "category": "ミュージックビデオ (AI音楽とAI映像)",
+      "start": "2026-09-15",
+      "deadline": "2026-10-30",
+      "prize": "グランプリ発表 11月29日 (賞金詳細不明)",
+      "requirement": "衣類や布にまつわる記憶・物語をテーマに、AI音楽とAI映像を組み合わせたミュージックビデオ",
+      "url": "koromolab.site",
+      "source": "note",
+      "status": "まもなく開始",
+      "firstSeen": "2026-09-12"
+    },
+    {
       "name": "GENERATE 2026 (AI Art Contest)",
       "organizer": "Technology Council of Central PA (TCCP)",
       "region": "米国（Central Pennsylvania）",
@@ -1400,6 +1526,20 @@
       "source": "TCCP公式サイト",
       "status": "募集中",
       "firstSeen": "2026-07-21"
+    },
+    {
+      "name": "PAIFF – Prague AI Film Festival",
+      "organizer": null,
+      "region": "国際 (Prague)",
+      "category": "映画",
+      "start": null,
+      "deadline": "2026-10-31",
+      "prize": null,
+      "requirement": null,
+      "url": null,
+      "source": "note",
+      "status": "募集中",
+      "firstSeen": "2026-09-12"
     },
     {
       "name": "2026ムービンピック AI動画コンテスト映像作品募集",
@@ -1991,15 +2131,15 @@
     },
     {
       "name": "Chroma Awards Season 2",
-      "organizer": "Chroma Awards",
-      "region": "国際",
-      "category": "短編映画/ミュージックビデオ/AIゲーム",
-      "start": "2026-06-01",
+      "organizer": "ElevenLabs",
+      "region": "国際 (Online — global)",
+      "category": "Film/Music Video/Games/Advertising/Song/Behind-the-Scenes",
+      "start": null,
       "deadline": "2026-12-31",
-      "prize": "$175,000以上の現金、$1,000,000以上のツールクレジット",
-      "requirement": "AI利用が前提、無料応募、ツール不問",
+      "prize": "$175,000+ cash + $1M+ tool credits",
+      "requirement": "AI creative work across Film, Music Video and Games",
       "url": "https://chromaawards.com/",
-      "source": "公式/記事",
+      "source": "Official Website, AdArena, StudioList",
       "status": "募集中",
       "firstSeen": "2026-07-20"
     },
@@ -2492,6 +2632,20 @@
       "source": "公式",
       "status": "募集中",
       "firstSeen": "2026-08-17"
+    },
+    {
+      "name": "梶裕貴の音声AI「梵そよぎ」と代アニ学生が共演 CMナレーションコンテスト",
+      "organizer": "そよぎフラクタル (梶裕貴プロデュース)、代々木アニメーション学院",
+      "region": "日本",
+      "category": "CMナレーション (音声AIと肉声)",
+      "start": null,
+      "deadline": null,
+      "prize": null,
+      "requirement": "梶裕貴の音声合成ソフト「梵そよぎ」と自身の声の演技を組み合わせたオリジナルCMナレーション",
+      "url": null,
+      "source": "KAI-YOU, PR TIMES",
+      "status": "募集中",
+      "firstSeen": "2026-09-12"
     },
     {
       "name": "Busan International AI Film Festival 2026",
@@ -3444,20 +3598,6 @@
       "source": "FilmFreeway",
       "status": "募集中",
       "firstSeen": "2026-08-14"
-    },
-    {
-      "name": "FESTIAV 2026",
-      "organizer": null,
-      "region": "スペイン（バレンシア）",
-      "category": "AI生成映画、短編映画",
-      "start": null,
-      "deadline": null,
-      "prize": null,
-      "requirement": null,
-      "url": null,
-      "source": "Melies",
-      "status": "まもなく開始",
-      "firstSeen": "2026-08-05"
     },
     {
       "name": "AI Film & Ads Awards Bali 2026",
