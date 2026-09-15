@@ -1,48 +1,6 @@
 {
-  "generatedAt": "2026-09-14 09:06",
+  "generatedAt": "2026-09-15 09:26",
   "contests": [
-    {
-      "name": "AI for the Future Festival",
-      "organizer": "Lisa Russell (Emmy filmmaker, UN arts curator)",
-      "region": "国際 (Online)",
-      "category": "AI映画",
-      "start": "2026-08-31",
-      "deadline": "2026-09-14",
-      "prize": null,
-      "requirement": "AIとガバナンスの未来に関わる作品、AIをクリエイティブプロセスに利用した作品、または国連テーマに沿った非AI作品",
-      "url": null,
-      "source": "StudioList",
-      "status": "締切間近",
-      "firstSeen": "2026-09-10"
-    },
-    {
-      "name": "第2回学校CMコンテスト_TAKIMOTO PRESENTS",
-      "organizer": "TAKIMOTO",
-      "region": "日本",
-      "category": "CM動画 (学校の魅力PR、30秒以内)",
-      "start": "2026-06-01",
-      "deadline": "2026-09-14",
-      "prize": null,
-      "requirement": "全国の18才以下の中学生・高校生。個人・グループは問いません。クラス単位や部活単位での応募も可。必ず生徒が出演すること。生成AIで作成した動画・静止画を使用する。著作権・肖像権・プライバシー権をクリアすること。",
-      "url": null,
-      "source": "公式",
-      "status": "締切間近",
-      "firstSeen": "2026-09-01"
-    },
-    {
-      "name": "Lumara Film Festival",
-      "organizer": "MoonPay, Venice",
-      "region": "国際 (ニューヨーク市)",
-      "category": "AI映画 (短編映画)",
-      "start": "2026-07-23",
-      "deadline": "2026-09-14",
-      "prize": "グランプリ32,000ドル/審査員賞20,000ドル/ターミナル賞12,000ドル (ベニス・クレジット含む)",
-      "requirement": "AIを実質的に使用した短編映画、推奨上映時間2～20分。",
-      "url": "https://lumarafilmfestival.com/",
-      "source": "FilmFreeway",
-      "status": "募集中",
-      "firstSeen": "2026-08-08"
-    },
     {
       "name": "AI Film Festival Japan (AI日本国際映画祭) 2026",
       "organizer": "AI Film Festival Japan 2026 Executive Committee / AI Film Japan Inc.",
@@ -168,20 +126,6 @@
       "source": "note/登竜門",
       "status": "締切間近",
       "firstSeen": "2026-08-18"
-    },
-    {
-      "name": "AI Film Festival Japan 2026",
-      "organizer": "AI Film Festival Japan 2026 実行委員会 (主幹事：株式会社 AI FILM JAPAN)",
-      "region": "日本（東京） / 国際",
-      "category": "AIムービー・ナラティブ、AIクリエイティブ・エクスペリメンタル、AIアニメーション、AI劇伴音楽、AIボーカルトラック",
-      "start": null,
-      "deadline": "2026-09-15",
-      "prize": "各部門で優秀賞を授与。公式上映あり。賞金に関する明記はなし。",
-      "requirement": "18歳以上。国籍、性別、経歴不問。個人またはグループでの応募可。2026年1月1日以降に完成した作品。AIツールの利用必須。使用したAIツール、モデル、プラットフォームを具体的に明記する義務あり。実在人物の無断学習や声のクローンは禁止。",
-      "url": "https://aifilm.jp/",
-      "source": "公式/FilmFreeway/AI Contest Radar",
-      "status": "締切間近",
-      "firstSeen": "2026-06-24"
     },
     {
       "name": "Larissa Lumina AI Short Film Festival",
@@ -392,6 +336,34 @@
       "source": "Curious Refuge",
       "status": "締切間近",
       "firstSeen": "2026-09-06"
+    },
+    {
+      "name": "AI Film Festival Japan 2026",
+      "organizer": "AI Film Festival Japan 2026 Executive Committee",
+      "region": "日本（東京）/ 国際",
+      "category": "短編映画/アニメーション/クリエイティブ/劇伴音楽/ボーカルトラック",
+      "start": "2026-07-01",
+      "deadline": "2026-09-30",
+      "prize": "CapCut Pro Membership, CapCut AI Credits, オフラインイベント招待、プロモーション機会 (CapCut AI Creative Award) / 各部門賞 (特典のみ)",
+      "requirement": "AI技術の利用必須、制作過程でのAIツール開示、上映時間1分〜20分、FHD以上推奨、16:9または縦型",
+      "url": "https://aifilm.jp/",
+      "source": "公式/FilmFreeway/AI Contest Radar",
+      "status": "締切間近",
+      "firstSeen": "2026-06-24"
+    },
+    {
+      "name": "ショートショート フィルムフェスティバル & アジア 2027",
+      "organizer": "ショートショート実行委員会 / ショートショート アジア実行委員会",
+      "region": "日本 / 国際",
+      "category": "短編映画",
+      "start": null,
+      "deadline": "2026-09-30",
+      "prize": null,
+      "requirement": "上映時間25分以内、AIの活用がテーマ「シネマエンジニアリング」に合致するもの",
+      "url": "https://shortshorts.org/2026/",
+      "source": "作品募集中の映画祭/公式",
+      "status": "締切間近",
+      "firstSeen": "2026-09-15"
     },
     {
       "name": "Runway's AI Festival (AIF)",
@@ -2464,6 +2436,20 @@
       "source": "FilmFreeway",
       "status": "募集中",
       "firstSeen": "2026-08-10"
+    },
+    {
+      "name": "AI for Good Film Festival 2027",
+      "organizer": "AI for Good Film Festival (ITU · United Nations system)",
+      "region": "国際（スイス・ジュネーブ）",
+      "category": "短編映画/長編映画/ソーシャルメディアマイクロシリーズ/広告・ブランドフィルム",
+      "start": "2027-01-01",
+      "deadline": "2027-05-01",
+      "prize": "AI for Good Global Summit 2027への招待、上映、表彰",
+      "requirement": "AI技術を制作の中核に利用し、地球規模の課題や倫理的問いに取り組む1分〜10分の作品。3つ以上の生成AIツール（画像ベースツール1つを含む）の使用、AI使用を説明する制作ファイル（PDF）必須。",
+      "url": "https://aiforgood.itu.int/ai-for-good-film-festival/apply/",
+      "source": "Ima Studio/Granted AI/Kajimelo",
+      "status": "まもなく開始",
+      "firstSeen": "2026-09-15"
     },
     {
       "name": "Cannes Film Awards - AI category 2027",
@@ -4900,20 +4886,6 @@
       "source": "公式",
       "status": "募集中",
       "firstSeen": "2026-06-17"
-    },
-    {
-      "name": "GENIAC-PRIZE 2026",
-      "organizer": "経済産業省, NEDO (国立研究開発法人新エネルギー・産業技術総合開発機構)",
-      "region": "日本",
-      "category": "AIの研究開発及び社会実装",
-      "start": "2026-06-11",
-      "deadline": null,
-      "prize": "総額約10億円の懸賞金、計算リソース",
-      "requirement": "AIの更なる開発が必要なエッセンシャルワーカーの業務プロセス改革、または学生を対象とした基盤モデル開発における人材育成",
-      "url": "https://geniac-prize.nedo.go.jp/",
-      "source": "経済産業省, J-Net21, NEDO, 大分県",
-      "status": "募集中",
-      "firstSeen": "2026-06-16"
     }
   ]
 }
