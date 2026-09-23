@@ -1,20 +1,6 @@
 {
-  "generatedAt": "2026-09-22 09:41",
+  "generatedAt": "2026-09-23 09:16",
   "contests": [
-    {
-      "name": "甲賀流忍者AIコンテスト",
-      "organizer": "Japan AI Creative Contest（JACC）/一般社団法人日本AI創造振興機構",
-      "region": "日本（滋賀県甲賀市）",
-      "category": "AIクリエイティブ作品",
-      "start": "2026-09-14",
-      "deadline": "2026-09-22",
-      "prize": null,
-      "requirement": "JACC公式X（@JACC_AI）の募集投稿を引用リポストし、ハッシュタグ「#甲賀流忍者AIコンテスト」を付けて作品を投稿",
-      "url": "https://aiwatch.jp/news/jacio-20260915/",
-      "source": "AI Watch",
-      "status": "締切間近",
-      "firstSeen": "2026-09-18"
-    },
     {
       "name": "AZ8 × Wan『Ad from Zero』AI広告制作コンテスト",
       "organizer": "EVERFIR PTE. LTD. (AZ8)",
@@ -45,17 +31,45 @@
     },
     {
       "name": "AI Film Festival Japan (AIFJ) 2026",
-      "organizer": "AI Film Festival Japan 2026 Executive Committee (AI FILM JAPAN inc.)",
+      "organizer": "AIFJ",
       "region": "日本（東京）",
-      "category": "AI映画/アニメーション/クリエイティブ/映画音楽/ボーカルトラック",
+      "category": "短編映画/アニメーション/実験映像/ミュージックビデオ/AIクリエイティブ/AI音楽",
       "start": "2026-07-01",
       "deadline": "2026-09-30",
-      "prize": "最優秀AI映画/アニメーション/クリエイティブ/映画音楽賞 + CapCutおよびElevenLabs協賛賞 (例: CapCut Pro 1年分、AIクレジット50,000)",
-      "requirement": "2026年1月1日以降に完成した90秒から15分の映画。AI音楽作品は公式ビジュアルアセットに合わせた60秒から5分。AIツールの使用を必須開示。",
+      "prize": "CapCut AI Creative Award (CapCut Pro 1年分、AIクレジット50,000、東京でのプレゼンテーション枠), ElevenLabsによる「Best Use of Voice」特別賞, Best AI Creative (10作品), Best AI Movie。歌舞伎町タワービジョンでの上映。",
+      "requirement": "2026年1月1日以降に完成した作品。AI利用必須。CapCut AI Creative Award応募にはCapCut AI Creator Contest 2026への参加が必要。国際応募者は日本で登録されたCapCutアカウントと日本のネットワーク環境が必要。映画は90秒～15分、AI音楽は60秒～5分。",
       "url": "https://filmfreeway.com/AIFilmFestiv",
-      "source": "AI Film Festival Japan 公式サイト, Festhome, AI Film Contests",
+      "source": "FilmFreeway",
       "status": "締切間近",
       "firstSeen": "2026-08-02"
+    },
+    {
+      "name": "Project Odyssey — AI Film Championship",
+      "organizer": "Matty Shimura and Civitai",
+      "region": "国際",
+      "category": "短編映画",
+      "start": null,
+      "deadline": "2026-09-30",
+      "prize": "$78,000 現金",
+      "requirement": "AIツールを使用した短編映画、革新的なストーリーテリング。3分以内。",
+      "url": "https://projectodyssey.ai",
+      "source": "Project Odyssey website",
+      "status": "締切間近",
+      "firstSeen": "2026-08-29"
+    },
+    {
+      "name": "We Are Human Festival",
+      "organizer": null,
+      "region": "国際（フランス、パリでのイベント）",
+      "category": "短編映画/ドキュメンタリー/オーディオビジュアルエッセイ",
+      "start": "2026-06-01",
+      "deadline": "2026-09-30",
+      "prize": "審査員による3つの賞（賞金は明記なし）",
+      "requirement": "AI利用必須。世界人権宣言第1条に直接的または比喩的に関連する作品。倫理ノート必須。2025年6月1日以降に完成したオーディオビジュアル作品。1〜10分。",
+      "url": "FilmFreeway",
+      "source": "FilmFreeway",
+      "status": "締切間近",
+      "firstSeen": "2026-08-29"
     },
     {
       "name": "AI ART AWARD 'NEXT ART AI'",
@@ -84,20 +98,6 @@
       "source": "AI Film Contests",
       "status": "締切間近",
       "firstSeen": "2026-09-10"
-    },
-    {
-      "name": "Project Odyssey — AI Film Championship",
-      "organizer": "Project Odyssey (Chroma Awardsと提携)",
-      "region": "国際",
-      "category": "AI短編映画 (3分以内)",
-      "start": null,
-      "deadline": "2026-09-30",
-      "prize": "$78K+ cash",
-      "requirement": "AIツールを使用した短編映画。革新的なストーリーテリングを重視。",
-      "url": null,
-      "source": "AIFC, AI Film Contests",
-      "status": "締切間近",
-      "firstSeen": "2026-08-29"
     },
     {
       "name": "GMO DESIGN AWARD 2026",
@@ -392,20 +392,6 @@
       "source": "We Are Human Festival, Melies",
       "status": "締切間近",
       "firstSeen": "2026-09-09"
-    },
-    {
-      "name": "We Are Human Festival",
-      "organizer": "We Are Human",
-      "region": "国際",
-      "category": "短編映画/ドキュメンタリー/オーディオビジュアルエッセイ",
-      "start": "2026-05-31",
-      "deadline": "2026-09-30",
-      "prize": "グランプリ €5,000, ベスト脚本賞 €3,000, エシックス賞 €2,000",
-      "requirement": "AIアシストされた人間による創作、1〜10分、倫理ノートの提出",
-      "url": "https://filmfreeway.com/WeAreHumanFestival",
-      "source": "FilmFreeway",
-      "status": "締切間近",
-      "firstSeen": "2026-08-29"
     },
     {
       "name": "Runway's AI Festival (AIF) 2026",
@@ -1248,20 +1234,6 @@
       "firstSeen": "2026-07-21"
     },
     {
-      "name": "(UN)REAL AI Film Festival",
-      "organizer": "(UN)REAL AI Film Festival",
-      "region": "国際 (トリノ、イタリア)",
-      "category": "最優秀作品/カテゴリ最優秀賞/脚本/技術的功績/演技/観客賞",
-      "start": null,
-      "deadline": "2026-10-31",
-      "prize": "賞金は明記なし。特別賞やスポンサー賞が追加される可能性あり。",
-      "requirement": "AIネイティブ作品。フェスティバルサイトから直接応募。",
-      "url": null,
-      "source": "Kajimelo",
-      "status": "募集中",
-      "firstSeen": "2026-09-22"
-    },
-    {
       "name": "ロボットカーニバルAIフィルムコンテスト",
       "organizer": "AiHUB株式会社, 東京藝術大学 映像リサーチセンターDoCK",
       "region": "日本",
@@ -1374,6 +1346,20 @@
       "firstSeen": "2026-06-28"
     },
     {
+      "name": "AI M0V1E FILM FESTIVAL",
+      "organizer": "AI M0V1E",
+      "region": "国際",
+      "category": "AI物語性短編（3-30分、9:16縦型、完全にAI生成）、AI物語性長編",
+      "start": "2026-05-01",
+      "deadline": "2026-11-01",
+      "prize": null,
+      "requirement": "AIアシストおよび完全にAI生成された作品を歓迎。非英語作品には英語字幕が必要。AI M0V1Eプラットフォームへのアップロード。",
+      "url": "FilmFreeway",
+      "source": "FilmFreeway",
+      "status": "募集中",
+      "firstSeen": "2026-07-26"
+    },
+    {
       "name": "Türkiye International AI Film Festival (T-AIFF)",
       "organizer": null,
       "region": "トルコ（イスタンブール）",
@@ -1386,20 +1372,6 @@
       "source": "AI Film Society",
       "status": "募集中",
       "firstSeen": "2026-09-04"
-    },
-    {
-      "name": "AI M0V1E FILM FESTIVAL",
-      "organizer": "LundinStudio",
-      "region": "国際",
-      "category": "AI Narrative shorts (3-30分)",
-      "start": "2026-05-01",
-      "deadline": "2026-11-01",
-      "prize": null,
-      "requirement": "AI支援または完全AI生成、オリジナル脚本、全ビジュアルはAI生成、著作権保持",
-      "url": "https://filmfreeway.com/AIM0V1EFILMFESTIVAL",
-      "source": "FilmFreeway",
-      "status": "募集中",
-      "firstSeen": "2026-07-26"
     },
     {
       "name": "2026 AI Creativity Awards",
@@ -1571,14 +1543,14 @@
     },
     {
       "name": "Ai Film Festival",
-      "organizer": "Ai Film Festival",
+      "organizer": null,
       "region": "国際",
-      "category": "AI短編映画 (1-10分)",
+      "category": "AI短編映画（すべての映像はAI生成であること）",
       "start": "2026-04-16",
       "deadline": "2026-11-19",
-      "prize": "最優秀AI短編映画賞、Melies Pro 3ヶ月間利用権",
-      "requirement": "オリジナル脚本に基づく、全ての映像はAI生成、1-10分、英語字幕必須（非英語作品）",
-      "url": "https://filmfreeway.com/AiFilmFestival",
+      "prize": "Melies Pro 3ヶ月分",
+      "requirement": "オリジナル脚本、すべての映像はAI生成であること、すべての著作権または使用許諾契約を所有していること。",
+      "url": "FilmFreeway",
       "source": "FilmFreeway",
       "status": "募集中",
       "firstSeen": "2026-07-28"
@@ -1708,6 +1680,20 @@
       "source": "World AI Film Festival",
       "status": "募集中",
       "firstSeen": "2026-09-13"
+    },
+    {
+      "name": "WAIFF LA USA (World AI Film Festival LA USA)",
+      "organizer": "WAIFF",
+      "region": "米国（ロサンゼルス）",
+      "category": "長編映画/短編映画/シリーズ/広告",
+      "start": "2026-05-20",
+      "deadline": "2026-11-30",
+      "prize": null,
+      "requirement": "米国在住のクリエイター、13歳以上（18歳未満は保護者の同意が必要）。AIを作品に組み込むこと。制作日誌必須。HD/4K、.mp4/.mov形式。非英語作品には英語字幕。",
+      "url": "https://waiff.com/la-usa",
+      "source": "WAIFF公式ウェブサイト",
+      "status": "募集中",
+      "firstSeen": "2026-09-23"
     },
     {
       "name": "Veritas AIFF Toronto",
@@ -1978,14 +1964,42 @@
     {
       "name": "Chroma Awards — Season 2",
       "organizer": "ElevenLabs, Google Cloud, Fal, Freepik, Dreamina, CapCut",
-      "region": "国際",
-      "category": "Film/Music/Games",
+      "region": "オンライン / 国際",
+      "category": "映画/音楽/ゲーム",
       "start": "2026-06-01",
       "deadline": "2026-12-31",
-      "prize": "$175,000+ cash, $1M+ tool credits",
-      "requirement": "AI creative work across Film, Music Video and Games. Pre-registration open.",
+      "prize": "175,000ドル以上の賞金と100万ドル以上のツールクレジット（シーズン1の実績、シーズン2も同等と推測）",
+      "requirement": "映画、音楽、ゲームにわたるグローバルAIコンペティション。事前登録受付中。",
+      "url": "https://chromaawards.com",
+      "source": "Melies.co",
+      "status": "募集中",
+      "firstSeen": "2026-06-12"
+    },
+    {
+      "name": "Bali International AI Film Festival (BIAIFF) 2026",
+      "organizer": null,
+      "region": "国際（インドネシア、バリ島）",
+      "category": "映画",
+      "start": "2026-05-01",
+      "deadline": "2026-12-31",
+      "prize": null,
+      "requirement": null,
       "url": null,
-      "source": "Melies, Kajimelo, AdArena, Indie Shorts Mag",
+      "source": "Melies.co",
+      "status": "募集中",
+      "firstSeen": "2026-06-12"
+    },
+    {
+      "name": "AI ZONE International AI Film Festival 2026",
+      "organizer": null,
+      "region": "オンライン",
+      "category": "AI生成シネマおよび動画（物語性のある短編、実験作品、アニメーション、ミュージックビデオ、抽象的なビジュアル）",
+      "start": "2026-06-01",
+      "deadline": "2026-12-31",
+      "prize": "Best AI Mini Movieに公式ローレルと財政支援",
+      "requirement": "あらゆる言語での国際応募を受け付け。",
+      "url": null,
+      "source": "Melies.co",
       "status": "募集中",
       "firstSeen": "2026-06-12"
     },
@@ -2030,34 +2044,6 @@
       "source": "公式/StudioList/Melies",
       "status": "募集中",
       "firstSeen": "2026-07-20"
-    },
-    {
-      "name": "AI ZONE International AI Film Festival 2026",
-      "organizer": "AI ZONE",
-      "region": "国際",
-      "category": "Narrative shorts/Experimental works/Animations/Music videos/Abstract visuals/Cinematic explorations",
-      "start": "2026-06-01",
-      "deadline": "2026-12-31",
-      "prize": "Official laurels, financial support for Best AI Mini Movie",
-      "requirement": "AI-generated cinema and moving image、国際的な応募",
-      "url": null,
-      "source": "Melies",
-      "status": "募集中",
-      "firstSeen": "2026-06-12"
-    },
-    {
-      "name": "Bali International AI Film Festival (BIAIFF) 2026",
-      "organizer": "Bali International AI Film Festival",
-      "region": "国際（インドネシア、ウブド）",
-      "category": "AI-Native",
-      "start": "2026-05-01",
-      "deadline": "2026-12-31",
-      "prize": null,
-      "requirement": "AI-Native",
-      "url": null,
-      "source": "Melies/Ima Studio",
-      "status": "募集中",
-      "firstSeen": "2026-06-12"
     },
     {
       "name": "BLACK AI FEST - International A.I Film Academy Festival & Awards",
@@ -2396,20 +2382,6 @@
       "firstSeen": "2026-08-10"
     },
     {
-      "name": "AI for Good Film Festival 2027",
-      "organizer": "ITU (United Nations)",
-      "region": "スイス（ジュネーブ）",
-      "category": "AIを活用し地球規模の課題解決に取り組む短編映画 (1-10分)",
-      "start": "2027-01-01",
-      "deadline": "2027-05-01",
-      "prize": "AI for Good Global Summit 2027への招待、上映、表彰",
-      "requirement": "1-10分、AIを制作の核として使用、地球規模の課題解決、英語字幕（非英語作品）",
-      "url": null,
-      "source": "Kajimelo/Melies",
-      "status": "まもなく開始",
-      "firstSeen": "2026-09-15"
-    },
-    {
       "name": "Cannes Film Awards - AI category 2027",
       "organizer": "Cannes Film Awards",
       "region": "フランス（カンヌ） / 国際",
@@ -2424,6 +2396,20 @@
       "firstSeen": "2026-07-02"
     },
     {
+      "name": "World AI Cinema Festival – Remember the Future",
+      "organizer": "World Film Festival in Cannes (支部)",
+      "region": "国際",
+      "category": "AI生成映画の月間および年間コンペティション。すべての公式カテゴリー。",
+      "start": "2026-07-24",
+      "deadline": "2027-07-30",
+      "prize": "選考作品には公式ローレル。月間受賞者は年間コンペティションのグランプリ「Best AI Film From The Future – Remember the Future®」の資格を得る。",
+      "requirement": "AIで作成された映画。毎月、作成するたびに提出可能。",
+      "url": "FilmFreeway",
+      "source": "FilmFreeway",
+      "status": "募集中",
+      "firstSeen": "2026-09-23"
+    },
+    {
       "name": "World AI Cinema Festival (Annual Competition)",
       "organizer": "World Film Festival in Cannes",
       "region": "国際（フランス、カンヌ）",
@@ -2436,20 +2422,6 @@
       "source": "FilmFreeway",
       "status": "募集中",
       "firstSeen": "2026-09-08"
-    },
-    {
-      "name": "MetaMorph AI Award",
-      "organizer": null,
-      "region": "英国",
-      "category": "AI film/AI animation/AI music",
-      "start": null,
-      "deadline": "Year-round",
-      "prize": "AI映画、AIアニメーション、AI音楽の各賞",
-      "requirement": "有料応募",
-      "url": null,
-      "source": "Kajimelo",
-      "status": "募集中",
-      "firstSeen": "2026-07-15"
     },
     {
       "name": "HKAIIFF 2026 — Hong Kong AI International Film Festival",
@@ -2536,18 +2508,172 @@
       "firstSeen": "2026-08-17"
     },
     {
-      "name": "AI London Film Festival",
-      "organizer": "AI London Film Festival",
-      "region": "国際 (ロンドン)",
-      "category": "短編映画 (物語/アニメーション/実験的)",
+      "name": "Bochnia International AI Film Festival 2026",
+      "organizer": null,
+      "region": "国際（ポーランド、ボフニア）",
+      "category": "AIを意味のあるクリエイティブツールとして使用する映画製作者向けの国際短編映画コンペティション",
       "start": null,
       "deadline": null,
-      "prize": "Jury awards",
-      "requirement": "AIツールを執筆、ビジュアル生成、アニメーション、または制作プロセスで使用した短編映画。",
-      "url": "film-festival.ai",
-      "source": "film-festival.ai",
+      "prize": "Best AI Film、ビジュアルアート、観客賞",
+      "requirement": "公開上映のために最大15作品が選出。",
+      "url": null,
+      "source": "Melies.co",
       "status": "募集中",
-      "firstSeen": "2026-06-21"
+      "firstSeen": "2026-07-22"
+    },
+    {
+      "name": "(UN)REAL AI Film Festival",
+      "organizer": null,
+      "region": "国際",
+      "category": "AIシネマ（長編、短編、アニメーション、ドキュメンタリー、広告、実験作品）。短編は最大20分。",
+      "start": null,
+      "deadline": null,
+      "prize": "Best Picture、Best of Category、脚本、技術的功績、演技、観客賞。特別賞やスポンサー賞が追加される場合あり。賞金は明記なし。",
+      "requirement": "AIが重要なクリエイティブな役割を果たすハイブリッドおよび実写映画を受け付け。非英語作品には英語SRT字幕が必要。",
+      "url": null,
+      "source": "Kajimelo",
+      "status": "募集中",
+      "firstSeen": "2026-09-22"
+    },
+    {
+      "name": "AI Slop Film Festival",
+      "organizer": null,
+      "region": "国際",
+      "category": "AIシネマ（洗練された作品からミームベースの意図的に混沌とした実験作品まで）。あらゆるジャンルと上映時間。",
+      "start": null,
+      "deadline": null,
+      "prize": "カテゴリー賞（Best AI Film、Best Generative Short、Slop of the Year、Audience Signal Award）。賞金は明記なし。",
+      "requirement": "2023年以降に完成した作品。応募者はAIの使用を説明し、非英語作品には英語字幕を提供する必要がある。",
+      "url": null,
+      "source": "Kajimelo",
+      "status": "募集中",
+      "firstSeen": "2026-09-23"
+    },
+    {
+      "name": "MetaMorph AI Award",
+      "organizer": "Higgsfield",
+      "region": "オンライン / 英国",
+      "category": "AI映画/AIアニメーション/AI音楽",
+      "start": null,
+      "deadline": null,
+      "prize": "AI映画、AIアニメーション、AI音楽にわたる賞",
+      "requirement": null,
+      "url": null,
+      "source": "Kajimelo",
+      "status": "募集中",
+      "firstSeen": "2026-07-15"
+    },
+    {
+      "name": "Sora Film Festival",
+      "organizer": null,
+      "region": "オンライン",
+      "category": "映画",
+      "start": null,
+      "deadline": null,
+      "prize": "露出機会 + 機器",
+      "requirement": "AI映画を受け付け。",
+      "url": null,
+      "source": "NerdFX Blog",
+      "status": "募集中",
+      "firstSeen": "2026-08-14"
+    },
+    {
+      "name": "AI Cinema International",
+      "organizer": null,
+      "region": "英国（ロンドン） / ドイツ（ベルリン）",
+      "category": "映画",
+      "start": null,
+      "deadline": null,
+      "prize": "5,000ユーロ以上",
+      "requirement": "AI映画を受け付け。",
+      "url": null,
+      "source": "NerdFX Blog",
+      "status": "募集中",
+      "firstSeen": "2026-08-14"
+    },
+    {
+      "name": "AI Film 3 — AI Film and Art Festival Arizona 2026",
+      "organizer": null,
+      "region": "米国（アリゾナ）",
+      "category": "映画/アート",
+      "start": "2026-10-01",
+      "deadline": null,
+      "prize": null,
+      "requirement": null,
+      "url": null,
+      "source": "Melies.co",
+      "status": "まもなく開始",
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "name": "Illuminate Film Festival 2026",
+      "organizer": null,
+      "region": "米国（カリフォルニア州サンタバーバラ）",
+      "category": "映画",
+      "start": "2026-10-02",
+      "deadline": null,
+      "prize": null,
+      "requirement": null,
+      "url": null,
+      "source": "Melies.co",
+      "status": "まもなく開始",
+      "firstSeen": "2026-07-04"
+    },
+    {
+      "name": "Austin AI Film Festival 2026",
+      "organizer": null,
+      "region": "米国（テキサス州オースティン）",
+      "category": "映画",
+      "start": "2026-10-16",
+      "deadline": null,
+      "prize": null,
+      "requirement": null,
+      "url": null,
+      "source": "Melies.co",
+      "status": "まもなく開始",
+      "firstSeen": "2026-09-23"
+    },
+    {
+      "name": "GenAI Film Awards",
+      "organizer": null,
+      "region": "オンライン / 国際",
+      "category": "映画",
+      "start": null,
+      "deadline": null,
+      "prize": "$5,000以上",
+      "requirement": "AI映画を受け付け。",
+      "url": null,
+      "source": "NerdFX Blog",
+      "status": "まもなく開始",
+      "firstSeen": "2026-08-14"
+    },
+    {
+      "name": "AI for Good Film Festival 2027",
+      "organizer": "UN's AI for Good initiative",
+      "region": "国際（スイス、ジュネーブ）",
+      "category": "AIを社会貢献に活用した映画",
+      "start": null,
+      "deadline": null,
+      "prize": null,
+      "requirement": null,
+      "url": "https://aiforgood.itu.int",
+      "source": "Melies.co",
+      "status": "まもなく開始",
+      "firstSeen": "2026-09-15"
+    },
+    {
+      "name": "AI Cinema Festival NYC 2027",
+      "organizer": null,
+      "region": "米国（ニューヨーク）",
+      "category": "映画",
+      "start": null,
+      "deadline": null,
+      "prize": null,
+      "requirement": null,
+      "url": null,
+      "source": "Melies.co",
+      "status": "まもなく開始",
+      "firstSeen": "2026-09-13"
     },
     {
       "name": "「がんを知る日 in みなとみらい」AI動画コンテスト",
@@ -2732,20 +2858,6 @@
       "firstSeen": "2026-08-05"
     },
     {
-      "name": "AI Cinema Festival NYC 2027",
-      "organizer": null,
-      "region": "米国（ニューヨーク）",
-      "category": "AI Cinema",
-      "start": null,
-      "deadline": null,
-      "prize": null,
-      "requirement": null,
-      "url": null,
-      "source": "Melies",
-      "status": "まもなく開始",
-      "firstSeen": "2026-09-13"
-    },
-    {
       "name": "MetaMorph AI Award 2026",
       "organizer": null,
       "region": "英国",
@@ -2772,20 +2884,6 @@
       "source": "FilmFreeway",
       "status": "募集中",
       "firstSeen": "2026-08-10"
-    },
-    {
-      "name": "AI Film 3 — AI Film and Art Festival Arizona 2026",
-      "organizer": null,
-      "region": "米国（アリゾナ）",
-      "category": null,
-      "start": null,
-      "deadline": null,
-      "prize": null,
-      "requirement": null,
-      "url": "https://melies.co/ai-film-festivals",
-      "source": "Melies",
-      "status": "まもなく開始",
-      "firstSeen": "2026-09-17"
     },
     {
       "name": "梶裕貴の音声AI「梵そよぎ」と代アニ学生が共演 CMナレーションコンテスト",
@@ -3670,20 +3768,6 @@
       "firstSeen": "2026-08-05"
     },
     {
-      "name": "Bochnia International AI Film Festival 2026",
-      "organizer": null,
-      "region": "ポーランド",
-      "category": "短編映画（1～10分）",
-      "start": null,
-      "deadline": null,
-      "prize": "2,500ドル、最優秀AI映画賞、視覚芸術賞、観客賞",
-      "requirement": "AIを意味のある創造的ツールとして使用、AIワークフローの詳細な開示、最低25%AI、2025年1月～2026年6月完成作品",
-      "url": null,
-      "source": "Melies/AdArena",
-      "status": "募集中",
-      "firstSeen": "2026-07-22"
-    },
-    {
       "name": "World Ai Film Festival Edition 2026",
       "organizer": "Institut EuropIA",
       "region": "国際",
@@ -3863,48 +3947,6 @@
       "url": null,
       "source": "NerdFX Blog",
       "status": "募集中",
-      "firstSeen": "2026-08-14"
-    },
-    {
-      "name": "Sora Film Festival",
-      "organizer": null,
-      "region": "国際 (オンライン)",
-      "category": "AI生成映画",
-      "start": null,
-      "deadline": null,
-      "prize": "露出機会、機材",
-      "requirement": null,
-      "url": null,
-      "source": "NerdFX Blog",
-      "status": "募集中",
-      "firstSeen": "2026-08-14"
-    },
-    {
-      "name": "AI Cinema International",
-      "organizer": null,
-      "region": "国際 (ロンドン/ベルリン)",
-      "category": "AI生成映画",
-      "start": null,
-      "deadline": null,
-      "prize": "5,000ユーロ以上",
-      "requirement": null,
-      "url": null,
-      "source": "NerdFX Blog",
-      "status": "まもなく開始",
-      "firstSeen": "2026-08-14"
-    },
-    {
-      "name": "GenAI Film Awards",
-      "organizer": null,
-      "region": "国際 (オンライン)",
-      "category": "AI生成映画",
-      "start": null,
-      "deadline": null,
-      "prize": "5,000ドル以上",
-      "requirement": null,
-      "url": null,
-      "source": "NerdFX Blog",
-      "status": "まもなく開始",
       "firstSeen": "2026-08-14"
     },
     {
@@ -4228,20 +4270,6 @@
       "source": "PR TIMES [23], いろいろまとめ Beans ニュース [37]",
       "status": "まもなく開始",
       "firstSeen": "2026-07-30"
-    },
-    {
-      "name": "Illuminate Film Festival 2026",
-      "organizer": null,
-      "region": "国際",
-      "category": "AI Film",
-      "start": null,
-      "deadline": null,
-      "prize": null,
-      "requirement": "AIを用いた映画作品",
-      "url": null,
-      "source": "melies.co [2]",
-      "status": "まもなく開始",
-      "firstSeen": "2026-07-04"
     },
     {
       "name": "Chicago AI Film Festival 2026",
@@ -4788,20 +4816,6 @@
       "source": "公式",
       "status": "募集中",
       "firstSeen": "2026-06-26"
-    },
-    {
-      "name": "The Chroma Awards",
-      "organizer": "ElevenLabs (主催), Google Cloud, Freepik, fal, Dreamina AI, CapCut (提供)",
-      "region": "国際",
-      "category": "AI映画, ミュージックビデオ, ゲーム",
-      "start": "2026-09",
-      "deadline": null,
-      "prize": "現金賞金$250,000以上, 無料トライアル・プロモーション$1M以上, 配給・開発契約, AI映画スタジオでの仕事・インターンシップ",
-      "requirement": "AIツールを活用した作品。映画、ミュージックビデオ、ゲームのいずれかの部門。",
-      "url": "https://chromaawards.com/",
-      "source": "Chroma Awards公式サイト, Business Wire, Shaike.ai",
-      "status": "まもなく開始",
-      "firstSeen": "2026-06-24"
     }
   ]
 }
