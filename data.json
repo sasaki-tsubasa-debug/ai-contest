@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26 09:28",
+  "generatedAt": "2026-09-27 09:23",
   "contests": [
     {
       "name": "AI Song Contest 2026",
@@ -982,20 +982,6 @@
       "firstSeen": "2026-09-25"
     },
     {
-      "name": "PixLight 2026 | PixVerse AI Film Contest",
-      "organizer": "PixVerse",
-      "region": "国際",
-      "category": "ジャンルパイロット（Pilot Track）、長編脚本（Script Track）",
-      "start": "2026-08-07",
-      "deadline": "2026-10-09",
-      "prize": "グリーンライトされたプロジェクト、PixVerseのクリエイターエコシステムへの参加",
-      "requirement": "完成したジャンルパイロットまたは長編脚本のピッチ、AI時代の物語",
-      "url": null,
-      "source": "公式",
-      "status": "締切間近",
-      "firstSeen": "2026-08-19"
-    },
-    {
       "name": "PixLight (PixVerse Global Competition for AI Filmmakers)",
       "organizer": "PixVerse",
       "region": "国際",
@@ -1052,6 +1038,20 @@
       "firstSeen": "2026-09-04"
     },
     {
+      "name": "Ai and Robots Film Festival",
+      "organizer": null,
+      "region": "国際",
+      "category": "映画",
+      "start": null,
+      "deadline": "2026-10-12",
+      "prize": null,
+      "requirement": "AIとロボットをテーマにした映画。",
+      "url": "https://www.aifilmsociety.com/festivals",
+      "source": "AI Film Society",
+      "status": "締切間近",
+      "firstSeen": "2026-09-27"
+    },
+    {
       "name": "Ai and Robots Film Festival 2026",
       "organizer": null,
       "region": "国際",
@@ -1096,13 +1096,13 @@
     {
       "name": "TEL AVIV AI FILM FESTIVAL (TLVAIFF)",
       "organizer": null,
-      "region": "イスラエル（テルアビブ）/ 国際",
-      "category": "AI生成短編映画（Best AI Film, Best Storytelling, Best Use of AI, Best Cross-Cultural Film, Best Visual Achievement）",
+      "region": "国際（テルアビブ、イスラエル）",
+      "category": "AI生成短編映画",
       "start": "2026-09-10",
       "deadline": "2026-10-15",
-      "prize": "In-kind prizes by festival partners",
-      "requirement": "AIツールを使用して制作された短編映画、ジャンル不問。応募は一人2作品まで。AIツールの開示必須。",
-      "url": null,
+      "prize": "協賛パートナーからの賞品 (5部門で受賞者発表)。",
+      "requirement": "AIツールを使用して作成された短編映画。各応募者は最大2作品提出可能。",
+      "url": "https://filmfreeway.com/TELAVIVAIFF",
       "source": "FilmFreeway",
       "status": "締切間近",
       "firstSeen": "2026-09-24"
@@ -1540,6 +1540,20 @@
       "source": "TCCP公式サイト",
       "status": "募集中",
       "firstSeen": "2026-07-21"
+    },
+    {
+      "name": "PixLight 2026 | PixVerse AI Film Contest",
+      "organizer": "PixVerse",
+      "region": "国際",
+      "category": "AI映画",
+      "start": "2026-08-07",
+      "deadline": "2026-10-31",
+      "prize": "不明 (Creator Pathwayあり)",
+      "requirement": "AIを用いて次世代の映画的物語を創造する監督および脚本家向け。",
+      "url": "https://www.pixverse.ai/pixlight2026",
+      "source": "公式",
+      "status": "募集中",
+      "firstSeen": "2026-08-19"
     },
     {
       "name": "ROBOT CARNIVAL — AI FILM CONTEST",
@@ -2886,6 +2900,20 @@
       "firstSeen": "2026-08-17"
     },
     {
+      "name": "2026ムービンピック AI動画コンテスト",
+      "organizer": "武蔵野市観光機構",
+      "region": "日本（武蔵野市）",
+      "category": "映像作品",
+      "start": null,
+      "deadline": null,
+      "prize": null,
+      "requirement": "「未来の武蔵野」を描く、AI技術を駆使した3分以内の映像作品。",
+      "url": "https://musashino-kanko.com/event/2026movinpic-ai-video-contest/",
+      "source": "武蔵野市観光機構 公式サイト",
+      "status": "募集中",
+      "firstSeen": "2026-09-09"
+    },
+    {
       "name": "甲賀流忍者AIコンテスト",
       "organizer": "一般社団法人日本AI創造振興機構 (JACIO)",
       "region": "日本（滋賀県甲賀市）",
@@ -3416,20 +3444,6 @@
       "source": "FilmFreeway",
       "status": "募集中",
       "firstSeen": "2026-09-03"
-    },
-    {
-      "name": "2026ムービンピック AI動画コンテスト",
-      "organizer": "武蔵野市観光機構",
-      "region": "日本（武蔵野市）",
-      "category": "映像作品 (3分以内)",
-      "start": null,
-      "deadline": null,
-      "prize": null,
-      "requirement": "AI技術を駆使した3分以内の映像作品で「未来の武蔵野」を描く。",
-      "url": "https://www.musashino-kanko.com/event/movinpic2026-ai/",
-      "source": "公式",
-      "status": "募集中",
-      "firstSeen": "2026-09-09"
     },
     {
       "name": "AI LAB CREATION (毎月賞金10万円のAIビデオコンテスト)",
@@ -4342,20 +4356,6 @@
       "firstSeen": "2026-07-23"
     },
     {
-      "name": "K-Culture AI International Film Festival (KCAIF) 2026",
-      "organizer": null,
-      "region": "韓国",
-      "category": null,
-      "start": null,
-      "deadline": null,
-      "prize": null,
-      "requirement": null,
-      "url": null,
-      "source": "Melies.co, Kajimelo",
-      "status": "募集中",
-      "firstSeen": "2026-06-28"
-    },
-    {
       "name": "AI Film Festival (AIFF)",
       "organizer": "AI Film Institute",
       "region": "米国 (ニューヨーク/ロサンゼルス)",
@@ -4900,20 +4900,6 @@
       "source": "Metagri研究所 (公式)",
       "status": "募集中",
       "firstSeen": "2026-07-14"
-    },
-    {
-      "name": "AIGC for Future Global Challenge 2026",
-      "organizer": null,
-      "region": "国際 (中国、スイス)",
-      "category": "AI-Generated Creativity (Green Developmentなど)",
-      "start": null,
-      "deadline": null,
-      "prize": "USD 10,000",
-      "requirement": "若手クリエイター、イノベーター、研究者、学際的チーム。気候変動対策、持続可能性、再生可能エネルギー、環境保護、循環経済、グリーンイノベーションに焦点を当てたAI駆動型コンセプト。",
-      "url": "https://opportunitiesforyouth.org/aigc-for-future-global-challenge-2026-win-usd-10000-and-showcase-your-ai-generated-creativity-on-a-global-stage-in-china-and-switzerland/",
-      "source": "Opportunities for Youth",
-      "status": "募集中",
-      "firstSeen": "2026-06-28"
     },
     {
       "name": "AI Film Festival 2026 | LifeArt",
