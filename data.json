@@ -1,90 +1,6 @@
 {
-  "generatedAt": "2026-10-01 10:11",
+  "generatedAt": "2026-10-02 10:29",
   "contests": [
-    {
-      "name": "GenTO: Toronto AI Film Festival 2026",
-      "organizer": "GenTO: Toronto AI Film Festival",
-      "region": "カナダ (Toronto)",
-      "category": "AI film",
-      "start": null,
-      "deadline": "2026-10-01",
-      "prize": null,
-      "requirement": null,
-      "url": "https://www.aifilmsociety.com/ai-film-festivals",
-      "source": "AI Film Society",
-      "status": "締切間近",
-      "firstSeen": "2026-10-01"
-    },
-    {
-      "name": "AI Filmfestival (Biberach) 2026",
-      "organizer": "AI Filmfestival",
-      "region": "ドイツ (Biberach)",
-      "category": "AI film",
-      "start": null,
-      "deadline": "2026-10-01",
-      "prize": null,
-      "requirement": null,
-      "url": "https://www.aifilmsociety.com/ai-film-festivals",
-      "source": "AI Film Society",
-      "status": "締切間近",
-      "firstSeen": "2026-10-01"
-    },
-    {
-      "name": "AI Filmfestival (Biberach)",
-      "organizer": "AI Filmfestival Biberach",
-      "region": "ドイツ（ビーベラッハ）",
-      "category": "AI Film",
-      "start": null,
-      "deadline": "2026-10-01",
-      "prize": null,
-      "requirement": null,
-      "url": "https://www.aifilmfestival.de/",
-      "source": "AI Film Festivals | AI Film Society",
-      "status": "締切間近",
-      "firstSeen": "2026-09-30"
-    },
-    {
-      "name": "AI Filmfestival",
-      "organizer": "AI Filmfestival",
-      "region": "ドイツ（ビーベラッハ）",
-      "category": "AI映画",
-      "start": null,
-      "deadline": "2026-10-01",
-      "prize": null,
-      "requirement": null,
-      "url": "https://filmfestival-biberach.de/en/ai-filmfestival/",
-      "source": "AI Film Festivals",
-      "status": "締切間近",
-      "firstSeen": "2026-07-28"
-    },
-    {
-      "name": "OPUS AI Film Awards",
-      "organizer": null,
-      "region": "国際",
-      "category": "AI駆動型映画制作",
-      "start": null,
-      "deadline": "2026-10-01",
-      "prize": "AI駆動型映画制作における優秀賞。賞金は公式サイトで確認。",
-      "requirement": "AIツールを意味のある形で使用した作品。",
-      "url": null,
-      "source": "AIFC",
-      "status": "締切間近",
-      "firstSeen": "2026-09-22"
-    },
-    {
-      "name": "GenTO",
-      "organizer": "GenTO",
-      "region": "カナダ (トロント)",
-      "category": "AIツールで拡張されたアーティスト向け作品",
-      "start": "2026-05-01",
-      "deadline": "2026-10-01",
-      "prize": null,
-      "requirement": "AIはアーティストが利用できるツールを拡張するもの。芸術的作者性と技術が評価基準。",
-      "url": null,
-      "source": "AI Film Festivals in Canada 2026",
-      "status": "締切間近",
-      "firstSeen": "2026-09-22"
-    },
     {
       "name": "ILLUMINATE Film Festival 2026 (Oneness of Humanity Micro-Short Film Contest)",
       "organizer": "ILLUMINATE Film Festival",
@@ -241,15 +157,15 @@
     },
     {
       "name": "AI London Film Festival 2026",
-      "organizer": "AI London Film Festival",
-      "region": "英国（ロンドン）",
-      "category": "AI映画",
-      "start": null,
+      "organizer": "Erich Schultz",
+      "region": "国際 (英国・ロンドン)",
+      "category": "AIツールを活用した短編映画 (脚本、ビジュアル生成、アニメーション、制作プロセス)",
+      "start": "2026-06-08",
       "deadline": "2026-10-07",
-      "prize": null,
-      "requirement": "AIで制作された映画。",
-      "url": null,
-      "source": "Hollywood.AI, AI Film Contests",
+      "prize": "審査員賞",
+      "requirement": "AIツールを脚本、ビジュアル生成、アニメーション、または制作プロセスに使用した短編映画",
+      "url": "https://film-festival.ai/",
+      "source": "公式サイト / FilmFreeway",
       "status": "締切間近",
       "firstSeen": "2026-07-12"
     },
@@ -448,6 +364,34 @@
       "source": "一般社団法人 デジタル人材共創連盟（デジ連）",
       "status": "締切間近",
       "firstSeen": "2026-09-25"
+    },
+    {
+      "name": "第1回 国際AIクリエイターアワード2026",
+      "organizer": "AICU Inc. (米) / AICU Japan株式会社 (日本)",
+      "region": "国際 (授賞式は日本・幕張メッセ)",
+      "category": "サービス/商用映像/インディペンデント映像/キャラクター/音楽・パフォーマンス/広告・放送/出版/ゲーム・ツール/イベント/オープン分野 (生成AI活用作品)",
+      "start": "2025-01-01",
+      "deadline": "2026-10-15",
+      "prize": "公開証明書、企業からの制作依頼・協業機会、次期アワード審査員への参画など",
+      "requirement": "2025年1月1日〜2026年12月31日に公開され、ログインなしで第三者が視聴・体験可能な生成AI活用作品",
+      "url": null,
+      "source": "PR TIMES (IGDA Japan news)",
+      "status": "締切間近",
+      "firstSeen": "2026-10-02"
+    },
+    {
+      "name": "TEL AVIV AI FILM FESTIVAL (TLVAIFF) 2026",
+      "organizer": null,
+      "region": "国際 (イスラエル・テルアビブ)",
+      "category": "AI生成短編映画 (Best AI Film, Best Storytelling, Best Use of AI, Best Cross-Cultural Film, Best Visual Achievement)",
+      "start": "2026-09-10",
+      "deadline": "2026-10-15",
+      "prize": "協賛企業からの現物賞品",
+      "requirement": "AIツールで制作された短編映画、ジャンル不問。1人2作品まで。著作権を所有していること。",
+      "url": "https://filmfreeway.com/TelAvivAIFilmFestival",
+      "source": "FilmFreeway",
+      "status": "締切間近",
+      "firstSeen": "2026-10-02"
     },
     {
       "name": "国際AIクリエイターアワード2026 (International AI Creator Award 2026 / AICU Award)",
@@ -1066,6 +1010,20 @@
       "firstSeen": "2026-07-21"
     },
     {
+      "name": "PixLight 2026 | PixVerse AI Film Contest",
+      "organizer": "PixVerse",
+      "region": "国際",
+      "category": "AIを用いた映画作品",
+      "start": "2026-08-07",
+      "deadline": "2026-10-31",
+      "prize": null,
+      "requirement": "AIを用いて映画的な物語を制作する監督・脚本家向け",
+      "url": "https://pixverse.ai/pixlight2026",
+      "source": "公式サイト",
+      "status": "締切間近",
+      "firstSeen": "2026-08-19"
+    },
+    {
       "name": "(UN)REAL AI Film Festival",
       "organizer": "(UN)REAL AI Film Festival",
       "region": "イタリア（トリノ）",
@@ -1092,20 +1050,6 @@
       "source": "Kajimelo",
       "status": "募集中",
       "firstSeen": "2026-09-28"
-    },
-    {
-      "name": "PixLight 2026 | PixVerse AI Film Contest",
-      "organizer": "PixVerse",
-      "region": "国際",
-      "category": "AI映画",
-      "start": "2026-08-07",
-      "deadline": "2026-10-31",
-      "prize": "不明 (Creator Pathwayあり)",
-      "requirement": "AIを用いて次世代の映画的物語を創造する監督および脚本家向け。",
-      "url": "https://www.pixverse.ai/pixlight2026",
-      "source": "公式",
-      "status": "募集中",
-      "firstSeen": "2026-08-19"
     },
     {
       "name": "ROBOT CARNIVAL — AI FILM CONTEST",
@@ -1344,6 +1288,20 @@
       "source": "AI Film Contests",
       "status": "募集中",
       "firstSeen": "2026-09-02"
+    },
+    {
+      "name": "学生AI活用アイデアコンテスト by SMC-POWER 2026",
+      "organizer": "株式会社SMC-POWER",
+      "region": "日本 (最終発表会は岐阜県多治見市)",
+      "category": "AI活用アイデア (Web・アプリ・ゲーム/グラフィック/ビジネス・アイデア・企画/プログラミング/映像・アニメ・動画)",
+      "start": null,
+      "deadline": "2026-11-03",
+      "prize": null,
+      "requirement": "高校・大学・大学院・短期大学・専門学校に在籍する学生。個人応募のみ。2026年12月5日の最終発表会に参加可能な方。",
+      "url": null,
+      "source": "デジ連 [cite: 40 in previous search]",
+      "status": "募集中",
+      "firstSeen": "2026-10-02"
     },
     {
       "name": "World AI Film Festival (WAIFF) - Istanbul Edition",
@@ -2674,6 +2632,20 @@
       "source": "公式",
       "status": "募集中",
       "firstSeen": "2026-08-17"
+    },
+    {
+      "name": "AI LAB CREATION｜AIビデオコンテスト",
+      "organizer": "AI LAB STARTUP",
+      "region": "日本 (世界中からAI動画を募集)",
+      "category": "AI動画 (横・縦型動画、最大2分)",
+      "start": null,
+      "deadline": null,
+      "prize": "毎月グランプリ作品に賞金10万円",
+      "requirement": "AIで制作した映像作品",
+      "url": null,
+      "source": "公式サイト",
+      "status": "募集中",
+      "firstSeen": "2026-10-02"
     },
     {
       "name": "AI Creative Future Awards（AICA）2026",
@@ -4998,20 +4970,6 @@
       "source": "公式サイト, FilmFreeway",
       "status": "募集中",
       "firstSeen": "2026-07-04"
-    },
-    {
-      "name": "地域PR動画コンテスト (Metagri研究所)",
-      "organizer": "Metagri研究所（株式会社農情人）",
-      "region": "日本 (全国の自治体と連携)",
-      "category": "地域PR動画 (動画生成AIを活用)",
-      "start": "2026年秋以降 (予定)",
-      "deadline": null,
-      "prize": "グランプリ作品は市の公式PR動画に採用",
-      "requirement": "動画生成AIを活用",
-      "url": "https://metagri-labo.com/",
-      "source": "PR TIMES, 公募ガイド, ライブドアニュース, 山形経済新聞",
-      "status": "まもなく開始",
-      "firstSeen": "2026-07-03"
     }
   ]
 }
