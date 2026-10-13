@@ -1,62 +1,6 @@
 {
-  "generatedAt": "2026-10-12 10:07",
+  "generatedAt": "2026-10-13 11:56",
   "contests": [
-    {
-      "name": "Ai & Robots Film Festival",
-      "organizer": "Ai and Robots Film Festival",
-      "region": "国際",
-      "category": "AI生成、実験的、ファンタジー、ファッション、短編映画",
-      "start": null,
-      "deadline": "2026-10-12",
-      "prize": "Best AI Animation and Best Storytelling AI awards (現金賞金なし)",
-      "requirement": "AI生成された短編映画、長編映画",
-      "url": "https://filmfreeway.com/AiandRobotsFilmFestival",
-      "source": "AI Film Society, FilmFreeway",
-      "status": "締切間近",
-      "firstSeen": "2026-10-04"
-    },
-    {
-      "name": "Ai and Robots Film Festival 2026",
-      "organizer": null,
-      "region": "国際 (オンライン)",
-      "category": "映画",
-      "start": null,
-      "deadline": "2026-10-12",
-      "prize": null,
-      "requirement": null,
-      "url": "https://aifilmsociety.com/ai-film-festivals",
-      "source": "AI Film Society",
-      "status": "締切間近",
-      "firstSeen": "2026-09-25"
-    },
-    {
-      "name": "R8年度『はじめの100か月の育ちビジョン』PR動画コンテスト",
-      "organizer": null,
-      "region": "日本",
-      "category": "PR動画",
-      "start": null,
-      "deadline": "2026-10-12",
-      "prize": "表彰状・トロフィー",
-      "requirement": "PR動画",
-      "url": null,
-      "source": "コンペナビ",
-      "status": "締切間近",
-      "firstSeen": "2026-10-08"
-    },
-    {
-      "name": "Ai and Robots Film Festival",
-      "organizer": "Ai and Robots Film Festival",
-      "region": "国際 (Online, Worldwide)",
-      "category": "生成映画/シュールなデジタルアート/思索的なAIストーリーテリング。短編映画（8分以内）/長編映画（20分以上）",
-      "start": null,
-      "deadline": "2026-10-12",
-      "prize": "Best AI Animation and Best Storytelling AI awards",
-      "requirement": null,
-      "url": "https://aiandrobotsfilmfestival.com/",
-      "source": "AI Film Festivals | AI Film Society / Kajimelo",
-      "status": "締切間近",
-      "firstSeen": "2026-09-27"
-    },
     {
       "name": "AI Toronto Shorts",
       "organizer": null,
@@ -2102,6 +2046,20 @@
       "firstSeen": "2026-06-13"
     },
     {
+      "name": "Chroma Awards Season 2",
+      "organizer": "ElevenLabs (incubated by), presented by Google Cloud, Fal, Freepik, Dreamina, CapCut",
+      "region": "国際",
+      "category": "Film/Music Video/AI Games/Ad/Behind-The-Scenes/Student Awards",
+      "start": null,
+      "deadline": "2026-12-31",
+      "prize": "現金175,000ドル以上、ツールクレジット1,000,000ドル以上",
+      "requirement": "応募無料、ツール不問、プレミア公開の要件なし",
+      "url": "https://chromaawards.com/",
+      "source": "公式",
+      "status": "募集中",
+      "firstSeen": "2026-07-20"
+    },
+    {
       "name": "CSFCCA INTERNATIONAL AI FILM FESTIVAL (Winter 2026)",
       "organizer": "CSFCCA",
       "region": "国際（台湾でイベント）",
@@ -2970,6 +2928,90 @@
       "firstSeen": "2026-08-17"
     },
     {
+      "name": "CSFCCA International AI Film Festival (Winter 2026 season)",
+      "organizer": "CSFCCA",
+      "region": "国際（台湾）",
+      "category": "物語短編/アニメーション/ミュージックビデオ/実験映画/コンセプトトレーラー/CM/革新的なビジュアルプロジェクト",
+      "start": "2026-10-05",
+      "deadline": null,
+      "prize": "Golden Mars Grand Prize, 達成証明書",
+      "requirement": "AIが作品の半分以上を意味のある形で形成していること。Winter 2026シーズンは2026年1月1日以降に完成した作品。",
+      "url": "https://filmfreeway.com/CSFCCAInternationalAIFilmFestival",
+      "source": "FilmFreeway",
+      "status": "募集中",
+      "firstSeen": "2026-10-13"
+    },
+    {
+      "name": "AI International Film Festival (Hollywood.AI)",
+      "organizer": "AI International Film Festival",
+      "region": "米国（ハリウッド）",
+      "category": "AI映画/ハイブリッドAI映画/実写/ドキュメンタリー/アニメーション/短編/長編/実験/ミュージックビデオ/ウェブシリーズ",
+      "start": null,
+      "deadline": null,
+      "prize": null,
+      "requirement": "AIツールを使用してストーリーテリングの未来を示す、またはAIが社会に与える影響を探求する作品。非英語作品は英語字幕が必要。",
+      "url": "https://www.aiiff.org/",
+      "source": "Festhome, Hollywood.AI",
+      "status": "募集中",
+      "firstSeen": "2026-10-13"
+    },
+    {
+      "name": "Crossing: Shibuya AI Film Competition",
+      "organizer": "AIMovie.Studio / SHIBUYA CREATIVE TECH Executive Committee (展示協力)",
+      "region": "日本（渋谷）",
+      "category": "AI制作映画/AIと実写を組み合わせたハイブリッド映画/渋谷をテーマにした作品",
+      "start": null,
+      "deadline": null,
+      "prize": "渋谷AIフィルムギャラリーでの上映、追加の賞金・賞品（今後発表）",
+      "requirement": "AI制作映画、ハイブリッド映画、渋谷をテーマにした作品",
+      "url": "https://www.aimovie.studio/crossing",
+      "source": "FilmFreeway",
+      "status": "募集中",
+      "firstSeen": "2026-10-13"
+    },
+    {
+      "name": "小豆島 生成AI動画コンテスト",
+      "organizer": "二十四の瞳映画村",
+      "region": "日本（小豆島）",
+      "category": "生成AIオリジナル動画",
+      "start": null,
+      "deadline": null,
+      "prize": null,
+      "requirement": "壺井栄作品をベースにした「本歌取り」で壺井栄の世界観や小豆島を題材にした生成AIオリジナル動画",
+      "url": "https://24hitomi.or.jp/ai-video-contest/",
+      "source": "公式",
+      "status": "募集中",
+      "firstSeen": "2026-10-13"
+    },
+    {
+      "name": "NEXT ART AI 2026",
+      "organizer": "HOBAN Cultural Foundation",
+      "region": "国際",
+      "category": "AI Image Art/AI Video Art",
+      "start": null,
+      "deadline": null,
+      "prize": null,
+      "requirement": "生成AIをクリエイティブな実践の一部として使用したオリジナル画像または動画作品",
+      "url": "https://ai-arts.org/",
+      "source": "AI-ARTS.org, StudentCompetitions.com",
+      "status": "募集中",
+      "firstSeen": "2026-10-13"
+    },
+    {
+      "name": "Artiver AI Art Awards 2026",
+      "organizer": "Artiver",
+      "region": "国際",
+      "category": "Film & Video/Image & Visual Art/Spatial & Architecture/Interactive Media",
+      "start": null,
+      "deadline": null,
+      "prize": "現金（マスターアワード最大2,000ドル、カテゴリ賞最大500ドル）、公式認定、オンラインショーケース、特集機会",
+      "requirement": "人間とAIのコラボレーションによる革新的な作品。AIツール（テキスト-画像、テキスト-動画、画像編集、動画生成、アニメーション、3D、オーディオなど）の利用。",
+      "url": "https://filmfreeway.com/ArtiverAIAwards",
+      "source": "FilmFreeway",
+      "status": "募集中",
+      "firstSeen": "2026-09-03"
+    },
+    {
       "name": "World AI Film Festival 2027 in TOKYO",
       "organizer": "World AI Film Festival",
       "region": "日本（東京）",
@@ -2984,20 +3026,6 @@
       "firstSeen": "2026-09-08"
     },
     {
-      "name": "Chroma Awards Season 2",
-      "organizer": "ElevenLabs (提供: Google Cloud, Freepik, fal, Dreamina AI, CapCut)",
-      "region": "国際",
-      "category": "フィルム、広告、ミュージックビデオ、ゲーム",
-      "start": "2026-10-XX",
-      "deadline": null,
-      "prize": "現金賞金プール、配布、インターンシップ、仕事の機会",
-      "requirement": "AIツール使用の透明性",
-      "url": null,
-      "source": "Kajimelo, PR TIMES",
-      "status": "まもなく開始",
-      "firstSeen": "2026-07-20"
-    },
-    {
       "name": "Hollywood AI Short Film Awards (HASFA) 2027",
       "organizer": null,
       "region": "米国（ロサンゼルス）",
@@ -3010,20 +3038,6 @@
       "source": "FilmFreeway",
       "status": "募集中",
       "firstSeen": "2026-10-08"
-    },
-    {
-      "name": "Artiver AI Art Awards 2026",
-      "organizer": "Artiver",
-      "region": "国際 (ニューヨーク拠点)",
-      "category": "Film & Video, Image & Visual Art, Spatial & Architecture, Interactive Media",
-      "start": null,
-      "deadline": null,
-      "prize": "Cash prizes (Master Award: up to $2,000 USD, Category/Sub-theme Award: up to $500 USD), official recognition, online showcase, interview/feature opportunities, potential exhibition/screening",
-      "requirement": "Innovative works created through human-AI collaboration, AI-powered creativity",
-      "url": null,
-      "source": "FilmFreeway",
-      "status": "募集中",
-      "firstSeen": "2026-09-03"
     },
     {
       "name": "AI Cinema Festival NYC 2027",
@@ -5166,34 +5180,6 @@
       "source": "Melies",
       "status": "まもなく開始",
       "firstSeen": "2026-07-16"
-    },
-    {
-      "name": "GENIAC-PRIZE<NEDO懸賞金活用型プログラム>",
-      "organizer": "NEDO (国立研究開発法人新エネルギー・産業技術総合開発機構)",
-      "region": "日本",
-      "category": "AI基盤モデル開発/AI活用 (社会課題解決)",
-      "start": "2026-05-29",
-      "deadline": null,
-      "prize": "懸賞金総額：約3,000万円",
-      "requirement": "AI基盤モデル開発を行う。AIを活用したエッセンシャルサービス業における人手不足の課題解消に資する提案。国産基盤モデルを活用した開発・実証。",
-      "url": "https://geniac-prize.jp/",
-      "source": "公式",
-      "status": "募集中",
-      "firstSeen": "2026-07-14"
-    },
-    {
-      "name": "地方創生 × 動画AIコンテスト (自治体連携募集)",
-      "organizer": "Metagri研究所（株式会社農情人）",
-      "region": "日本 (全国の自治体)",
-      "category": "動画AI (地域PR動画)",
-      "start": "2026年春",
-      "deadline": null,
-      "prize": null,
-      "requirement": "PR動画を作りたい自治体、Z世代・若年層への発信を強化したい自治体、AIなどの最新技術を地域活性化に取り入れたい自治体、関係人口を創出したい自治体。",
-      "url": "https://metagri-labo.com/contact/",
-      "source": "Metagri研究所 (公式)",
-      "status": "募集中",
-      "firstSeen": "2026-07-14"
     }
   ]
 }
