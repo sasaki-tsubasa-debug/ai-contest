@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24 09:25",
+  "generatedAt": "2026-10-25 09:09",
   "contests": [
     {
       "name": "Atlanta AI Ad Fest",
@@ -647,15 +647,15 @@
     },
     {
       "name": "AI MUSIC VIDEO WAVE 2026",
-      "organizer": "一般社団法人 日本AI創造振興機構 (JACIO)",
+      "organizer": null,
       "region": "日本",
-      "category": "ミュージックビデオ",
-      "start": "2026-10-13",
+      "category": "AIミュージックビデオ",
+      "start": null,
       "deadline": "2026-11-03",
-      "prize": "総額40万円 (グランプリ15万円含む)",
-      "requirement": "生成AIを活用したミュージックビデオ作品。Xでの投稿で完結。18歳以上。",
+      "prize": "総額40万円",
+      "requirement": "3分以内、生成AIで作るMVが対象、Xで応募",
       "url": null,
-      "source": "PR TIMES",
+      "source": "YouTube",
       "status": "締切間近",
       "firstSeen": "2026-10-16"
     },
@@ -772,6 +772,20 @@
       "firstSeen": "2026-10-01"
     },
     {
+      "name": "太秦歴史AIショートコンテスト2026",
+      "organizer": null,
+      "region": "日本",
+      "category": "AIショートフィルム",
+      "start": null,
+      "deadline": "2026-11-15",
+      "prize": null,
+      "requirement": "歴史がテーマのAI動画、15〜180秒程度、AIツール自由",
+      "url": null,
+      "source": "YouTube",
+      "status": "締切間近",
+      "firstSeen": "2026-10-20"
+    },
+    {
       "name": "JIFF — World AI Cinema Competition 2027 — Jaipur",
       "organizer": "Jaipur International Film Festival",
       "region": "インド（ジャイプール）",
@@ -784,20 +798,6 @@
       "source": "AI Film Contests, Hollywood.AI",
       "status": "締切間近",
       "firstSeen": "2026-10-23"
-    },
-    {
-      "name": "太秦歴史AIショートコンテスト2026",
-      "organizer": null,
-      "region": "日本",
-      "category": "AI動画",
-      "start": null,
-      "deadline": "2026-11-15",
-      "prize": null,
-      "requirement": "歴史がテーマのAI動画。15〜180秒程度。使うAIツールは自由。",
-      "url": null,
-      "source": "YouTube",
-      "status": "締切間近",
-      "firstSeen": "2026-10-20"
     },
     {
       "name": "Ribalta Experimental Film Festival",
@@ -1374,6 +1374,20 @@
       "firstSeen": "2026-06-25"
     },
     {
+      "name": "Brain Online Video Award 縦型動画部門",
+      "organizer": null,
+      "region": "日本",
+      "category": "縦型動画",
+      "start": null,
+      "deadline": "2026-12-01",
+      "prize": "グランプリ100万円",
+      "requirement": "1分以内の縦型動画、生成AIを使った映像も応募可能",
+      "url": null,
+      "source": "YouTube",
+      "status": "募集中",
+      "firstSeen": "2026-10-20"
+    },
+    {
       "name": "Fantasia (AI films)",
       "organizer": "Fantasia International Film Festival",
       "region": "カナダ",
@@ -1386,20 +1400,6 @@
       "source": "ScreenWeaver",
       "status": "募集中",
       "firstSeen": "2026-10-08"
-    },
-    {
-      "name": "Brain Online Video Award 縦型動画部門",
-      "organizer": null,
-      "region": "日本",
-      "category": "縦型動画",
-      "start": null,
-      "deadline": "2026-12-01",
-      "prize": "グランプリ100万円",
-      "requirement": "生成AIを使った映像も応募可能。1分以内。",
-      "url": null,
-      "source": "YouTube",
-      "status": "募集中",
-      "firstSeen": "2026-10-20"
     },
     {
       "name": "AI Filmfest",
@@ -1948,20 +1948,6 @@
       "firstSeen": "2026-10-12"
     },
     {
-      "name": "Chroma Awards Season 2",
-      "organizer": "ElevenLabs",
-      "region": "国際",
-      "category": "Film, Music Videos, Advertising, Games, Behind-The-Scenes",
-      "start": "2026-10-19",
-      "deadline": "2027-01-01",
-      "prize": "ツールクレジット$1M以上, 賞金$300K",
-      "requirement": "AIクリエイティブ作品",
-      "url": "https://chromaawards.com/",
-      "source": "Melies, ElevenLabs, Instagram",
-      "status": "募集中",
-      "firstSeen": "2026-07-20"
-    },
-    {
       "name": "The Chroma Awards Season 2",
       "organizer": "ElevenLabs",
       "region": "国際",
@@ -1988,6 +1974,20 @@
       "source": "PMN Discovery, AI Film Contests, 公式ルール",
       "status": "募集中",
       "firstSeen": "2026-06-12"
+    },
+    {
+      "name": "Chroma Awards Season 2",
+      "organizer": "ElevenLabs (incubated by)",
+      "region": "国際",
+      "category": "映画/ミュージックビデオ/広告/ゲーム/舞台裏",
+      "start": "2026-10-19",
+      "deadline": "2027-01-08",
+      "prize": "175,000ドル以上の賞金、1,000,000ドル以上のツールクレジット、ElevenLabs Awards: 総額22,000ドル",
+      "requirement": "2026年2月1日以降に制作されたプロジェクトが対象",
+      "url": "https://www.chromaawards.com",
+      "source": "公式",
+      "status": "募集中",
+      "firstSeen": "2026-07-20"
     },
     {
       "name": "Runway AI Film Festival (AIF) - 2027 Cycle",
@@ -2898,6 +2898,20 @@
       "source": "公式",
       "status": "募集中",
       "firstSeen": "2026-08-17"
+    },
+    {
+      "name": "AI for Good Film Festival (2027年サミット向け)",
+      "organizer": "ITU",
+      "region": "国際",
+      "category": "AI活用短編映画",
+      "start": "2026-09-01",
+      "deadline": null,
+      "prize": "AI for Good Global Summit 2027への招待、表彰、トロフィー",
+      "requirement": "AI技術が映画制作プロセスの核となること、1〜10分",
+      "url": "https://aiforgood.itu.int/",
+      "source": "公式",
+      "status": "募集中",
+      "firstSeen": "2026-10-25"
     },
     {
       "name": "WAIFF Japan Tokyo",
