@@ -1,20 +1,6 @@
 {
-  "generatedAt": "2026-10-27 10:22",
+  "generatedAt": "2026-10-29 10:40",
   "contests": [
-    {
-      "name": "Tribeca Festival (AI films)",
-      "organizer": "Tribeca Festival",
-      "region": "米国",
-      "category": "映画（AI作品可）",
-      "start": null,
-      "deadline": "2026-10-28",
-      "prize": null,
-      "requirement": "AI使用の開示",
-      "url": null,
-      "source": "Search result [25]",
-      "status": "締切間近",
-      "firstSeen": "2026-10-08"
-    },
     {
       "name": "Hot Docs (AI films)",
       "organizer": "Hot Docs",
@@ -324,6 +310,20 @@
       "firstSeen": "2026-06-28"
     },
     {
+      "name": "2026 AI Creativity Awards",
+      "organizer": null,
+      "region": "国際",
+      "category": "AIを活用したクリエイティブ作品",
+      "start": null,
+      "deadline": "2026-11-01",
+      "prize": null,
+      "requirement": "AIが実質的に関与したクリエイティブ作品。",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYMkvqgahnXA2Xrk9pM6kvy5C917q15FUzNNWT99p6NrHTY-fPBNuvfBVieUe3Dn6ygGXR3c4IoFjcRawhXgrko0Y0Q87_sXIgcA-j11Y0Jvel8Zgr4npsePUUyOZzDxjottSbyk0QqdhaHYh4lRxbk-gauhpeL1d8PJnn-IVlt0UUVTBvdefiODc=",
+      "source": "Graphic Competitions",
+      "status": "締切間近",
+      "firstSeen": "2026-06-11"
+    },
+    {
       "name": "AI Film 3 — AI Film and Art Festival Arizona 2026",
       "organizer": null,
       "region": "米国（アリゾナ）",
@@ -364,20 +364,6 @@
       "source": "Search result [25]",
       "status": "締切間近",
       "firstSeen": "2026-08-21"
-    },
-    {
-      "name": "2026 AI Creativity Awards",
-      "organizer": null,
-      "region": "国際",
-      "category": "AI画像, 複数分野 (AIが創作プロセスに貢献する作品)",
-      "start": "2026-06-01",
-      "deadline": "2026-11-01",
-      "prize": "デジタルローレル、公開掲載、デジタル証明書 (賞金なし)",
-      "requirement": "AIが創作プロセスに実質的に貢献していること、18歳以上、AI使用の明確な開示",
-      "url": "https://graphiccompetitions.com/competitions/2026-ai-creativity-awards/",
-      "source": "Graphic Competitions",
-      "status": "締切間近",
-      "firstSeen": "2026-06-11"
     },
     {
       "name": "Turkey International AI Film Festival (T-AIFF) 2026",
@@ -548,6 +534,20 @@
       "firstSeen": "2026-10-20"
     },
     {
+      "name": "AI MUSIC VIDEO WAVE 2026",
+      "organizer": "一般社団法人 日本AI創造振興機構 (JACIO)",
+      "region": "日本",
+      "category": "ミュージックビデオ",
+      "start": "2026-10-13",
+      "deadline": "2026-11-03",
+      "prize": "総額40万円 (グランプリ15万円、他13賞)",
+      "requirement": "生成AIを活用したミュージックビデオ作品、3分以内。Xで応募。応募日時点で18歳以上。",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEb-OygNAR8ug0f8Z0-O9xJFOcp5gTeqylnc03XIDEWPsUfZCEWC8BzOq05rTCxEi-dI5qdA7-kfOAjh2tiDnKx13UF6ypIgg3oc_RzuEw1ukULnRSs6qR0ousZ2WbGwY72WEMtg7RjOsVDv1eJ4Ka04OQeZf8=",
+      "source": "PR TIMES / YouTube / 公募データベース",
+      "status": "締切間近",
+      "firstSeen": "2026-10-16"
+    },
+    {
       "name": "CPH:DOX (AI films)",
       "organizer": "CPH:DOX",
       "region": "国際",
@@ -560,20 +560,6 @@
       "source": "Search result [25]",
       "status": "締切間近",
       "firstSeen": "2026-10-08"
-    },
-    {
-      "name": "AI MUSIC VIDEO WAVE 2026",
-      "organizer": "一般社団法人 日本AI創造振興機構",
-      "region": "日本",
-      "category": "ミュージックビデオ",
-      "start": "2026-10-13",
-      "deadline": "2026-11-03",
-      "prize": "総額40万円 (グランプリ15万円)",
-      "requirement": "生成AIを活用したミュージックビデオ作品、3分以内、Xで応募、18歳以上",
-      "url": null,
-      "source": "PR TIMES, YouTube, 公募データベース",
-      "status": "締切間近",
-      "firstSeen": "2026-10-16"
     },
     {
       "name": "学生AI活用アイデアコンテスト by SMC-POWER",
@@ -676,13 +662,13 @@
     {
       "name": "太秦歴史AIショートコンテスト2026",
       "organizer": null,
-      "region": "日本（太秦）",
-      "category": "AI動画（歴史テーマのショート動画）",
+      "region": "日本",
+      "category": "AIショートフィルム",
       "start": null,
       "deadline": "2026-11-15",
-      "prize": "公表なし",
-      "requirement": "歴史がテーマ、15〜180秒程度、AIツール自由",
-      "url": null,
+      "prize": null,
+      "requirement": "歴史がテーマのAI動画、15〜180秒程度、AIツールは自由。",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5fh94aWvaJtZOwOnu2UNbD9Sxg3K5tTYcCIn5X3tuIxwoZtufSrQIAaGly7U2iZZ6V47RqWSDaEEKwuIDWtpK5kTsCC_cBWjS62GxxAfFDYm-BvDsJCgdrkRMRQY68PXG_4nHdw==",
       "source": "YouTube",
       "status": "締切間近",
       "firstSeen": "2026-10-20"
@@ -1318,6 +1304,20 @@
       "firstSeen": "2026-06-25"
     },
     {
+      "name": "Brain Online Video Award 縦型動画部門",
+      "organizer": null,
+      "region": "日本",
+      "category": "縦型動画",
+      "start": null,
+      "deadline": "2026-12-01",
+      "prize": "グランプリ100万円",
+      "requirement": "1分以内の縦型動画。生成AIを使った映像も応募可。",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5fh94aWvaJtZOwOnu2UNbD9Sxg3K5tTYcCIn5X3tuIxwoZtufSrQIAaGly7U2iZZ6V47RqWSDaEEKwuIDWtpK5kTsCC_cBWjS62GxxAfFDYm-BvDsJCgdrkRMRQY68PXG_4nHdw==",
+      "source": "YouTube",
+      "status": "募集中",
+      "firstSeen": "2026-10-20"
+    },
+    {
       "name": "AI Filmfest (Málaga, Spain)",
       "organizer": null,
       "region": "国際（スペイン、マラガ）",
@@ -1344,20 +1344,6 @@
       "source": "Search result [25]",
       "status": "募集中",
       "firstSeen": "2026-10-08"
-    },
-    {
-      "name": "Brain Online Video Award 縦型動画部門",
-      "organizer": null,
-      "region": "日本",
-      "category": "縦型動画",
-      "start": null,
-      "deadline": "2026-12-01",
-      "prize": "グランプリ100万円",
-      "requirement": "1分以内の縦型動画、生成AIを使った映像も応募可能",
-      "url": null,
-      "source": "YouTube",
-      "status": "募集中",
-      "firstSeen": "2026-10-20"
     },
     {
       "name": "AI Filmfest",
@@ -1526,6 +1512,20 @@
       "source": "Kajimelo",
       "status": "募集中",
       "firstSeen": "2026-10-01"
+    },
+    {
+      "name": "ISEKAI ZERO 日本クリエイター向けAI原作コンテスト",
+      "organizer": "異世界フロンティア株式会社",
+      "region": "日本",
+      "category": "AI原作 (シナリオ)",
+      "start": "2026-10-15",
+      "deadline": "2026-12-15",
+      "prize": "賞金総額100万円 (グランプリ・優秀賞)",
+      "requirement": "法人・団体・チームでの応募不可。1人3作品まで。",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGl08E7uQxc4bMKeaxF5Nfg9QCTE3CKWojC7ol24cUh-C-uxdcpJNCP8N7IZTViLO7ooGjp6Em-fH2J7NR9l3eGYAhUAYKN08Rp1eUz_QQ8Flot7nE7EiRknSjT7EpO5Spvw9hiG99I3IrxBDtZoJMCWAp5Y8s=",
+      "source": "PR TIMES",
+      "status": "募集中",
+      "firstSeen": "2026-10-29"
     },
     {
       "name": "Gossip Goblin x Showrunner Competition",
@@ -2510,13 +2510,13 @@
     {
       "name": "第2回 日中国際アニメAI映画祭 2027年",
       "organizer": "公益財団法人角川文化振興財団",
-      "region": "日本（埼玉県所沢市）",
-      "category": "アニメ部門（長編、短編、ショートショート、Under 1 minute）",
+      "region": "日本（埼玉県） / 国際",
+      "category": "アニメーション (長編、短編、ショートショート、Under 1 minute)",
       "start": null,
       "deadline": "2027-02-28",
-      "prize": "賞金あり、交通費支給",
-      "requirement": "2025年5月以降の作品が対象、アニメーション限定",
-      "url": "https://jciaff.com/",
+      "prize": "賞金あり、交通費支給 (入賞者)",
+      "requirement": "制作年2025年5月以降の作品。アニメーション限定。",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFo54k8l0GmiHfMkmN4ET1CfZ9ywMFnPq6SShHydEa5-6xOR0Bdsbhd9X-WGbgmUUVhlhj44HxuXx_DqVDa0B2sKrYTgw988ivop1_6eQRa3LsR--X2DRN_E54nW4rT5ClwCHVwRKWhRmiIj26zv",
       "source": "ファインディングシネフェス",
       "status": "募集中",
       "firstSeen": "2026-10-17"
@@ -2928,6 +2928,34 @@
       "firstSeen": "2026-08-17"
     },
     {
+      "name": "ロボットカーニバルAIフィルムコンテスト",
+      "organizer": "AiHUB株式会社",
+      "region": "日本",
+      "category": "短編SF映像",
+      "start": "2026-08-29",
+      "deadline": null,
+      "prize": "入賞クリエイター作品の劇場公開、配信・パッケージ化制作を検討",
+      "requirement": "AI×ロボットと、どう生きるか」という問いに対する新しい時代の物語。過去作品の再現や模倣ではない。",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOHu9DhtJE-LOiNmOnMAbytlHzLeReXauW2ysxG2zmc043-PFcmwsDLxC_XLZTbR7OColt3DuYpAalCsEKtgaSopgZuwb796LjiMRmPoM2nXXNTg7sWeU5iRPorhrQXO35Kvwugk54vNr8_Iul71QTOE_jKyw=",
+      "source": "PR TIMES",
+      "status": "募集中",
+      "firstSeen": "2026-08-17"
+    },
+    {
+      "name": "COLOTEK（コロテック）- AIクリエイティブコンテスト (次回UVERworldコラボ)",
+      "organizer": "日本コロムビアグループ株式会社",
+      "region": "日本",
+      "category": "短編アニメ作品",
+      "start": null,
+      "deadline": null,
+      "prize": "賞金総額1000万円 (前回実績), 配信・展開に向けた伴走支援、主題歌・劇伴制作サポートなど",
+      "requirement": "AIを活用したオリジナルアニメ作品、1分以上15分以内、続編を想定、未発表作品歓迎、受賞歴のない作品。",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETXN6EYnIfO45cDU_WB9CWkSufHoqKGEa9YNSMgc7BOXuEJQ91K1ell_WKjBo3-3IA-T9Gf8qfXzpMpYGDsbCyl4x9sw_GPvgnYnF45Gr7Rg==",
+      "source": "公式サイト / PR TIMES",
+      "status": "まもなく開始",
+      "firstSeen": "2026-10-29"
+    },
+    {
       "name": "World AI Film Festival 2027 in TOKYO",
       "organizer": "World AI Film Festival (WAiFF)",
       "region": "日本（東京）",
@@ -3122,20 +3150,6 @@
       "source": "公募ガイド, PR TIMES",
       "status": "まもなく開始",
       "firstSeen": "2026-10-22"
-    },
-    {
-      "name": "ロボットカーニバルAIフィルムコンテスト",
-      "organizer": "AiHUB株式会社",
-      "region": "日本",
-      "category": "短編SF映像 (AI×ロボティクス×IP)",
-      "start": "2026-08-29",
-      "deadline": null,
-      "prize": null,
-      "requirement": "「AI×ロボットと、どう生きるか」という問いに対する新しい時代の物語、過去作品の再現や模倣ではない",
-      "url": null,
-      "source": "PR TIMES",
-      "status": "募集中",
-      "firstSeen": "2026-08-17"
     },
     {
       "name": "AI ShortFest (inaugural)",
@@ -5084,20 +5098,6 @@
       "firstSeen": "2026-08-04"
     },
     {
-      "name": "オンコロライブ2026 AI MOVIE CONTEST",
-      "organizer": "がん情報サイト「オンコロ」",
-      "region": "日本",
-      "category": "告知映像/PR動画",
-      "start": null,
-      "deadline": null,
-      "prize": null,
-      "requirement": "主催者指定素材を使用し、生成AIツールで制作した小児がん・AYA世代のがん・臨床試験の啓発と音楽の力を発信する告知映像。商用利用可能なAIツールを使用し、利用規約等を確認すること。",
-      "url": "https://oncolo.jp/news/20260515_01",
-      "source": "公式/Google検索",
-      "status": "募集中",
-      "firstSeen": "2026-07-30"
-    },
-    {
       "name": "「PARKOUR TOP OF JAPAN YOKOSUKA 2026」AI クリエイティブ・アワード",
       "organizer": "東京都体操協会パルクール委員会, 株式会社ユークリッド・ソリューションズ, 横須賀市",
       "region": "日本（横須賀市）",
@@ -5124,20 +5124,6 @@
       "source": "Internshala",
       "status": "募集中",
       "firstSeen": "2026-08-01"
-    },
-    {
-      "name": "COLOTEK (コロテック) AI Creative Contest (UVERworld collaboration)",
-      "organizer": "日本コロムビアグループ株式会社",
-      "region": "日本",
-      "category": "AIアニメ",
-      "start": null,
-      "deadline": null,
-      "prize": "賞金総額1000万円 (前回実績)",
-      "requirement": "AI技術とエンタテインメントの融合によるアニメ作品 (詳細未定)",
-      "url": "https://colo-tek.com/",
-      "source": "PR TIMES [23], いろいろまとめ Beans ニュース [37]",
-      "status": "まもなく開始",
-      "firstSeen": "2026-07-30"
     }
   ]
 }
